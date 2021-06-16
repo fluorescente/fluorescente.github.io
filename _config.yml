@@ -1,0 +1,79 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Fluore_scente
+email: hola@fluorescente.design
+description: >- # this means to ignore newlines until "baseurl:"
+  Identidad visual, ilustraciones y sitios web para organizaciones conscientes y amigables.
+author: Fluore_scente
+link_to_projects: Ver proyectos
+link_to_contact: Escríbenos
+link_to_more_projects: Ver más proyectos
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: fluorescente
+behance_username: fluorescente
+dribbble_username: fluorescente
+deviant_art_username: fluorescente
+meetup_username: fluorescente
+telegram_username: fluorescente
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: ""
+    values:
+      #values
+      layout: "post"
+      logo: /assets/taller-veganista-logo.png
+      image: true
+
+collections:
+  services:
+    output: true
+  team_members:
+    output: true
+  projects:
+    output: true
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

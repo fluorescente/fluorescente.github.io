@@ -1,0 +1,310 @@
+@font-face {
+  font-family: "YoungSerif", serif;
+  src: url("../fonts/young-serif/YoungSerif-Regular.eot");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DM Sans", sans-serif;
+  src: url("../fonts/young-serif/YoungSerif-Regular.eot");
+  font-weight: normal;
+  font-style: normal;
+}
+/* dm-sans-regular - latin */
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-regular.woff2") format("woff2"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-regular.woff") format("woff"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-regular.ttf") format("truetype"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-regular.svg#DMSans") format("svg");
+  /* Legacy iOS */
+}
+/* dm-sans-italic - latin */
+@font-face {
+  font-family: "DM Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-italic.woff2") format("woff2"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-italic.woff") format("woff"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-italic.ttf") format("truetype"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-italic.svg#DMSans") format("svg");
+  /* Legacy iOS */
+}
+/* dm-sans-700 - latin */
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-700.woff2") format("woff2"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-700.woff") format("woff"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-700.ttf") format("truetype"), url("../fonts/dm-sans-v6-latin/dm-sans-v6-latin-700.svg#DMSans") format("svg");
+  /* Legacy iOS */
+}
+/* dm-sans-700italic - latin */
+@font-face {
+  font-family: "DM Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/dm-sans-v6-latin-700italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/dm-sans-v6-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-sans-v6-latin-700italic.woff2") format("woff2"), url("../fonts/dm-sans-v6-latin-700italic.woff") format("woff"), url("../fonts/dm-sans-v6-latin-700italic.ttf") format("truetype"), url("../fonts/dm-sans-v6-latin-700italic.svg#DMSans") format("svg");
+  /* Legacy iOS */
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #000;
+  background-color: #FFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+figure {
+  margin: 0;
+}
+figure img {
+  width: 100%;
+}
+
+a {
+  font-weight: 700;
+  color: #000;
+}
+a:hover {
+  color: #40FC81;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.custom-underline {
+  display: inline-block;
+}
+.custom-underline:after {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  width: 40%;
+  height: 2px;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 auto;
+}
+.custom-underline:hover {
+  color: #000;
+}
+.custom-underline:hover:after {
+  background-color: #000;
+}
+
+.break {
+  display: block;
+  content: "";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "YoungSerif", serif;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+}
+
+h1, h1-giant {
+  font-size: 2.027rem;
+  line-height: 2.887rem;
+}
+
+h2 {
+  font-size: 1.602rem;
+  line-height: 2.281rem;
+}
+
+h3 {
+  font-size: 1.266rem;
+  line-height: 1.802rem;
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.602rem;
+}
+
+h5, h6 {
+  font-size: 1rem;
+  line-height: 1.424rem;
+}
+
+p {
+  margin: 0;
+}
+
+.p-giant, .giant {
+  font-size: 1.802rem;
+  line-height: 2.887rem;
+}
+
+.p-big, .big {
+  font-size: 1.424rem;
+  line-height: 2.281rem;
+}
+
+.p-mid, .mid {
+  font-size: 1.125rem;
+  line-height: 1.802rem;
+}
+
+p, .base {
+  font-size: 1rem;
+  line-height: 1.602rem;
+}
+
+.p-small, .small {
+  font-size: 0.79rem;
+  line-height: 1.266rem;
+}
+
+.author-date {
+  font-family: "YoungSerif", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.16rem;
+}
+
+.link, .button {
+  font-family: "YoungSerif", serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.link:hover {
+  color: inherit;
+}
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link-base, .button-big {
+  font-size: 0.889rem;
+  line-height: 1.424rem;
+  letter-spacing: 0.23rem;
+}
+
+.button-big {
+  padding: 0.75rem 1.5rem;
+}
+
+.button-dark {
+  color: #FFF;
+  background-color: #000;
+}
+.button-dark:hover {
+  color: #000;
+  background-color: #40FC81;
+}
+
+.main-nav-mobile {
+  padding: 1rem 0;
+}
+.main-nav-mobile .icon-kirby-crackle {
+  font-size: 3rem;
+}
+.main-nav-mobile .icon-hamburger-bite {
+  font-size: 1.5rem;
+  margin-top: 0.75rem;
+  display: inline-block;
+}
+
+.header-home {
+  padding-bottom: 3rem;
+}
+.header-home h1 {
+  margin-bottom: 2rem;
+}
+.header-home nav .button {
+  margin-bottom: 1.5rem;
+}
+
+.services {
+  padding: 3rem 0;
+}
+.services h3 {
+  margin-bottom: 2rem;
+}
+.services ul li {
+  margin-bottom: 3rem;
+}
+.services ul li:last-child {
+  margin-bottom: 0;
+}
+.services ul li figure {
+  margin-bottom: 1.5rem;
+}
+.services ul li h4 {
+  margin-bottom: 1rem;
+}
+
+.team {
+  background-color: #fafafa;
+  padding: 3rem 0;
+}
+.team h3 {
+  margin-bottom: 2rem;
+}
+.team .team-member {
+  margin-bottom: 3rem;
+}
+.team .team-member figure {
+  margin-bottom: 1rem;
+}
+.team .team-member h4 {
+  margin-bottom: 0.25rem;
+}
+.team .team-member .author-date {
+  margin-bottom: 1rem;
+}
+
+footer {
+  padding: 4rem 0;
+  background-color: #000;
+  color: #FFF;
+}
+footer a {
+  color: #FFF;
+}
+footer a:hover {
+  color: #40FC81 !important;
+}
+footer .footer-nav {
+  margin-bottom: 4rem;
+}
+footer .footer-nav a {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+footer .footer-logo {
+  margin-bottom: 3rem;
+}
+footer .footer-logo a {
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

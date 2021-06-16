@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/arrow-right-light</title>
+    <g id="lg-1400px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blog-article" transform="translate(-1155.000000, -2347.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(1155.000000, 2343.000000)">
+                <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
+                <polygon id="Fill-1" fill="#000000" points="18.769 4 18.105 4.747 29.885 15.219 0 15.219 0 16.218 29.885 16.218 18.105 26.691 18.769 27.438 31.952 15.719"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

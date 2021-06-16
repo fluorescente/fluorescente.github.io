@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/hamburger-bite</title>
+    <g id="xs-320px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-255.000000, -20.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(255.000000, 16.000000)">
+                <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
+                <g id="hamburguer-bite" transform="translate(0.000000, 3.999300)" fill="#000000">
+                    <polygon id="Fill-1" points="0 13 32 13 32 12 0 12"></polygon>
+                    <polygon id="Fill-2" points="16 24.0007 32 24.0007 32 23.0007 16 23.0007"></polygon>
+                    <polygon id="Fill-3" points="0 1 32 1 32 0 0 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

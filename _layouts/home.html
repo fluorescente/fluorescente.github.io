@@ -1,0 +1,132 @@
+---
+layout: basic_structure
+---
+<header class="header-home">
+  <!-- wrapper -->
+  <div class="wrapper container-fluid">
+    <!-- row -->
+    <div class="row">
+      <!-- col -->
+      <div class="col-xs-12 center-xs">
+        <h1 class="h1-giant start-xs">{{ page.header_title }}</h1>
+        <nav>
+          <a href="#" class="button button-big button-dark">{{ site.link_to_projects }}</a>
+          <div class="break hidden-sm"></div>
+          <a href="#" class="link link-base no-underline custom-underline">{{ site.link_to_contact }}</a>
+        </nav>
+      </div>
+      <!-- col end -->
+    </div>
+    <!-- row end -->
+  </div>
+  <!-- wrapper end -->
+</header>
+
+<section>
+  <!-- wrapper -->
+  <div class="wrapper container-fluid">
+    <!-- row -->
+    <div class="row">
+      <!-- col -->
+      <div class="col-xs-12 center-xs">
+        <a href="#" class="link link-base no-underline custom-underline">{{ site.link_to_more_projects }}</a>
+      </div>
+      <!-- col end -->
+    </div>
+    <!-- row end -->
+  </div>
+  <!-- wrapper end -->
+</section>
+
+<section class="services" id="services">
+  <!-- wrapper -->
+  <div class="wrapper container-fluid">
+    <!-- row -->
+    <div class="row">
+      <!-- col -->
+      <div class="col-xs-12">
+        <h3>{{ page.services_title }}</h3>
+      </div>
+      <!-- col end -->
+    </div>
+    <!-- row end -->
+    <!-- row -->
+    <ul class="row">
+      {% for service in site.services %}
+      <!-- col -->
+      <li class="col-xs-12 col-sm-4">
+        <figure>
+          <img src="{{ service.image | relative_url  }}" alt="{{ service.title }}">
+        </figure>
+        <h4>{{ service.title }}</h4>
+        <p>{{ service.description }}</p>
+        <a href="#"></a>
+      </li>
+      <!-- col end -->
+      {% endfor %}
+    </ul>
+    <!-- row end -->
+  </div>
+  <!-- wrapper end -->
+</section>
+
+<section class="team" id="team">
+  <!-- wrapper -->
+  <div class="wrapper container-fluid">
+    <!-- row -->
+    <div class="row">
+      <!-- col -->
+      <div class="col-xs-12">
+        <h3>{{ page.team_title }}</h3>
+      </div>
+      <!-- col end -->
+    </div>
+    <!-- row end -->
+    <!-- row -->
+    <ul class="row">
+      {% for team_member in site.team_members %}
+        <!-- col -->
+        <div class="col-xs-12 col-lg-6 team-member">
+          <!-- row member-->
+          <li class="row center-xs start-sm">
+            <!-- col -->
+            <div class="col-xs-6 col-sm-4">
+              <figure>
+                <img src="{{ team_member.image | relative_url }}" alt="{{ team_member.name }}">
+              </figure>
+            </div>
+            <!-- col end -->
+            <!-- col -->
+            <div class="col-xs-12 col-sm-8">
+              <h4>{{ team_member.name }}</h4>
+              <p class="author-date small">{{ team_member.role }}</p>
+              <p>{{ team_member.description }}</p>
+              <ul>
+                {% if team_member.github_username != nil %}
+                  <li><a href="{{ team_member.github_username }}" target="_blank">{{ team_member.github_username }}</a></li>
+                {% endif %}
+                {% if team_member.behance_username != nil %}
+                  <li><a href="{{ team_member.behance_username }}" target="_blank">{{ team_member.behance_username }}</a></li>
+                {% endif %}
+              </ul>
+            </div>
+            <!-- col end -->
+          </li>
+          <!-- row member end -->
+        </div>
+        <!-- col-end -->
+      {% endfor %}
+    </ul>
+    <!-- row end -->
+    <!-- row -->
+    <div class="row">
+      <!-- col -->
+      <div class="col-xs-12 center-xs">
+        <a href="#" class="link link-base no-underline custom-underline">{{ site.link_to_contact }}</a>
+      </div>
+      <!-- col end -->
+    </div>
+    <!-- row end -->
+  </div>
+  <!-- wrapper end -->
+</section>

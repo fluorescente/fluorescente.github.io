@@ -1,0 +1,69 @@
+---
+layout: basic_structure
+---
+<section>
+  <!-- wrapper -->
+  <div class="wrapper">
+    <!-- row -->
+    <ul class="row">
+      {% for project in site.projects %}
+        <!-- col -->
+        <li class="col-xs-12">
+          <!-- link -->
+          <a href="{{ project.url }}">
+            <!-- row -->
+            <div class="row">
+              <!-- col -->
+              <div class="col-xs-12 col-lg-7">
+                <!-- row -->
+                <div class="row">
+                  <!-- col -->
+                  <div class="col-12-xs">
+                    <figure>
+                      <img src="{{ project.logo | relative_url }}" alt="{{ project.name }} logo">
+                    </figure>
+                  </div>
+                  <!-- col end -->
+                  <!-- col -->
+                  <div class="col-xs-12">
+                    <h3>{{ project.excerpt }}</h3>
+                  </div>
+                  <!-- col end -->
+                  <!-- col -->
+                  <div class="col-xs-12">
+                    <h6>{{ project.title }}</h6>
+                    <p>{{ project.categories | join: ' / ' }}</p>
+                  </div>
+                  <!-- col end -->
+                </div>
+                <!-- row end -->
+              </div>
+              <!-- col end -->
+              <!-- col -->
+              <div class="col-xs-4">
+                <figure>
+                  <img src="{{ project.thumbnail_big | relative_url }}" alt="">
+                </figure>
+              </div>
+              <!-- col end -->
+            </div>
+            <!-- row end -->
+          </a>
+          <!-- link end -->
+        </li>
+        <!-- col end -->
+      {% endfor %}
+    </ul
+    <!-- row end -->
+    <div class="row">
+      <!-- col -->
+      <div class="col-xs-12 center-xs">
+        <a href="#">Más proyectos en Behance</a>
+        <a href="#">{{ site.link_to_contact }}</a>
+      </div>
+      <!-- col end -->
+    <!-- row end   -->
+    </div>
+  </div>
+  <!-- wrapper end -->
+</section>
