@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Buenas prácticas para desarrollar proyectos de diseño. Fluorescente Blog</title>
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@iamfluorescente" />
+  <meta name="twitter:creator" content="@iamfluorescente" />
+  <!-- Opengraph -->
+  <meta property="og:title" content="Buenas prácticas para desarrollar proyectos de diseño" />
+  <meta property=”og:type” content=”article” />
+  <meta property="og:image" content="http://fluorescente.design/images/blog/design-practices/00-design-practices-hero-image-@2x.png" />
+  <meta property="og:url" content="http://fluorescente.design/buenas-practicas-para-desarrollar-proyectos-de-dise%C3%B1o" />
+  <meta property="og:description"
+  content="Trucos para desarrollar proyectos de diseño trabjando en equipo." />
+  <!-- Smallchat -->
+  <script src="https://embed.small.chat/T41NA0Q1ZGACPUH5B5.js" async></script>
+  <!-- Typekit -->
+  <script src="https://use.typekit.net/rmw1onu.js"></script>
+  <script>try{Typekit.load({ async: false });}catch(e){}</script>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize/normalize.css">
+  <!-- Icomoon -->
+  <link rel="stylesheet" href="css/icomoon-styles.css">
+  <!-- JQUery -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <!-- Ui Kit 2 -->
+  <link rel="stylesheet" href="css/uikit/uikit.almost-flat.css">
+  <script src="js/uikit.js"></script>
+  <script src="js/utility.js"></script>
+  <!-- Ui Kit Smooth scroll -->
+  <script src="js/core/smooth-scroll.js"></script>
+  <!-- Ui Kit Off-canvas -->
+  <script src="js/core/offcanvas.js"></script>
+  <!-- Ui Kit Sticky -->
+  <script src="js/components/sticky.js"></script>
+  <link rel="stylesheet" href="css/uikit/sticky.css">
+  <!-- Simple Grid -->
+  <link rel="stylesheet" href="css/simple-grid/simple-grid.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <!-- Favico -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114372295-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-114372295-1');
+  </script>
+</head>
+<body>
+  <!-- Nav -->
+  <!-- Row -->
+  <div class="row">
+    <nav class="main-nav">
+      <ul class="left-nav">
+        <li class="saturn"><a href="index.html"><span class="icon-saturn"></span></a></li>
+      </ul>
+      <ul class="right-nav hidden-s">
+        <li class="inline"><a href="index.html#work-section">Trabajos</a></li>
+        <li class="inline"><a href="index.html#services-section">Servicios</a></li>
+        <li class="inline"><a href="index.html#team-section">Nosotros</a></li>
+        <li class="inline"><a href="index.html#contact-section">Contacto</a></li>
+        <li class="inline"><a href="blog.html">Blog</a></li>
+        <!-- <li class="inline"><a href="eng.html">Eng</a></li> -->
+      </ul>
+      <ul class="right-nav hidden-m hamburger">
+        <li><a href="#sidenav" data-uk-offcanvas><span class="icon-z-hamburger"></span></a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Row end -->
+  <!-- Nav end -->
+  <!-- Offcanvas Nav -->
+  <div id="sidenav" class="uk-offcanvas">
+    <nav class="offcanvas-nav">
+      <ul class="uk-offcanvas-bar uk-offcanvas-bar-flip sidenav-content">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#work-section">Trabajos</a></li>
+        <li><a href="index.html#services-section"</a></li>
+        <li><a href="index.html#team-section">Nosotros</a></li>
+        <li><a href="index.html#contact-section">Contacto</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <!-- <li><a href="eng.html">Eng</a></li> -->
+      </ul>
+    </nav>
+  </div>
+  <!-- Offcanvas Nav end -->
+  <!-- Language button -->
+  <!-- <div class="language">
+    <a href="eng.html">Eng</a>
+  </div> -->
+  <!-- Language button end -->
+  <!-- Header -->
+  <header id="up" class="blog-post-header">
+    <!-- container -->
+    <div class="container">
+      <!-- Row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-12-sm col-12">
+          <figure class="post-hero hidden-s">
+            <img src="images/blog/design-practices/00-design-practices-hero-image-@2x.png">
+          </figure>
+          <figure class="post-hero hidden-m">
+            <img src="images/blog/design-practices/design-practices-thumb-@2x.png">
+          </figure>
+        </div>
+        <!-- col end -->
+      </div>
+      <!-- Row end -->
+    </div>
+    <!-- container end -->
+  </header>
+  <!-- Header end -->
+  <!-- Blog-post-content -->
+  <!-- container -->
+  <div class="container">
+    <!-- Row -->
+    <div class="row">
+      <div class="col-2 hidden-s">
+        <!-- sticky social -->
+        <div data-uk-sticky="{top:30}">
+          <ul class="social social-sharing">
+            <li><a href="https://twitter.com/share?url=http%3A%2F%2Ffluorescente.design%2Fbuenas-practicas-para-desarrollar-proyectos-de-dise%25C3%25B1o&text=Buenas%20pr%C3%A1cticas%20para%20desarrollar%20proyectos%20de%20dise%C3%B1o&via=iamfluorescente&hashtags=design%20%23illustration%20%23drawing%20%23blog" target="_blank"><span class="icon-twitter"></a></li>
+            <li><a href="https://www.facebook.com/sharer.php?s=100&p[url]=http%3A%2F%2Ffluorescente.design%2Fbuenas-practicas-para-desarrollar-proyectos-de-dise%25C3%25B1o&p[title]=Buenas%20pr%C3%A1cticas%20para%20desarrollar%20proyectos%20de%20dise%C3%B1o" target="_blank"><span class="icon-facebook"></span></a></li>
+            <li><a href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Ffluorescente.design%2Fbuenas-practicas-para-desarrollar-proyectos-de-dise%25C3%25B1o.html&title=Buenas%20pr%C3%A1cticas%20para%20desarrollar%20proyectos%20de%20dise%C3%B1o" target="_blank"><span class="icon-linkedin"></span></a></li>
+          </ul>
+        </div>
+        <!-- sticky social end -->
+      </div>
+      <!-- blog-post-col-->
+      <div class="col-sm-12 col-8 special-8">
+        <!-- blog-post -->
+        <div class="blog-post">
+          <h4>Alejandro Narváez Isaza / Agosto 7 - 2018</h4>
+          <h1>Buenas prácticas para desarrollar proyectos de diseño</h1>
+          <!-- row -->
+          <div class="row hidden-m">
+            <div class="col-12-sm inline">
+              <ul class="social social-sharing">
+                <li><p>Comparte:</p> </li>
+                <li><a href="https://twitter.com/share?url=http%3A%2F%2Ffluorescente.design%2Fbuenas-practicas-para-desarrollar-proyectos-de-dise%25C3%25B1o&text=Buenas%20pr%C3%A1cticas%20para%20desarrollar%20proyectos%20de%20dise%C3%B1o&via=iamfluorescente&hashtags=design%20%23illustration%20%23drawing%20%23blog" target="_blank"><span class="icon-twitter"></a></li>
+                <li><a href="https://www.facebook.com/sharer.php?s=100&p[url]=http%3A%2F%2Ffluorescente.design%2Fbuenas-practicas-para-desarrollar-proyectos-de-dise%25C3%25B1o&p[title]=Buenas%20pr%C3%A1cticas%20para%20desarrollar%20proyectos%20de%20dise%C3%B1o" target="_blank"><span class="icon-facebook"></span></a></li>
+                <li><a href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Ffluorescente.design%2Fbuenas-practicas-para-desarrollar-proyectos-de-dise%25C3%25B1o.html&title=Buenas%20pr%C3%A1cticas%20para%20desarrollar%20proyectos%20de%20dise%C3%B1o" target="_blank"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- row end -->
+          <p class="photo-caption photo-caption-h1">Imagen de portada: Adaptación de <i>On Fire.</i> <a href="http://gunshowcomic.com/648"target="_blank">Gunshow #648 / KC Green.</a></p>
+          <p>Un buen trabajo de diseño depende de coordinar muy bien dos o más equipos que están trabajando por objetivos comunes. Estos equipos son generalmente el de cliente y el de diseño y desarrollo. Es difícil coordinar a tantas personas, pero siguiendo buenas prácticas las cosas salen bien. Nuestra primera tarea es comunicar cuál es la metodología de trabajo y cuáles son nuestros requerimientos.</p>
+          <figure class="blog-image">
+              <img src="images/blog/design-practices/01-brief-@2x.png" alt="brief">
+          </figure>
+          <h2>1. Brief</h2>
+          <p>Para nosotros un <i>brief</i> es un documento que se genera a partir de las respuestas a un cuestionario con preguntas con las que queremos determinar los objetivos, el alcance del proyecto, el tono y personalidad de la marca, además determinar cuál es su audiencia.</p>
+          <p>Abordando el diseño como un problema de storytelling, necesitamos saber cuál es la historia que vamos a contar, a quienes va dirigida y como les hablaremos. Responder a nuestras preguntas va a ayudar al equipo de cliente a entender mejor su propia marca, definir posiciones y generar un documento que va a ser la guía de nuestras decisiones. Es necesario que las respuestas no sean abiertas o ambiguas, y que tengan un entendimiento básico sobre algunos temas de marketing como arquetipos de marca y buyer personas.</p>
+          <p><a href="https://www.google.com/forms/about/"target="_blank">Google forms</a></p>
+          <p><a href="https://marketingdecontenidos.com/cuales-son-los-arquetipos/" target="_blank">Artículo sobre arquetipos de marca: Arque… ¿qué? Conoce los arquetipos y qué tienen que ver con las marcas. Marketingdecontenidos.</a></p>
+          <p><a href="https://marketingdecontenidos.com/como-construir-personas-sin-clientes/" target="_blank">Artículo sobre buyer personas: ¿Cómo construir mi buyer persona antes de tener un cliente?. Marketingdecontenidos.</a></p>
+          <p>De las respuestas pueden surgir ideas no necesariamente enmarcadas dentro del proyecto pero que pueden ayudar a solucionar problemas.</p>
+          <h2>2. Un entorno de trabajo ordenado donde nada se pierde ni se confunde</h2>
+          <p>Llamaremos entorno de trabajo a la organización y las herramientas para trabajo compartido que necesitamos usar.</p>
+          <figure class="blog-image">
+              <img src="images/blog/design-practices/02-dropbox-@2x.png" alt="dropbox">
+          </figure>
+          <h2>2.1. Compartir material</h2>
+          <p>Vamos a crear una carpeta en Dropbox con el nombre del proyecto, y dentro de esta carpeta tendremos básicamente:</p>
+          <p><strong>1.</strong> Una una carpeta para material de marca que serán logos, manual de identidad, fuentes, etc…</p>
+          <p><strong>2.</strong> Una carpeta para imágenes, que sería donde podemos compartir imágenes guardadas según un orden que iremos determinando. Es necesario que el nombre de los archivos sea lo suficientemente semántico para no perder tiempo buscando material.</p>
+          <p><strong>3.</strong> Una carpeta para registros (Registro de horas y cronograma), y una para textos. En estas carpetas tendremos links a documentos de Google Docs que se pueden perder si no se dejan en su sitio.</p>
+          <p>Nosotros tenemos una suscripción a Dropbox que nos permite tener suficiente espacio de almacenamiento, pero entendemos que una cuenta gratuita se puede llenar fácilmente. Si el material es muy pesado podemos compartirlo usando Google Drive. Para cualquiera de las dos opciones les recomendamos instalar las aplicaciones que les permiten trabajar con esas carpetas igual que como lo harían con cualquier carpeta en el disco duro local.</p>
+          <p>Trabajar con carpetas compartidas nos permite actualizar archivos sin tener que hacer la tarea de descargarlos de algún email u alguna otra fuente y reemplazarlos manualmente.</p>
+          <p><a href="https://www.dropbox.com/install" target="_blank">Aplicación de Dropbox</a></p>
+          <p><a href="https://www.google.com/drive/download/" target="_blank">Aplicación de Google Drive</a></p>
+          <h2>2.2. Textos</h2>
+          <p>Los textos cambian muchas veces durante un proyecto. Enviar y devolver emails no es eficiente y corremos el riesgo de perder el tiempo trabajando con versiones que no son. Mucho mejor tener un solo archivo de texto actualizable que pueden editar varias personas al tiempo sin tener que enviar de nuevo para reemplazar.</p>
+          <figure class="blog-image">
+              <img src="images/blog/design-practices/03-google-docs-@2x.png" alt="google docs">
+          </figure>
+          <p>Este archivo vendría siendo un repositorio de todos los textos del proyecto. El equipo de cliente puede escribir algo a lo que el equipo de diseño puede tener acceso instantáneamente, pasarlo por una revisión de estilo, o una nueva propuesta de redacción, notificar cuando esté listo para aprobar o comentar, y continuar con los pasos siguientes sin enviar un sólo email ni reemplazar ningún archivo. Además podemos hacer control de versiones dentro del mismo archivo. Saber quién hizo qué cambios, en qué fecha y a qué hora, o devolvernos a versiones anteriores si es necesario. Ganamos fluidez y control.</p>
+          <p><a href="https://www.google.com/docs/about/" target="_blank">Google docs</a></p>
+          <p><h2>2.3. Propuestas de diseño, prototipos y retroalimentación</h2></p>
+          <p>Vamos a compartir las propuestas de diseño usando Marvel, una aplicación web que nos va a evitar malentendidos y pérdida de trabajo. Con esta herramienta podemos crear y mostrar prototipos clickables que nos van a acercar bastante a como se vería un sitio web o aplicación, como se puede usar, hacia dónde va cada enlace, o que hace cada botón. También se puede usar Marvel para mostrar el diseño de cualquier cosa y hacer comentarios.</p>
+          <p>No es Marvel la de Spiderman. Es otra Marvel.</p>
+          <figure class="blog-image">
+              <img src="images/blog/design-practices/04-marvel-@2x.png" alt="dropbox">
+          </figure>
+          <p>Describir un diseño y señalar únicamente con palabras lo que se quiere cambiar es muy difícil, más cuando no se tiene el lenguaje propio de una profesión ajena. Esta herramienta nos permite ubicar un punto sobre el diseño y hacer comentarios sobre los cambios o ideas que queremos probar. Estos comentarios se pueden responder ahí mismo, generando una conversación sintonizada y constructiva.</p>
+          <p>Comunicar ajustes de diseño por emails o powerpoints no es eficiente y a la larga puede generar confusión y desperdicio de horas de trabajo.</p>
+          <p><a href="https://marvelapp.com/" target="_blank">MarvelApp</a></p>
+          <h2>2.4. Cronograma y registro de horas</h2>
+          <p>Calculamos el precio de un trabajo de diseño por un estimado de horas que nos toma hacerlo. Para tener un registro adecuado, tendremos un archivo compartido de Google Spreadsheets en el que iremos anotando y sumando la cantidad de horas que vamos a dedicando a cada tarea. El cronograma de entregas o etapas del proyecto también estará en un archivo que iremos actualizando durante el proceso.</p>
+          <p><a href="https://www.google.com/sheets/about/" target="_blank">Google Spreadsheets</a></p>
+          <h2>2.5. Referencias / Moodboard</h2>
+          <p>Vamos a hacer un tablero de Pinterest donde compartiremos referencias a otros trabajos, películas, ilustraciones o lo que nos sirva de inspiración para definir ideas o líneas gráficas.</p>
+          <p><a href="https://ar.pinterest.com/iamfluorescente/" target="_blank">Pinterest</a></p>
+          <h2>3. Cada uno cumple con su tarea</h2>
+          <p>Estamos viendo que no es sólamente hacer un requerimiento al un equipo de diseño y listo. El equipo de cliente también tiene tareas. Cuando del cumplimiento de alguna de esas tareas depende el desarrollo correcto de alguna de diseño, a veces es mejor no avanzar hasta que no esté hecha, notificar la situación y pausar el proceso.</p>
+          <h2>4. Avanzar sobre certezas. Lento pero seguro</h2>
+          <p>No es tan buena idea correr para llegar a una entrega en un tiempo corto, cuando sabemos por experiencia que se puede ir el doble de tiempo haciendo ajustes y repitiendo trabajo. Es mejor ir adelantando paso a paso, hacer entregas parciales cada cierto tiempo, e ir avanzando sobre la aprobación o los comentarios a tareas de diseño. En el momento en el que logremos la aprobación de todas las tareas podemos avanzar a la siguiente etapa. Antes no. Cuando tenemos una etapa del proceso lista, suficientemente revisada y aprobada, es buena práctica dejar por escrito en un documento que el equipo de cliente no va a solicitar más cambios sobre la etapa superada, o que si hay cambios, estos pueden requerir volver a una etapa anterior y generar costos adicionales en horas de trabajo.</p>
+          <p>Para evitar avanzar en un camino equivocado es mejor que en cada revisión estén presentes todas las personas que tienen que tomar decisiones y dar su opinión sobre el proyecto. No es productivo contar con una aprobación para pasar a una siguiente etapa, y que luego aparezca la junta directiva, u otra persona ajena al proceso con opiniones diferentes que impliquen repetir trabajo. Trabajar de esa manera puede entorpecer y alargar un proyecto durante meses.</p>
+          <p>A nadie le gusta pagar extra por un producto, pero tampoco a nadie le gusta trabajar horas extra sin remuneración. Optimizar los procesos evita estas situaciones.</p>
+          <figure class="blog-image">
+              <img src="images/blog/design-practices/05-code-@2x.png" alt="code">
+          </figure>
+          <p class="photo-caption">Hacer cambios de diseño desde el código toma más tiempo. Escribir código es diferente a mover, agregar o quitar elementos desde una aplicación de diseño como Sketch o Illustrator. Es preferible devolverse a una etapa de diseño y luego retomar.</p>
+          <p>Generalmente los diseñadores presentamos textos e imágenes simuladas mientras tenemos los textos reales. El problema es que cuando tenemos los textos e imágenes reales y las cosas no siempre encajan pero ya estamos en una etapa en la que hacer cambios implica reconstruir un desarrollo de código. El costo en horas es mucho mayor, y las soluciones pueden ser un poco improvisadas. Para evitar esta situación, es mejor avanzar a la etapa de desarrollo (dev) con una versión del diseño con los textos reales “los que no se van a cambiar periódicamente” y las imágenes finales. Un sitio web depende mucho de las imágenes y videos que muestra. En caso de que necesitemos tomar unas fotografías, es importante que estemos presentes para hacer una dirección de arte adecuada con la intención del diseño, o si determinamos que no podemos o decidimos no incluir fotografías propias, tenemos que estar enterados para diseñar bajo esa limitación y trabajar con ilustraciones, collages, montajes, imágenes de stock, o algún otro recurso.</p>
+          <h2>5. Comunicaciones</h2>
+          <div class="video-wrapper">
+            <iframe class="video" src="https://www.youtube.com/embed/NUMa0QkPzns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
+          </div>
+          <p class="photo-caption">It’s not you. Phones are designed to be addicting. Vox.</p>
+          <p>Los celulares son adictivos y pueden arruinar la concentración. Dejar el celular lejos del puesto de trabajo aumenta la productividad un montón. El problema de WhatsApp de escritorio es que hay que tener el celular cerca y generalmente desbloqueado. Una buena práctica sería usar Slack. Una herramienta especialmente diseñada para la comunicación entre equipos de trabajo. En nuestro sitio web abajo a la derecha aparece un chat que podemos revisar desde Slack. Si necesitamos hacer una reunión rápida y compartir pantalla podemos usar Appear.</p>
+          <figure class="blog-image">
+              <img src="images/blog/design-practices/06-smallchat-@2x.png" alt="Slack y Smallchat">
+          </figure>
+          <p class="photo-caption">El botón para activar el chat aparece cuando termina de cargar la página. Puede tardar unos segundos.</p>
+          <p>No usar WhatsApp para cosas de trabajo es pedir demasiado, pero no perdemos nada con hacer la sugerencia.</p>
+          <p><a href="https://slack.com" target="_blank">Slack</a></p>
+          <p><a href="https://appear.in" target="_blank">Appear</a></p>
+          <h2>6. Pagos parciales</h2>
+          <p>Algunos proyectos tienen un alcance y complejidad extensos, y la posibilidad de que se prolonguen es alta. Puede funcionar pedir un anticipo equivalente a un porcentaje del costo total del proyecto, para cubrir los gastos de avanzar hasta una primera revisión. A partir de esta primera revisión, se pueden generar cobros en cada entrega parcial. Así en el caso de que un proyecto se agrande porque aparecen nuevos requerimientos, podemos continuar con la remuneración adecuada.</p>
+          <p>Este punto no aplica a todos los proyectos, pero es una buena alternativa para los que requieren desarrollo (dev) como sitios o aplicaciones web. En los que durante el proceso surgen nuevas ideas y funcionalidades.</p>
+          <h2>7. Mostrar el trabajo</h2>
+          <p>El trabajo pertenece al cliente, pero los diseñadores podemos mostrarlo en la manera que lo consideremos conveniente, a menos que tengamos una restricción o un acuerdo de confidencialidad que nos lo impida, si los diseñadores publicamos un trabajo en nuestro portafolio no quiere decir que se lo vendimos a otras personas o que les robamos la idea para hacer nuestro propio producto. Para conseguir trabajos necesitamos mostrar lo que hemos hecho.</p>
+          <p>・・・</p>
+          <p>Estas prácticas pueden parecer complicadas pero no son nada del otro mundo. Seguirlas nos ayuda a evitar perder tiempo, tener una mala comunicación, e infinidad de problemas que se presentan en este oficio. Es más rentable para todos complicarnos la vida un poquito al principio para evitar problemas más grandes en etapas más avanzadas del proceso, desperdiciar recursos y poner en peligro una buena relación entre equipos.</p>
+          <p>Gracias por leer este artículo. Suscríbete para no perderte el próximo.</p>
+        </div>
+        <!-- blog-post-end -->
+        <!-- social sharing -->
+        <div class="col-12-sm inline hidden-m">
+          <ul class="social social-sharing social-sharing-last">
+            <li><p>Comparte:</p> </li>
+            <li class="inline"><a href="https://twitter.com/share?url=http://fluorescente.design/design-practices&amp;text=Buenas%20practicas%20para%20desarrollar%20proyectos%20de%20diseño.%20-%20@iamfluorescente%20-&amp;hashtags=diseño&amp;" target="_blank"><span class="icon-twitter"></a></li>
+            <li class="inline"><a href="http://www.facebook.com/sharer.php?u=http://fluorescente.design/design-practices" target="_blank"><span class="icon-facebook"></span></a></li>
+            <li class="inline"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://fluorescente.design/design-practices.html" target="_blank"><span class="icon-linkedin"></span></a></li>
+          </ul>
+        </div>
+        <!-- col social-sharing-end-->
+      </div>
+      <!-- blog-post-col-end -->
+    </div>
+    <!-- row end -->
+  </div>
+  <!-- container end -->
+  <!-- Blog post content end -->
+  <!-- Newsletter -->
+  <section class="newsletter-form">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-12-sm col-12">
+          <!-- newsletter-form-Container -->
+          <div class="newsletter-form-container">
+            <!-- form -->
+            <h2 class="newsletter-header">Suscríbete a nuestro blog :)</h2>
+            <form class="contact-form" method="POST" action="https://formspree.io/f/myybevkg">
+              <!-- row -->
+              <div class="row">
+                <!-- col -->
+                <div class="col-12-sm col-8">
+                  <label for="email">Email*</label>
+                  <input type="email" id="email" name="email">
+                </div>
+                <!-- col end -->
+                <!-- col -->
+                <div class="col-12-sm col-4">
+                  <button class="big-button" type="submit">Suscribirme</button>
+                </div>
+                <!-- col end -->
+                <div class="col-12-sm col-12">
+                  <div class="required-fields">
+                    <p>*Campo requerido</p>
+                  </div>
+                </div>
+              </div>
+              <!-- row end -->
+            </form>
+            <!-- form end -->
+          </div>
+          <!-- newsletter-form-Container-end -->
+        </div>
+        <!-- col end -->
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- container end -->
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <!-- Row -->
+    <div class="row">
+      <div class="col-12-sm col-2 inline">
+        <span class="icon-fluorescente-logo footer-logo"></span>
+      </div>
+      <div class="col-12-sm col-8 inline">
+        <p>@2017 Fluorescente. Todos los derechos reservados. Hecho con <span class="icon-heart footer-heart"></span> en Medellín.</p>
+      </div>
+      <!-- <div class="col-12-sm col-2 inline">
+        <ul class="social">
+          <li class="inline"><a href="https://www.instagram.com/iamfluorescente" target="_blank"><span class="icon-instagram"></a></li>
+          <li class="inline"><a href="https://twitter.com/iamfluorescente" target="_blank"><span class="icon-twitter"></span></a></li>
+        </ul>
+      </div> -->
+    </div>
+    <div class="row">
+      <div class="col-12-sm col-3 inline">
+        <ul class="social">
+          <li class="inline"><a href="https://www.behance.net/fluorescented" target="_blank"><span class="icon-behance"></span></a></li>
+          <li class="inline"><a href="https://github.com/fluorescente" target="_blank"><span class="icon-github"></span></a></li>
+          <li class="inline"><a href="https://t.me/joinchat/J9QQERoNyllnuRbAYo7iwg" target="_blank"><span class="icon-telegram"></span></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- row end -->
+  </footer>
+  <!-- footer end -->
+
+</body>
+</html>

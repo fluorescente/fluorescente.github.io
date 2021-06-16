@@ -1,0 +1,2 @@
+$("#contactForm").validate();
+$("#newsletterForm").validate();

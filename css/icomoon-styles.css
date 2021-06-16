@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ej0c4f');
+  src:  url('../fonts/icomoon.eot?ej0c4f#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ej0c4f') format('truetype'),
+    url('../fonts/icomoon.woff?ej0c4f') format('woff'),
+    url('../fonts/icomoon.svg?ej0c4f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-art-direction:before {
+  content: "\e900";
+}
+.icon-close:before {
+  content: "\e902";
+}
+.icon-copy:before {
+  content: "\e903";
+}
+.icon-development:before {
+  content: "\e904";
+}
+.icon-drafts:before {
+  content: "\e905";
+}
+.icon-facebook:before {
+  content: "\e907";
+}
+.icon-feed:before {
+  content: "\e908";
+}
+.icon-fluorescente-logo:before {
+  content: "\e90a";
+}
+.icon-heart:before {
+  content: "\e90c";
+}
+.icon-ideas:before {
+  content: "\e90d";
+}
+.icon-identity:before {
+  content: "\e90e";
+}
+.icon-info:before {
+  content: "\e90f";
+}
+.icon-instagram:before {
+  content: "\e910";
+}
+.icon-naming:before {
+  content: "\e912";
+}
+.icon-next:before {
+  content: "\e913";
+}
+.icon-prev:before {
+  content: "\e914";
+}
+.icon-prints:before {
+  content: "\e915";
+}
+.icon-saturn:before {
+  content: "\e916";
+}
+.icon-strategy:before {
+  content: "\e917";
+}
+.icon-tumblr:before {
+  content: "\e919";
+}
+.icon-twitter:before {
+  content: "\e91a";
+}
+.icon-web-design:before {
+  content: "\e91b";
+}
+.icon-web-development:before {
+  content: "\e91c";
+}
+.icon-z-hamburger:before {
+  content: "\e91d";
+}
+.icon-linkedin:before {
+  content: "\e911";
+}
+.icon-dropdown:before {
+  content: "\e906";
+}
+.icon-behance:before {
+  content: "\e901";
+}
+.icon-github:before {
+  content: "\e90b";
+}
+.icon-telegram:before {
+  content: "\e918";
+}
+.icon-fluorescente-blog:before {
+  content: "\e909";
+}
