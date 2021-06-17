@@ -374,10 +374,12 @@ p, .base{
 // projects
 
 .index-projects{
-  padding: $four-spaces 0;
+  padding: $three-spaces 0;
   background-color: $gray-0;
   & .index-project{
     background-color: $bright;
+    margin-left: $space;
+    margin-right: $space;
     margin-bottom: $three-spaces;
     padding: $space-and-half;
     border-bottom: 0;
@@ -391,6 +393,26 @@ p, .base{
     & li{
       height: 100%;
       display: grid;
+    }
+  }
+  & .slideshow-controls{
+    & a{
+      font-size: 2rem;
+      color: $dark;
+      border-bottom: 0;
+      &:hover{
+        color: $dark;
+        border-bottom: 0;
+      }
+      & svg{
+        display: none;
+      }
+    }
+    & .icon-left{
+      left: -1.5rem;
+    }
+    & .icon-right{
+      right: -1.5rem;
     }
   }
 }

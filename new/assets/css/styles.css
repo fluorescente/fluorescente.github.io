@@ -268,11 +268,13 @@ p, .base {
 }
 
 .index-projects {
-  padding: 4rem 0;
+  padding: 3rem 0;
   background-color: #FAFAFA;
 }
 .index-projects .index-project {
   background-color: #FFF;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-bottom: 3rem;
   padding: 1.5rem;
   border-bottom: 0;
@@ -287,6 +289,24 @@ p, .base {
 .index-projects .index-project li {
   height: 100%;
   display: grid;
+}
+.index-projects .slideshow-controls a {
+  font-size: 2rem;
+  color: #000;
+  border-bottom: 0;
+}
+.index-projects .slideshow-controls a:hover {
+  color: #000;
+  border-bottom: 0;
+}
+.index-projects .slideshow-controls a svg {
+  display: none;
+}
+.index-projects .slideshow-controls .icon-left {
+  left: -1.5rem;
+}
+.index-projects .slideshow-controls .icon-right {
+  right: -1.5rem;
 }
 
 .services {

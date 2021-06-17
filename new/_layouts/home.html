@@ -30,7 +30,7 @@ layout: basic_structure
       <!-- col -->
       <div class="col-xs-12 center-xs">
         <!-- slideshow -->
-        <div uk-slideshow="animation: slide; ratio: 3:5">
+        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: slide; ratio: 3:5">
           <ul class="uk-slideshow-items">
             <a href="#" class="index-project">
               <li>
@@ -68,15 +68,48 @@ layout: basic_structure
                 <!-- row end -->
               </li>
             </a>
+            <a href="#" class="index-project">
+              <li>
+                <!-- row -->
+                <div class="row">
+                  <!-- col -->
+                  <div class="col-xs-5">
+                    <figure class="index-project-logo">
+                      <img src="/assets/images/projects/logos/taller-veganista-logo.svg" alt="">
+                    </figure>
+                  </div>
+                  <!-- col end -->
+                </div>
+                <!-- row end -->
+                <!-- row -->
+                <div class="row">
+                  <!-- col -->
+                  <div class="col-xs-12 start-xs">
+                    <h3>Material de apoyo para personas que quieren unirse al movimiento antiespecista.</h3>
+                  </div>
+                  <!-- col end -->
+                </div>
+                <!-- row end -->
+                <!-- row -->
+                <div class="row bottom-xs">
+                  <!-- col -->
+                  <div class="col-xs-12 start-xs">
+                    <div class="index-project-info">
+                      <h6>Taller Veganista</h6>
+                      <p>Identidad visual / Diseño y desarrollo web</p>
+                    </div>
+                  </div>
+                  <!-- col end -->
+                </div>
+                <!-- row end -->
+              </li>
+            </a>
           </ul>
-          <!-- slideshow left-right nav -->
-          <nav>
-            <ul>
-              <li><a href="#" class="icon icon-left" uk-slidenav-previous uk-slideshow-item="previous"></a></li>
-              <li><a href="#" class="icon icon-right" uk-slidenav-next uk-slideshow-item="next"></a></li>
-            </ul>
-          </nav>
-          <!-- slideshow left-right nav end -->
+          <div class="slideshow-controls">
+            <a class="uk-position-center-left icon icon-left" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right icon icon-right" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+          </div>
+
         </div>
         <!-- slideshow end -->
       </div>
