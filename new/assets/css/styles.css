@@ -258,13 +258,35 @@ p, .base {
 }
 
 .header-home {
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 .header-home h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .header-home nav .button {
   margin-bottom: 1.5rem;
+}
+
+.index-projects {
+  padding: 4rem 0;
+  background-color: #FAFAFA;
+}
+.index-projects .index-project {
+  background-color: #FFF;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border-bottom: 0;
+  font-weight: normal;
+}
+.index-projects .index-project:hover {
+  font-weight: normal;
+  color: #000;
+  border-bottom: 0;
+  box-shadow: 0 0.2rem 2rem rgba(190, 190, 190, 0.2);
+}
+.index-projects .index-project li {
+  height: 100%;
+  display: grid;
 }
 
 .services {

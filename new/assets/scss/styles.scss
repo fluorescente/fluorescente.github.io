@@ -360,9 +360,9 @@ p, .base{
 // header
 
 .header-home{
-  padding: $three-spaces 0;
+  padding: $four-spaces 0;
   & h1{
-    margin-bottom: $two-spaces;
+    margin-bottom: $three-spaces;
   }
   & nav{
     & .button{
@@ -371,7 +371,31 @@ p, .base{
   }
 }
 
-// Services
+// projects
+
+.index-projects{
+  padding: $four-spaces 0;
+  background-color: $gray-0;
+  & .index-project{
+    background-color: $bright;
+    margin-bottom: $three-spaces;
+    padding: $space-and-half;
+    border-bottom: 0;
+    font-weight: normal;
+    &:hover{
+      font-weight: normal;
+      color: $dark;
+      border-bottom: 0;
+      box-shadow: 0 .2rem 2rem rgba(190, 190, 190, 0.2);
+    }
+    & li{
+      height: 100%;
+      display: grid;
+    }
+  }
+}
+
+// services
 
 .services{
   padding: $three-spaces 0;
