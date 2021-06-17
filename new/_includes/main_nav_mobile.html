@@ -1,15 +1,15 @@
-<nav class="main-nav-mobile">
+<nav uk-sticky="show-on-up: true; animation: uk-animation-slide-top" class="main-nav-mobile">
   <!-- wrapper -->
   <div class="wrapper container-fluid">
     <!-- row -->
     <ul class="row">
       <!-- col -->
       <li class="col-xs-6 start-xs middle-xs">
-        <a href="#" class="icon icon-kirby-crackle no-underline"></a>
+        <a href="/" class="icon icon-kirby-crackle no-underline"></a>
       </li>
       <!-- col end -->
       <li class="col-xs-6 end-xs">
-        <a href="#" class="icon icon-hamburger-bite no-underline"></a>
+        <a uk-toggle="target: #modal-nav" class="icon icon-hamburger-bite no-underline"></a>
       </li>
     </ul>
     <!-- row end -->
@@ -18,25 +18,32 @@
 </nav>
 
 <!-- main_nav modal -->
-<nav>
-  <!-- wrapper -->
-  <div class="wrapper container-fluid">
-    <!-- row -->
-    <div class="row">
-      <!-- col -->
-      <ul class="col-xs-12 center-xs">
-        <li><a href="/">Inicio logo</a></li>
-        <li><a href="/proyectos/">Proyectos</a></li>
-        <li><a href="/#services">Que hacemos</a></li>
-        <li><a href="/#team">Equipo</a></li>
-        <li><a href="#">Escríbenos</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Dibujos</a></li>
-      </ul>
-      <!-- col end -->
-    </div>
-    <!-- row end -->
+<div id="modal-nav" uk-modal>
+  <!-- modal dialog -->
+  <div class="uk-modal-dialog uk-modal-body">
+    <nav>
+      <!-- wrapper -->
+      <div class="wrapper container-fluid">
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <ul class="col-xs-12 center-xs">
+            <li><a href="/">Inicio logo</a></li>
+            <li><a href="/proyectos/">Proyectos</a></li>
+            <li><a href="/#services">Que hacemos</a></li>
+            <li><a href="/#team">Equipo</a></li>
+            <li><a href="#">Escríbenos</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Dibujos</a></li>
+          </ul>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+      </div>
+      <!-- wrapper end -->
+    </nav>
+    <h2 class="uk-modal-title"></h2>
+    <button class="uk-modal-close" type="button"></button>
   </div>
-  <!-- wrapper end -->
-</nav>
-<!-- main_nav modal end -->
+  <!-- modal dialog end -->
+</div>

@@ -150,10 +150,12 @@ figure{
 a{
   font-weight: $bold;
   color: $dark;
+  text-decoration: none;
+  border-bottom: 1px solid $brand;
   &:hover{
     color: $brand;
-    -webkit-transition: $transition-quick;
-    transition: $transition-quick;
+    border-bottom: 1px solid $transparent;
+    text-decoration: none;
   }
 }
 
@@ -165,6 +167,13 @@ ul{
 
 li{
   margin: 0;
+}
+
+.ul-inline{
+  display: inline-block;
+  & li{
+    display: inline-block;
+  }
 }
 
 .underline{
@@ -208,6 +217,7 @@ h1, h2, h3, h4, h5, h6{
   font-weight: normal;
   font-style: normal;
   margin: 0;
+  color: $dark;
 }
 
 // Headings
@@ -283,6 +293,10 @@ p, .base{
   text-transform: uppercase;
   font-weight: normal;
   font-style: normal;
+  border-bottom: 0;
+  &:hover{
+    border-bottom: 0;
+  }
 }
 
 .link{
@@ -294,6 +308,10 @@ p, .base{
 .button{
   text-decoration: none;
   display: inline-block;
+  &:hover{
+    -webkit-transition: $transition-quick;
+    transition: $transition-quick;
+  }
 }
 
 .link-base, .button-big{
@@ -321,12 +339,18 @@ p, .base{
 
 .main-nav-mobile{
   padding: $space 0;
+  & a{
+    border-bottom: 0;
+    &:hover{
+      border-bottom: 0;
+    }
+  }
   & .icon-kirby-crackle{
-    font-size: $three-spaces;
+    font-size: 2.75rem;
   }
   & .icon-hamburger-bite{
     font-size: $space-and-half;
-    margin-top: $half-space-and-quarter;
+    margin-top: .75rem;
     display: inline-block;
   }
 }
@@ -336,7 +360,7 @@ p, .base{
 // header
 
 .header-home{
-  padding-bottom: $three-spaces;
+  padding: $three-spaces 0;
   & h1{
     margin-bottom: $two-spaces;
   }
@@ -380,6 +404,9 @@ p, .base{
   }
   & .team-member{
     margin-bottom: $three-spaces;
+    &:last-child{
+      margin-bottom: $space-and-half;
+    }
     & figure{
       margin-bottom: $space;
     }
@@ -388,6 +415,24 @@ p, .base{
     }
     & .author-date{
       margin-bottom: $space;
+    }
+    & .team-member-description{
+      margin-bottom: $space;
+    }
+    & .team-member-social{
+      & li{
+        margin-right: $half-space-and-quarter;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+      & a{
+        font-size: 1.25rem;
+        border-bottom: 0;
+        &:hover{
+          border-bottom: 0;
+        }
+      }
     }
   }
 }
@@ -400,12 +445,14 @@ footer{
   color: $bright;
   & a{
     color: $bright;
+    border-bottom: 0;
     &:hover{
       color: $brand !important;
+      border-bottom: 0;
     }
   }
   & .footer-nav{
-    margin-bottom: $four-spaces;
+    margin-bottom: $three-spaces;
     & a{
       display: inline-block;
       margin-bottom: $space;
@@ -415,6 +462,16 @@ footer{
     margin-bottom: $three-spaces;
     & a{
       font-size: $four-spaces;
+    }
+  }
+  & .footer-social{
+    margin-top: $space;
+    & li{
+      font-size: 1.25rem;
+      margin-right: $half-space-and-quarter;
+      &:last-child{
+        margin-right: 0;
+      }
     }
   }
 }

@@ -10,7 +10,7 @@ layout: basic_structure
       <div class="col-xs-12 center-xs">
         <h1 class="h1-giant start-xs">{{ page.header_title }}</h1>
         <nav>
-          <a href="#" class="button button-big button-dark">{{ site.link_to_projects }}</a>
+          <a href="/proyectos/" class="button button-big button-dark">{{ site.link_to_projects }}</a>
           <div class="break hidden-sm"></div>
           <a href="#" class="link link-base no-underline custom-underline">{{ site.link_to_contact }}</a>
         </nav>
@@ -29,9 +29,26 @@ layout: basic_structure
     <div class="row">
       <!-- col -->
       <div class="col-xs-12 center-xs">
-        <a href="#" class="link link-base no-underline custom-underline">{{ site.link_to_more_projects }}</a>
+        <a href="/proyectos/" class="link link-base no-underline custom-underline">{{ site.link_to_more_projects }}</a>
       </div>
       <!-- col end -->
+    </div>
+    <!-- row end -->
+  </div>
+  <!-- wrapper end -->
+</section>
+
+<section class="index-projects">
+  <!-- wrapper -->
+  <div class="wrapper container-fluid">
+    <!-- row -->
+    <div class="row">
+      <!-- col -->
+      <div class="col-xs-12">
+        <!-- slideshow -->
+        <!-- slideshow end -->
+      </div>
+      <!-- col -->
     </div>
     <!-- row end -->
   </div>
@@ -100,13 +117,13 @@ layout: basic_structure
             <div class="col-xs-12 col-sm-8">
               <h4>{{ team_member.name }}</h4>
               <p class="author-date small">{{ team_member.role }}</p>
-              <p>{{ team_member.description }}</p>
-              <ul>
-                {% if team_member.github_username != nil %}
-                  <li><a href="{{ team_member.github_username }}" target="_blank">{{ team_member.github_username }}</a></li>
+              <p class="team-member-description">{{ team_member.description }}</p>
+              <ul class="team-member-social ul-inline">
+                {% if team_member.github_url != nil %}
+                  <li><a href="{{ team_member.github_url }}" target="_blank" class="icon icon-github"></a></li>
                 {% endif %}
-                {% if team_member.behance_username != nil %}
-                  <li><a href="{{ team_member.behance_username }}" target="_blank">{{ team_member.behance_username }}</a></li>
+                {% if team_member.behance_url != nil %}
+                  <li><a href="{{ team_member.behance_url }}" target="_blank" class="icon icon-behance"></a></li>
                 {% endif %}
               </ul>
             </div>
