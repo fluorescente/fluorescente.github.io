@@ -18,17 +18,26 @@
 </nav>
 
 <!-- main_nav modal -->
-<div id="modal-nav" uk-modal>
+<div id="modal-nav" class="modal-nav" uk-modal>
   <!-- modal dialog -->
-  <div class="uk-modal-dialog uk-modal-body">
+  <div class="uk-modal-dialog uk-modal-body modal-nav-body">
     <nav>
       <!-- wrapper -->
-      <div class="wrapper container-fluid">
+      <div class="wrapper">
+        <!-- row -->
+        <div class="row">
+          <!-- col -->
+          <div class="col-xs-12 end-xs">
+            <a class="uk-modal-close icon icon-close"></a>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
         <!-- row -->
         <div class="row">
           <!-- col -->
           <ul class="col-xs-12 center-xs">
-            <li><a href="/">Inicio logo</a></li>
+            <li><a href="/" class="link">Inicio logo</a></li>
             <li><a href="/proyectos/">Proyectos</a></li>
             <li><a href="/#services">Que hacemos</a></li>
             <li><a href="/#team">Equipo</a></li>
@@ -42,8 +51,6 @@
       </div>
       <!-- wrapper end -->
     </nav>
-    <h2 class="uk-modal-title"></h2>
-    <button class="uk-modal-close" type="button"></button>
   </div>
   <!-- modal dialog end -->
 </div>

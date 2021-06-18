@@ -357,6 +357,26 @@ p, .base{
 
 // home
 
+// mobile nav
+
+.modal-nav{
+  color: $bright;
+  background-color: $dark;
+  & .modal-nav-body{
+    color: $bright;
+    background-color: $dark;
+    padding: $space;
+    & a{
+      color: $bright;
+      border-bottom: 0;
+      &:hover{
+        border-bottom: 0;
+        color: $brand;
+      }
+    }
+  }
+}
+
 // header
 
 .header-home{
@@ -377,9 +397,8 @@ p, .base{
   padding: $three-spaces 0;
   background-color: $gray-0;
   & .index-project{
+    border-radius: $half-space;
     background-color: $bright;
-    margin-left: $space;
-    margin-right: $space;
     margin-bottom: $three-spaces;
     padding: $space-and-half;
     border-bottom: 0;
@@ -409,10 +428,10 @@ p, .base{
       }
     }
     & .icon-left{
-      left: -1.5rem;
+      left: -2.25rem;
     }
     & .icon-right{
-      right: -1.5rem;
+      right: -2.25rem;
     }
   }
 }
