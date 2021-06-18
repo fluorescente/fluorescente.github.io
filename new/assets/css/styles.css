@@ -288,15 +288,25 @@ p, .base {
 .modal-nav .modal-nav-body .icon-close svg {
   display: none;
 }
-.modal-nav .modal-nav-body .main-nav-links a {
+.modal-nav .modal-nav-body .modal-nav-links a {
   display: inline-block;
   margin-bottom: 1rem;
 }
-.modal-nav .modal-nav-body .main-nav-links .modal-nav-logo {
+.modal-nav .modal-nav-body .modal-nav-links .modal-nav-logo {
   margin-bottom: 3rem;
 }
-.modal-nav .modal-nav-body .main-nav-links .modal-nav-logo a {
+.modal-nav .modal-nav-body .modal-nav-links .modal-nav-logo a {
   font-size: 4rem;
+}
+.modal-nav .modal-nav-body .modal-nav-social {
+  margin-top: 3rem;
+}
+.modal-nav .modal-nav-body .modal-nav-social li {
+  font-size: 1.25rem;
+  margin-right: 0.75rem;
+}
+.modal-nav .modal-nav-body .modal-nav-social li:last-child {
+  margin-right: 0;
 }
 
 .header-home {

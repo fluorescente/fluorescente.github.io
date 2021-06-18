@@ -389,7 +389,7 @@ p, .base{
         display: none;
       }
     }
-    & .main-nav-links{
+    & .modal-nav-links{
       & a{
         display: inline-block;
         margin-bottom: $space;
@@ -398,6 +398,16 @@ p, .base{
         margin-bottom: $three-spaces;
         & a{
           font-size: $four-spaces;
+        }
+      }
+    }
+    & .modal-nav-social{
+      margin-top: $three-spaces;
+      & li{
+        font-size: 1.25rem;
+        margin-right: $half-space-and-quarter;
+        &:last-child{
+          margin-right: 0;
         }
       }
     }
