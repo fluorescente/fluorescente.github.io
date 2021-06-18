@@ -18,39 +18,36 @@
 </nav>
 
 <!-- main_nav modal -->
-<div id="modal-nav" class="modal-nav" uk-modal>
-  <!-- modal dialog -->
+<div id="modal-nav" class="modal-nav uk-modal-full" uk-modal>
   <div class="uk-modal-dialog uk-modal-body modal-nav-body">
-    <nav>
-      <!-- wrapper -->
-      <div class="wrapper">
-        <!-- row -->
-        <div class="row">
-          <!-- col -->
-          <div class="col-xs-12 end-xs">
-            <a class="uk-modal-close icon icon-close"></a>
-          </div>
-          <!-- col end -->
-        </div>
-        <!-- row end -->
-        <!-- row -->
-        <div class="row">
-          <!-- col -->
-          <ul class="col-xs-12 center-xs">
-            <li><a href="/" class="link">Inicio logo</a></li>
-            <li><a href="/proyectos/">Proyectos</a></li>
-            <li><a href="/#services">Que hacemos</a></li>
-            <li><a href="/#team">Equipo</a></li>
-            <li><a href="#">Escríbenos</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Dibujos</a></li>
-          </ul>
-          <!-- col end -->
-        </div>
-        <!-- row end -->
+    <!-- wrapper -->
+    <div class="wrapper container-fluid modal-nav-wrapper">
+      <!-- row -->
+      <div class="row top-xs">
+        <a class="uk-modal-close-default icon icon-close" uk-close></a>
       </div>
-      <!-- wrapper end -->
-    </nav>
+      <!-- row end -->
+      <!-- row -->
+      <div class="row center-xs middle-xs">
+        <!-- col -->
+        <div class="col-xs-12">
+          <nav class="main-nav-links">
+            <ul>
+              <li class="modal-nav-logo"><a href="/" class="icon icon-fluoresecente-logo"></a></li>
+              <li><a href="/proyectos/" class="link no-underline link-base">Proyectos</a></li>
+              <li><a href="/#services" class="link no-underline link-base">Que hacemos</a></li>
+              <li><a href="/#team" class="link no-underline link-base">Equipo</a></li>
+              <li><a href="#" class="link no-underline link-base">Escríbenos</a></li>
+              <li><a href="#" class="link no-underline link-base">Blog</a></li>
+              <li><a href="#" class="link no-underline link-base">Dibujos</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- col end -->
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- wrapper end -->
   </div>
-  <!-- modal dialog end -->
 </div>
+<!-- main-nav modal end -->

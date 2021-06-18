@@ -358,20 +358,47 @@ p, .base{
 // home
 
 // mobile nav
-
 .modal-nav{
-  color: $bright;
-  background-color: $dark;
+  & .modal-nav-wrapper{
+    height: 100%;
+  }
   & .modal-nav-body{
-    color: $bright;
     background-color: $dark;
-    padding: $space;
+    color: $bright;
+    height: 100%;
+    display: block;
+    & .middle-xs{
+      height: 100%;
+    }
     & a{
       color: $bright;
       border-bottom: 0;
       &:hover{
-        border-bottom: 0;
         color: $brand;
+        border-bottom: 0;
+      }
+    }
+    & .icon-close{
+      font-size: 1.75rem;
+      color: $bright;
+      padding: $space $space-and-half;
+      &:hover{
+        color: $brand;
+      }
+      & svg{
+        display: none;
+      }
+    }
+    & .main-nav-links{
+      & a{
+        display: inline-block;
+        margin-bottom: $space;
+      }
+      & .modal-nav-logo{
+        margin-bottom: $three-spaces;
+        & a{
+          font-size: $four-spaces;
+        }
       }
     }
   }
