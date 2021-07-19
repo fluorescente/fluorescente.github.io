@@ -449,7 +449,9 @@ p, .base{
       font-weight: normal;
       color: $dark;
       border-bottom: 0;
-      box-shadow: 0 .2rem 2rem rgba(190, 190, 190, 0.2);
+      -webkit-transition: $transition-quick;
+      transition: $transition-quick;
+      box-shadow: $box-shadow;
     }
     & li{
       height: 100%;
@@ -509,7 +511,9 @@ p, .base{
 }
 
 .project-cards{
+  margin-top: $space;
   & li{
+    border-radius: $half-space;
     background-color: $gray-0;
     display: grid;
     margin-bottom: $two-spaces;
@@ -517,9 +521,12 @@ p, .base{
     padding-bottom: $two-spaces;
     height: 28rem;
     &:hover{
-      background-color: $bright;
       color: $dark;
-      // box-shadow: 0 .2rem 2rem rgba(190, 190, 190, 0.2);
+      // background-color: $bright;
+      // transform: scale(0.98);
+      box-shadow: $box-shadow;
+      -webkit-transition: $transition;
+      transition: $transition;
     }
     & .project-info{
       & h6{
@@ -529,6 +536,13 @@ p, .base{
         font-weight: $regular;
       }
     }
+  }
+}
+
+.projects-end{
+  margin: $space 0 $four-spaces 0;
+  & li{
+    margin-bottom: $two-spaces;
   }
 }
 

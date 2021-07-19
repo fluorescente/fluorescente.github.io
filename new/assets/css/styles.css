@@ -338,7 +338,9 @@ p, .base {
   font-weight: normal;
   color: #000;
   border-bottom: 0;
-  box-shadow: 0 0.2rem 2rem rgba(190, 190, 190, 0.2);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  box-shadow: -1px -1px 17px -2px rgba(0, 0, 0, 0.13);
 }
 .index-projects .index-project li {
   height: 100%;
@@ -389,7 +391,11 @@ p, .base {
   background-color: #000;
 }
 
+.project-cards {
+  margin-top: 1rem;
+}
 .project-cards li {
+  border-radius: 0.5rem;
   background-color: #FAFAFA;
   display: grid;
   margin-bottom: 2rem;
@@ -398,14 +404,23 @@ p, .base {
   height: 28rem;
 }
 .project-cards li:hover {
-  background-color: #FFF;
   color: #000;
+  box-shadow: -1px -1px 17px -2px rgba(0, 0, 0, 0.13);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
 }
 .project-cards li .project-info h6 {
   margin-bottom: 0.25rem;
 }
 .project-cards li .project-info p {
   font-weight: 400;
+}
+
+.projects-end {
+  margin: 1rem 0 4rem 0;
+}
+.projects-end li {
+  margin-bottom: 2rem;
 }
 
 .services {
