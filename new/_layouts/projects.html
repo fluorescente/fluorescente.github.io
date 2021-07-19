@@ -3,57 +3,48 @@ layout: basic_structure
 ---
 <section>
   <!-- wrapper -->
-  <div class="wrapper">
+  <div class="wrapper container-fluid">
     <!-- row -->
-    <ul class="row">
-      {% for project in site.projects %}
-        <!-- col -->
-        <li class="col-xs-12">
-          <!-- link -->
-          <a href="{{ project.url }}">
-            <!-- row -->
-            <div class="row">
-              <!-- col -->
-              <div class="col-xs-12 col-lg-7">
+    <div class="row">
+      <!-- col -->
+      <div class="col-xs-12">
+        <!-- project list -->
+        <ul class="project-cards">
+          {% for project in site.projects reversed %}
+            <a href="{{ project.url }}">
+              <li>
+                <!-- col -->
+                <div class="col-xs-4">
+                  <figure>
+                    <img src="{{ project.logo | relative_url }}" alt="{{ project.title }} logo">
+                  </figure>
+                </div>
+                <!-- col end -->
+                <!-- col -->
+                <div class="col-xs-12 start-xs">
+                  <h3>{{ project.excerpt }}</h3>
+                </div>
+                <!-- col end -->
                 <!-- row -->
-                <div class="row">
+                <div class="row bottom-xs">
                   <!-- col -->
-                  <div class="col-12-xs">
-                    <figure>
-                      <img src="{{ project.logo | relative_url }}" alt="{{ project.name }} logo">
-                    </figure>
-                  </div>
-                  <!-- col end -->
-                  <!-- col -->
-                  <div class="col-xs-12">
-                    <h3>{{ project.excerpt }}</h3>
-                  </div>
-                  <!-- col end -->
-                  <!-- col -->
-                  <div class="col-xs-12">
-                    <h6>{{ project.title }}</h6>
-                    <p>{{ project.categories | join: ' / ' }}</p>
+                  <div class="col-xs-12 start-xs">
+                    <div class="project-info">
+                      <h6>{{ project.title }}</h6>
+                      <p>{{ project.categories | join:' / '}}</p>
+                    </div>
                   </div>
                   <!-- col end -->
                 </div>
                 <!-- row end -->
-              </div>
-              <!-- col end -->
-              <!-- col -->
-              <div class="col-xs-4">
-                <figure>
-                  <img src="{{ project.thumbnail_big | relative_url }}" alt="">
-                </figure>
-              </div>
-              <!-- col end -->
-            </div>
-            <!-- row end -->
-          </a>
-          <!-- link end -->
-        </li>
-        <!-- col end -->
-      {% endfor %}
-    </ul
+              </li>
+            </a>
+          {% endfor %}
+        </ul>
+        <!-- project list end -->
+      </div>
+      <!-- col end -->
+    </div>
     <!-- row end -->
     <div class="row">
       <!-- col -->

@@ -456,6 +456,11 @@ p, .base{
       display: grid;
     }
   }
+  & .index-project-info{
+    & h6{
+      margin-bottom: $quarter-space;
+    }
+  }
   & .slideshow-controls{
     & a{
       font-size: $space-and-half;
@@ -503,6 +508,29 @@ p, .base{
   }
 }
 
+.project-cards{
+  & li{
+    background-color: $gray-0;
+    display: grid;
+    margin-bottom: $two-spaces;
+    padding: $space;
+    padding-bottom: $two-spaces;
+    height: 28rem;
+    &:hover{
+      background-color: $bright;
+      color: $dark;
+      // box-shadow: 0 .2rem 2rem rgba(190, 190, 190, 0.2);
+    }
+    & .project-info{
+      & h6{
+        margin-bottom: $quarter-space;
+      }
+      & p{
+        font-weight: $regular;
+      }
+    }
+  }
+}
 
 
 // services

@@ -344,6 +344,9 @@ p, .base {
   height: 100%;
   display: grid;
 }
+.index-projects .index-project-info h6 {
+  margin-bottom: 0.25rem;
+}
 .index-projects .slideshow-controls a {
   font-size: 1.5rem;
   color: #000;
@@ -384,6 +387,25 @@ p, .base {
 }
 .index-projects .slideshow-dotnav .uk-active a {
   background-color: #000;
+}
+
+.project-cards li {
+  background-color: #FAFAFA;
+  display: grid;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  height: 28rem;
+}
+.project-cards li:hover {
+  background-color: #FFF;
+  color: #000;
+}
+.project-cards li .project-info h6 {
+  margin-bottom: 0.25rem;
+}
+.project-cards li .project-info p {
+  font-weight: 400;
 }
 
 .services {
