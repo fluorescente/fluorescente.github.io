@@ -436,7 +436,6 @@ p, .base{
   padding: $three-spaces 0 $four-spaces 0;
   background-color: $gray-0;
   background-image: url(../images/backgrounds/projects.png);
-  background-position: center;
   background-size: cover;
   & .index-project{
     border-radius: $half-space;
@@ -575,7 +574,6 @@ p, .base{
 .team{
   background-color: $gray-0;
   background-image: url(../images/backgrounds/team-xs.png);
-  background-position: center;
   background-size: cover;
   padding: $three-spaces 0;
   & h3{

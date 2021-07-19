@@ -323,7 +323,6 @@ p, .base {
   padding: 3rem 0 4rem 0;
   background-color: #FAFAFA;
   background-image: url(../images/backgrounds/projects.png);
-  background-position: center;
   background-size: cover;
 }
 .index-projects .index-project {
@@ -445,7 +444,6 @@ p, .base {
 .team {
   background-color: #FAFAFA;
   background-image: url(../images/backgrounds/team-xs.png);
-  background-position: center;
   background-size: cover;
   padding: 3rem 0;
 }
