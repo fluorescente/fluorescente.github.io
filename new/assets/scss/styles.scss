@@ -13,6 +13,8 @@ $dark: #000;
 $bright: #FFF;
 $brand: #40FC81;
 $gray-0: #FAFAFA;
+$gray-1: #F7F7F7;
+$gray-2: #C6C6C6;
 
 $transparent: rgba(0,0,0,0);
 $box-shadow: -1px -1px 17px -2px rgba(0,0,0,0.13);
@@ -436,7 +438,7 @@ p, .base{
   & .index-project{
     border-radius: $half-space;
     background-color: $bright;
-    margin-bottom: $three-spaces;
+    margin-bottom: $space;
     padding: $space-and-half;
     border-bottom: 0;
     font-weight: normal;
@@ -453,7 +455,7 @@ p, .base{
   }
   & .slideshow-controls{
     & a{
-      font-size: 2rem;
+      font-size: $space-and-half;
       color: $dark;
       border-bottom: 0;
       &:hover{
@@ -465,13 +467,40 @@ p, .base{
       }
     }
     & .icon-left{
-      left: -2.25rem;
+      left: -2rem;
     }
     & .icon-right{
-      right: -2.25rem;
+      right: -2rem;
+    }
+  }
+  & .slideshow-dotnav{
+    margin-bottom: $two-spaces;
+    & li{
+      margin-right: $half-space;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    & a{
+      display: inline-block;
+      width: .375rem;
+      height: .375rem;
+      background-color: $gray-2;
+      border-bottom: 0;
+      border-radius: 50%;
+      &:hover{
+        background-color: $dark;
+      }
+    }
+    & .uk-active{
+      & a{
+        background-color: $dark;
+      }
     }
   }
 }
+
+
 
 // services
 
