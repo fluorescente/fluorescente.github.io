@@ -259,6 +259,30 @@ p, .base {
   display: inline-block;
 }
 
+.contact-modal .contact-modal-wrapper {
+  height: 100%;
+}
+.contact-modal .contact-modal-body {
+  background-color: #40FC81;
+  color: #000;
+  height: 100%;
+  display: block;
+}
+.contact-modal .icon-close {
+  font-size: 1.75rem;
+  color: #000;
+  padding: 1rem 1.5rem;
+}
+.contact-modal .icon-close:hover {
+  color: #40FC81;
+}
+.contact-modal .icon-close svg {
+  display: none;
+}
+.contact-modal .contact-page {
+  margin-top: 6rem;
+}
+
 .modal-nav .modal-nav-wrapper {
   height: 100%;
 }

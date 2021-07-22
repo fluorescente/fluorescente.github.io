@@ -363,6 +363,35 @@ p, .base{
 
 // home
 
+// Contact modal
+
+.contact-modal{
+  & .contact-modal-wrapper{
+    height: 100%;
+  }
+  & .contact-modal-body{
+    background-color: $brand;
+    color: $dark;
+    height: 100%;
+    display: block;
+  }
+  & .icon-close{
+    font-size: 1.75rem;
+    color: $dark;
+    padding: $space $space-and-half;
+    &:hover{
+      color: $brand;
+    }
+    & svg{
+      display: none;
+    }
+  }
+  & .contact-page{
+    margin-top: $six-spaces;
+  }
+}
+
+
 // mobile nav
 .modal-nav{
   & .modal-nav-wrapper{
@@ -578,8 +607,6 @@ p, .base{
     }
   }
 }
-
-
 
 // services
 
