@@ -290,6 +290,9 @@ p, .base {
 .modal-nav .modal-nav-body .icon-close svg {
   display: none;
 }
+.modal-nav .modal-nav-body .modal-nav-links .uk-modal-close-default {
+  position: inherit;
+}
 .modal-nav .modal-nav-body .modal-nav-links a {
   display: inline-block;
   margin-bottom: 1rem;
@@ -356,7 +359,7 @@ p, .base {
   border-bottom: 0;
 }
 .index-projects .slideshow-controls a:hover {
-  color: #000;
+  color: #40FC81;
   border-bottom: 0;
 }
 .index-projects .slideshow-controls a svg {
@@ -438,6 +441,15 @@ p, .base {
 }
 .project-page .content p {
   margin-bottom: 1rem;
+}
+.project-page .prev-next {
+  margin-bottom: 3rem;
+}
+.project-page .prev-next a {
+  border-bottom: rgba(0, 0, 0, 0);
+}
+.project-page .prev-next .icon {
+  font-size: 2rem;
 }
 
 .services {

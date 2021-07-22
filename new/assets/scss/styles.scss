@@ -396,6 +396,9 @@ p, .base{
       }
     }
     & .modal-nav-links{
+      & .uk-modal-close-default{
+        position: inherit;
+      }
       & a{
         display: inline-block;
         margin-bottom: $space;
@@ -472,7 +475,7 @@ p, .base{
       color: $dark;
       border-bottom: 0;
       &:hover{
-        color: $dark;
+        color: $brand;
         border-bottom: 0;
       }
       & svg{
@@ -565,7 +568,17 @@ p, .base{
       margin-bottom: $space;
     }
   }
+  & .prev-next{
+    margin-bottom: $three-spaces;
+    & a{
+      border-bottom: $transparent;
+    }
+    & .icon{
+      font-size: $two-spaces;
+    }
+  }
 }
+
 
 
 // services

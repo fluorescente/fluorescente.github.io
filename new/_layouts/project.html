@@ -30,20 +30,24 @@ layout: basic_structure
     <div class="row">
     <!-- col -->
     <div class="col-xs-12 col-lg-offset-2 col-lg-8">
-      <!-- row -->
-      <div class="row prev-next">
-        <div class="col-xs-6 inline">
-          {% if page.previous.url != nil and page.previous.tags contains 'project' %}
-            <a class="" href="{% if page.previous.tags contains 'project' %}{{ page.previous.url }}{% endif %}"><span class="icon icon-long-arrow-left-light margin-right"></span> Anterior</a>
-          {% endif %}
+      <!-- project-navigation -->
+      <div class="prev-next">
+        <!-- row -->
+        <div class="row prev-next">
+          <div class="col-xs-6 inline">
+            {% if page.previous.url != nil and page.previous.tags contains 'project' %}
+              <a href="{% if page.previous.tags contains 'project' %}{{ page.previous.url }}{% endif %}"><span class="icon icon-left"></span></a>
+            {% endif %}
+          </div>
+          <div class="col-xs-6 inline end-xs">
+            {% if page.next.url != nil and page.next.tags contains 'project' %}
+              <a href="{% if page.next.tags contains 'project' %}{{ page.next.url }}{% endif %}"><span class="icon icon-right"></span></a>
+            {% endif %}
+          </div>
         </div>
-        <div class="col-xs-6 inline end-xs">
-          {% if page.next.url != nil and page.next.tags contains 'project' %}
-            <a class="" href="{% if page.next.tags contains 'project' %}{{ page.next.url }}{% endif %}">Siguiente<span class="icon icon-long-arrow-right-light"></span></a>
-          {% endif %}
-        </div>
+        <!-- row end -->
       </div>
-      <!-- row end -->
+      <!-- project navigation end -->
     </div>
     <!-- col end -->
     </div>
