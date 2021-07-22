@@ -26,6 +26,28 @@ layout: basic_structure
       <!-- col end -->
     </div>
     <!-- row end -->
+    <!-- row -->
+    <div class="row">
+    <!-- col -->
+    <div class="col-xs-12 col-lg-offset-2 col-lg-8">
+      <!-- row -->
+      <div class="row prev-next">
+        <div class="col-xs-6 inline">
+          {% if page.previous.url != nil and page.previous.tags contains 'project' %}
+            <a class="" href="{% if page.previous.tags contains 'project' %}{{ page.previous.url }}{% endif %}"><span class="icon icon-long-arrow-left-light margin-right"></span> Anterior</a>
+          {% endif %}
+        </div>
+        <div class="col-xs-6 inline end-xs">
+          {% if page.next.url != nil and page.next.tags contains 'project' %}
+            <a class="" href="{% if page.next.tags contains 'project' %}{{ page.next.url }}{% endif %}">Siguiente<span class="icon icon-long-arrow-right-light"></span></a>
+          {% endif %}
+        </div>
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- col end -->
+    </div>
+    <!-- row end -->
   </div>
   <!-- wrapper end -->
 </section>

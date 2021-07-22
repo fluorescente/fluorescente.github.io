@@ -1,5 +1,6 @@
 ---
 layout: project
+tags: project
 title: Volumen Vohnen
 logo: assets/images/projects/logos/volumen-vohnen-logo.svg
 image:

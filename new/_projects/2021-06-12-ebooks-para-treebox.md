@@ -1,5 +1,6 @@
 ---
 layout: project
+tags: project
 title: Ebooks para Treebox
 logo: assets/images/projects/logos/ebooks-para-treebox-logo.svg
 image:

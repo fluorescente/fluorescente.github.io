@@ -1,5 +1,6 @@
 ---
 layout: project
+tags: project
 title: Del arquitecto al graffitero, y del policía al maestro
 logo: assets/images/projects/logos/del-arquitecto-logo.svg
 image:

@@ -551,7 +551,7 @@ p, .base{
 
 .project-page{
   & .project-hero-image{
-    margin: $space 0 $two-spaces 0;
+    margin: $space 0 $space-and-half 0;
   }
   & .author-date{
     margin-bottom: $space;
@@ -560,7 +560,7 @@ p, .base{
     margin-bottom: $space-and-half;
   }
   & .content{
-    margin-bottom: $two-spaces;
+    margin-bottom: $three-spaces;
     & p{
       margin-bottom: $space;
     }

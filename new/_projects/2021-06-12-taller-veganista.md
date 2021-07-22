@@ -1,5 +1,6 @@
 ---
 layout: project
+tags: project
 title: Taller veganista
 logo: assets/images/projects/logos/taller-veganista-logo.svg
 image:
@@ -18,4 +19,4 @@ Generalmente el diseño de proyectos para la promoción del veganismo incorpora 
 
 El sitio está generado por Jekyll y se puede administrar desde el CMS Forestry.
 
-tallerveganista.com
+[talerveganista.com](https://tallerveganista.com/)

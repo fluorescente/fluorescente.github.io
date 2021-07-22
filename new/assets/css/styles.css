@@ -425,7 +425,7 @@ p, .base {
 }
 
 .project-page .project-hero-image {
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 1.5rem 0;
 }
 .project-page .author-date {
   margin-bottom: 1rem;
@@ -434,7 +434,7 @@ p, .base {
   margin-bottom: 1.5rem;
 }
 .project-page .content {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .project-page .content p {
   margin-bottom: 1rem;
