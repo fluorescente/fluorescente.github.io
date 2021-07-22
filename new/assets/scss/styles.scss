@@ -173,6 +173,11 @@ li{
   margin: 0;
 }
 
+button, input, optgroup, select, textarea{
+  font-family: $paragraphs;
+  color: $dark;
+}
+
 .ul-inline{
   display: inline-block;
   & li{
@@ -362,35 +367,6 @@ p, .base{
 }
 
 // home
-
-// Contact modal
-
-.contact-modal{
-  & .contact-modal-wrapper{
-    height: 100%;
-  }
-  & .contact-modal-body{
-    background-color: $brand;
-    color: $dark;
-    height: 100%;
-    display: block;
-  }
-  & .icon-close{
-    font-size: 1.75rem;
-    color: $dark;
-    padding: $space $space-and-half;
-    &:hover{
-      color: $brand;
-    }
-    & svg{
-      display: none;
-    }
-  }
-  & .contact-page{
-    margin-top: $six-spaces;
-  }
-}
-
 
 // mobile nav
 .modal-nav{
@@ -674,6 +650,70 @@ p, .base{
       }
     }
   }
+}
+
+// Contact modal
+
+.contact-modal{
+  & .contact-modal-wrapper{
+    height: 100%;
+  }
+  & .contact-modal-body{
+    background-color: $brand;
+    color: $dark;
+    height: 100%;
+    display: block;
+  }
+  & .icon-close{
+    font-size: 1.75rem;
+    color: $dark;
+    padding: $space $space-and-half;
+    &:hover{
+      color: $brand;
+    }
+    & svg{
+      display: none;
+    }
+  }
+  & .contact-page{
+    margin-top: $six-spaces;
+  }
+}
+
+// Form
+
+/*=== Contact form === */
+
+input, label{
+ display: block;
+ text-align: left;
+}
+
+label{
+ font-weight: 700;
+ margin-bottom: .6rem;
+ font-size: .9rem;
+}
+
+input, textarea{
+ width: 100%;
+ border-color: rgba(0, 0, 0, 0);
+ border-bottom: 1px solid #979797;
+ margin: 0 0 2rem 0;
+ padding: .6rem 0;
+ background-color:rgba(0, 0, 0, 0);
+}
+
+textarea{
+ height: 5rem;
+}
+
+button{
+ border-radius: 0;
+ border-color: rgba(0, 0, 0, 0);
+ display: block;
+ font-weight: 700;
+ cursor: pointer;
 }
 
 // Footer
