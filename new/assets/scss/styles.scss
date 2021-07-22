@@ -34,6 +34,8 @@ $regular-italic: 400i;
 $bold: 700;
 $bold-italic: 700i;
 
+$small-text: .79rem;
+
 // Space variables
 
 // 4px
@@ -286,6 +288,8 @@ p, .base{
   font-family: $headings;
   text-transform: uppercase;
   letter-spacing: .16rem;
+  font-size: $small-text;
+  line-height: 1.125rem;
 }
 
 // link/buttons
@@ -542,6 +546,24 @@ p, .base{
   margin: $space 0 $four-spaces 0;
   & li{
     margin-bottom: $two-spaces;
+  }
+}
+
+.project-page{
+  & .project-hero-image{
+    margin: $space 0 $two-spaces 0;
+  }
+  & .author-date{
+    margin-bottom: $space;
+  }
+  & h2{
+    margin-bottom: $space-and-half;
+  }
+  & .content{
+    margin-bottom: $two-spaces;
+    & p{
+      margin-bottom: $space;
+    }
   }
 }
 
