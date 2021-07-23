@@ -701,6 +701,7 @@ input, label{
 
 label{
  font-family: $headings;
+ margin-bottom: $half-space;
 }
 
 input, textarea{
@@ -713,7 +714,7 @@ input, textarea{
 }
 
 textarea{
- height: 5rem;
+ height: $six-spaces;
 }
 
 button{
@@ -738,6 +739,8 @@ button{
     &:hover{
       color: $dark;
       box-shadow: $box-shadow;
+      -webkit-transition: $transition-quick;
+      transition: $transition-quick;
     }
     & figure{
       margin-bottom: $space-and-half;

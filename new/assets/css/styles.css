@@ -558,6 +558,7 @@ input, label {
 
 label {
   font-family: "YoungSerif", serif;
+  margin-bottom: 0.5rem;
 }
 
 input, textarea {
@@ -570,7 +571,7 @@ input, textarea {
 }
 
 textarea {
-  height: 5rem;
+  height: 6rem;
 }
 
 button {
@@ -595,6 +596,8 @@ button {
 .posts-list .post-card:hover {
   color: #000;
   box-shadow: -1px -1px 17px -2px rgba(0, 0, 0, 0.13);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
 .posts-list .post-card figure {
   margin-bottom: 1.5rem;
