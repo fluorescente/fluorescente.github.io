@@ -724,6 +724,47 @@ button{
  cursor: pointer;
 }
 
+// Blog
+
+.posts-list{
+  margin-top: $space;
+  margin-bottom: $three-spaces;
+  & .post-card{
+    font-weight: $regular;
+    background-color: $gray-0;
+    padding: $two-spaces $space;
+    margin-bottom: $two-spaces;
+    border-radius: $half-space;
+    &:hover{
+      color: $dark;
+      box-shadow: $box-shadow;
+    }
+    & figure{
+      margin-bottom: $space-and-half;
+    }
+    & h3{
+      margin-bottom: $quarter-space;
+    }
+    .post-info{
+      margin-bottom: $two-spaces;
+    }
+  }
+}
+
+// Suscribe
+
+.suscribe{
+  padding: $two-spaces $space;
+  background-color: $gray-0;
+  margin-bottom: $three-spaces;
+  & h3{
+    margin-bottom: $two-spaces;
+  }
+  & form{
+    margin-bottom: $space;
+  }
+}
+
 // Footer
 
 footer{

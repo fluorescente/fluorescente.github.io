@@ -28,12 +28,12 @@ link_to_contact: Escríbenos
 link_to_more_projects: Ver más proyectos
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: fluorescente
-behance_username: fluorescente
-dribbble_username: fluorescente
-deviant_art_username: fluorescente
-meetup_username: fluorescente
-telegram_username: fluorescente
+github_url: https://github.com/fluorescente
+behance_url: https://www.behance.net/fluore_scente
+dribbble_url: https://dribbble.com/fluore_scente
+deviant_art_url: https://www.deviantart.com/fluore-scente
+telegram_url: https://t.me/joinchat/J9QQERoNyllnuRbAYo7iwg
+link_to_behance: Más proyectos en Behance
 # Build settings
 theme: minima
 plugins:

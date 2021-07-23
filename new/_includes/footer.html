@@ -35,23 +35,23 @@
       <div class="col-xs-12 center-xs">
         <p>@2021 Fluorescente. Hecho con <span class="icon icon-heart-fill"></span> en Medellín.</p>
         <ul class="center-xs ul-inline footer-social">
-          {% if site.github_username != nil %}
-            <li><a href="#" class="icon icon-github no-underline"></a></li>
+          {% if site.github_url != nil %}
+            <li><a href="{{ site.github_url }}" target="_blank" class="icon icon-github no-underline"></a></li>
           {% endif %}
-          {% if site.behance_username != nil %}
-            <li><a href="#" class="icon icon-behance no-underline"></a></li>
+          {% if site.behance_url != nil %}
+            <li><a href="{{ site.behance_url }}" target="_blank" class="icon icon-behance no-underline"></a></li>
           {% endif %}
-          {% if site.dribbble_username != nil %}
-            <li><a href="#" class="icon icon-dribbble no-underline"></a></li>
+          {% if site.dribbble_url != nil %}
+            <li><a href="{{ site.dribbble_url }}" target="_blank" class="icon icon-dribbble no-underline"></a></li>
           {% endif %}
-          {% if site.deviant_art_username != nil %}
-            <li><a href="#" class="icion icon-deviant-art no-underline"></a></li>
+          {% if site.deviant_art_url != nil %}
+            <li><a href="{{ site.deviant_art_url }}" target="_blank" class="icion icon-deviant-art no-underline"></a></li>
           {% endif %}
-          {% if site.meetup_username != nil %}
-            <li><a href="#" class="icon icon-meetup no-underline"></a></li>
+          {% if site.meetup_url != nil %}
+            <li><a href="{{ site.meetup_url }}" target="_blank" class="icon icon-meetup no-underline"></a></li>
           {% endif %}
-          {% if site.telegram_username != nil %}
-            <li><a href="#" class="icon icon-telegram no-underline"></a></li>
+          {% if site.telegram_url != nil %}
+            <li><a href="{{ site.telegram_url }}" target="_blank" class="icon icon-telegram no-underline"></a></li>
           {% endif %}
         </ul>
       </div>

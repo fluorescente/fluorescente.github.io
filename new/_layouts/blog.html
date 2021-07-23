@@ -1,21 +1,39 @@
 ---
 layout: basic_structure
 ---
-<section>
+<section class="blog">
   <!-- wrapper -->
   <div class="wrapper container-fluid">
-    <!-- row -->
-    <div class="row">
-      <!-- col -->
-      <div class="col-xs-12">
-        {% for post in site.posts %}
-          {% if post.tags contains 'blog-gallery' %}
-          {% endif %}
-        {% endfor %}  
-      </div>
-      <!-- col end -->
-    </div>
-    <!-- row end -->
+    <ul class="posts-list">
+    {% for post in site.posts %}
+      {% if post.tags contains 'blog-gallery' %}
+      <!-- row -->
+      <a href="{{ post.url }}">
+        <li class="post-card">
+          <div class="row">
+            <!-- col -->
+            <div class="col-xs-12">
+              <figure>
+                <img src="{{ post.image }}" alt="">
+              </figure>
+            </div>
+            <!-- col end -->
+            <div class="col-xs-12">
+              <h3>{{ post.title }}</h3>
+              <div class="post-info">
+                <p class="author-date small">{{ post.author }}</p>
+                <p class="author-date small">{% assign m = post.date | date: "%-m" %} {% case m %} {% when '1' %}Enero {% when '2' %}Febrero {% when '3' %}Marzo {% when '4' %}Abril {% when '5' %}Mayo {% when '6' %}Junio {% when '7' %}Julio {% when '8' %}Agosto {% when '9' %}Septiembre {% when '10' %}Octubre {% when '11' %}Noviembre {% when '12' %}Diciembre {% endcase %} {{ post.date | date: "%d" }} / {{ post.date | date: "%Y" }}</p>
+              </div>
+              <p>{{ post.excerpt | truncate: 300 }}</p>
+            </div>
+          </div>
+        </li>
+      </a>
+      <!-- row end -->
+      {% endif %}
+    {% endfor %}
+    </ul>
   </div>
   <!-- wrapper end -->
 </section>
+{% include suscribe.html %}
