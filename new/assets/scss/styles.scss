@@ -15,11 +15,15 @@ $brand: #40FC81;
 $gray-0: #FAFAFA;
 $gray-1: #F7F7F7;
 $gray-2: #C6C6C6;
+$gray-3: #949494;
+$gray-4: #636363;
+$gray-5: #313131;
 
 $transparent: rgba(0,0,0,0);
 $box-shadow: -1px -1px 17px -2px rgba(0,0,0,0.13);
 
 $border-line: 1px dotted $dark;
+$border-input: 1px solid $dark;
 
 $transition: .7s ease;
 $transition-quick: .4s ease;
@@ -33,8 +37,6 @@ $regular: 400;
 $regular-italic: 400i;
 $bold: 700;
 $bold-italic: 700i;
-
-$small-text: .79rem;
 
 // Space variables
 
@@ -293,7 +295,6 @@ p, .base{
   font-family: $headings;
   text-transform: uppercase;
   letter-spacing: .16rem;
-  font-size: $small-text;
   line-height: 1.125rem;
 }
 
@@ -659,9 +660,8 @@ p, .base{
     height: 100%;
   }
   & .contact-modal-body{
-    background-color: $brand;
+    background-color: $bright;
     color: $dark;
-    height: 100%;
     display: block;
   }
   & .icon-close{
@@ -677,12 +677,18 @@ p, .base{
   }
   & .contact-page{
     margin-top: $six-spaces;
+    margin-bottom: $two-spaces;
+    & a{
+      font-weight: $regular;
+    }
+  }
+  & form{
+    margin-top: $two-spaces;
+    margin-bottom: $space;
   }
 }
 
 // Form
-
-/*=== Contact form === */
 
 input, label{
  display: block;
@@ -690,17 +696,15 @@ input, label{
 }
 
 label{
- font-weight: 700;
- margin-bottom: .6rem;
- font-size: .9rem;
+ font-family: $headings;
 }
 
 input, textarea{
  width: 100%;
  border-color: rgba(0, 0, 0, 0);
- border-bottom: 1px solid #979797;
- margin: 0 0 2rem 0;
- padding: .6rem 0;
+ border-bottom: $border-input;
+ margin: 0 0 $space-and-half 0;
+ padding: $half-space 0;
  background-color:rgba(0, 0, 0, 0);
 }
 
