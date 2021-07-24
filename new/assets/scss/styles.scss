@@ -473,6 +473,12 @@ p, .base{
       height: 100%;
       display: grid;
     }
+    & .index-project-logo{
+      text-align: left;
+      & img{
+        width: inherit;
+      }
+    }
   }
   & .index-project-info{
     & h6{
@@ -750,6 +756,63 @@ button{
     }
     .post-info{
       margin-bottom: $two-spaces;
+    }
+  }
+}
+
+// Post
+
+.post{
+  margin-bottom: $four-spaces;
+  & .post-hero-image{
+    margin-top: $space;
+    margin-bottom: $space-and-half;
+  }
+  & .post-info{
+    margin-bottom: $half-space;
+  }
+  & h2{
+    margin-bottom: $two-spaces;
+  }
+  & .content{
+    margin-bottom: $four-spaces;
+    & p{
+      margin-bottom: $space;
+    }
+  }
+  & .prev-next{
+    & a{
+      font-weight: $regular;
+      &:hover{
+        color: $brand;
+      }
+      & .icon{
+        font-size: $two-spaces;
+      }
+    }
+  }
+}
+
+// Drawings
+
+.drawings-gallery{
+  margin-top: $space;
+  & a{
+    font-weight: $regular;
+    &:hover{
+      color: $dark;
+      & h6{
+        color: $brand;
+      }
+    }
+  }
+  & li{
+    margin-bottom: $three-spaces;
+    & figure{
+      margin-bottom: $space;
+    }
+    & h6{
+      margin-bottom: $half-space-and-quarter;
     }
   }
 }

@@ -358,6 +358,12 @@ p, .base {
   height: 100%;
   display: grid;
 }
+.index-projects .index-project .index-project-logo {
+  text-align: left;
+}
+.index-projects .index-project .index-project-logo img {
+  width: inherit;
+}
 .index-projects .index-project-info h6 {
   margin-bottom: 0.25rem;
 }
@@ -607,6 +613,57 @@ button {
 }
 .posts-list .post-card .post-info {
   margin-bottom: 2rem;
+}
+
+.post {
+  margin-bottom: 4rem;
+}
+.post .post-hero-image {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.post .post-info {
+  margin-bottom: 0.5rem;
+}
+.post h2 {
+  margin-bottom: 2rem;
+}
+.post .content {
+  margin-bottom: 4rem;
+}
+.post .content p {
+  margin-bottom: 1rem;
+}
+.post .prev-next a {
+  font-weight: 400;
+}
+.post .prev-next a:hover {
+  color: #40FC81;
+}
+.post .prev-next a .icon {
+  font-size: 2rem;
+}
+
+.drawings-gallery {
+  margin-top: 1rem;
+}
+.drawings-gallery a {
+  font-weight: 400;
+}
+.drawings-gallery a:hover {
+  color: #000;
+}
+.drawings-gallery a:hover h6 {
+  color: #40FC81;
+}
+.drawings-gallery li {
+  margin-bottom: 3rem;
+}
+.drawings-gallery li figure {
+  margin-bottom: 1rem;
+}
+.drawings-gallery li h6 {
+  margin-bottom: 0.75rem;
 }
 
 .suscribe {
