@@ -199,6 +199,11 @@ p, .base {
   line-height: 1.266rem;
 }
 
+.p-micro, .micro {
+  font-size: 0.702rem;
+  line-height: 1.125rem;
+}
+
 .author-date {
   font-family: "YoungSerif", serif;
   text-transform: uppercase;
