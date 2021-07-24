@@ -7,24 +7,23 @@ layout: basic_structure
     <!-- row -->
     <div class="row">
       <ul class="drawings-gallery">
-        {% for post in site.posts %}
-          {% if post.tags contains 'blog-gallery' %}
-          <a href="{{ post.url }}">
+        {% for drawing in site.drawings %}
+          <a uk-toggle="target: #{{ drawing.drawing_id }}">
             <li>
               <!-- col -->
               <div class="col-xs-12">
                 <div class="drawing">
                   <figure>
-                    <img src="{{ post.image }}" alt="">
+                    <img src="{{ drawing.image }}" alt="">
                   </figure>
-                  <h6>{{ post.title }}</h6>
-                  <p class="author-date small">{{ post.author }}</p>
+                  <h4>{{ drawing.title }}</h4>
+                  <p class="author-date small">{{ drawing.author }}</p>
                 </div>
               </div>
               <!-- col end -->
             </li>
           </a>
-          {% endif %}
+          {% include drawing_modal.html %}
         {% endfor %}
       </ul>
     </div>

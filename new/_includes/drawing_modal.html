@@ -1,0 +1,30 @@
+<div id="{{ drawing.drawing_id }}" class="drawing-modal contact-modal modal-nav uk-modal-full" uk-modal>
+  <!-- modal dialog -->
+  <div class="uk-modal-dialog uk-modal-body contact-modal-body">
+    <!-- wrapper -->
+    <div class="wrapper container-fluid contact-modal-wrapper">
+      <!-- row -->
+      <div class="row top-xs">
+        <a class="uk-modal-close-default icon icon-close" uk-close></a>
+      </div>
+      <!-- row end -->
+      <!-- row -->
+      <div class="row">
+        <!-- col -->
+        <div class="col-xs-12">
+          <div class="drawing-open">
+            <figure>
+              <img src="{{ drawing.image }}" alt="">
+            </figure>
+            <h4>{{ drawing.title }}</h4>
+            <p class="author-date small">{{ drawing.author }}</p>
+          </div>
+        </div>
+        <!-- col end -->
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- wrapper end -->
+  </div>
+  <!-- modal dialog end  -->
+</div>

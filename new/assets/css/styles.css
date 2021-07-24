@@ -527,7 +527,7 @@ p, .base {
 }
 
 .contact-modal .contact-modal-wrapper {
-  height: 100%;
+  height: 100vh;
 }
 .contact-modal .contact-modal-body {
   background-color: #FFF;
@@ -653,7 +653,7 @@ button {
 .drawings-gallery a:hover {
   color: #000;
 }
-.drawings-gallery a:hover h6 {
+.drawings-gallery a:hover h4, .drawings-gallery a:hover h5, .drawings-gallery a:hover h6 {
   color: #40FC81;
 }
 .drawings-gallery li {
@@ -662,8 +662,18 @@ button {
 .drawings-gallery li figure {
   margin-bottom: 1rem;
 }
-.drawings-gallery li h6 {
-  margin-bottom: 0.75rem;
+.drawings-gallery li h4, .drawings-gallery li h5, .drawings-gallery li h6 {
+  margin-bottom: 0.5rem;
+}
+
+.drawing-open {
+  margin-top: 4rem;
+}
+.drawing-open figure {
+  margin-bottom: 1rem;
+}
+.drawing-open h4, .drawing-open h5, .drawing-open h6 {
+  margin-bottom: 0.5rem;
 }
 
 .suscribe {
