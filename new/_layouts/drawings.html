@@ -7,8 +7,9 @@ layout: basic_structure
     <!-- row -->
     <div class="row">
       <ul class="drawings-gallery">
-        {% for drawing in site.drawings %}
+
           <div uk-lightbox>
+            {% for drawing in site.drawings %}
             <a href="{{ drawing.image }}">
               <li>
                 <!-- col -->
@@ -24,8 +25,9 @@ layout: basic_structure
                 <!-- col end -->
               </li>
             </a>
+            {% endfor %}
           </div>
-        {% endfor %}
+
       </ul>
     </div>
     <!-- row end -->
