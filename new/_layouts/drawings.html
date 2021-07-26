@@ -8,22 +8,23 @@ layout: basic_structure
     <div class="row">
       <ul class="drawings-gallery">
         {% for drawing in site.drawings %}
-          <a uk-toggle="target: #{{ drawing.drawing_id }}">
-            <li>
-              <!-- col -->
-              <div class="col-xs-12">
-                <div class="drawing">
-                  <figure>
-                    <img src="{{ drawing.image }}" alt="">
-                  </figure>
-                  <h4>{{ drawing.title }}</h4>
-                  <p class="author-date small">{{ drawing.author }}</p>
+          <div uk-lightbox>
+            <a href="{{ drawing.image }}">
+              <li>
+                <!-- col -->
+                <div class="col-xs-12">
+                  <div class="drawing">
+                    <figure>
+                      <img src="{{ drawing.image }}" alt="">
+                    </figure>
+                    <h4>{{ drawing.title }}</h4>
+                    <!-- <p class="author-date small">{{ drawing.author }}</p> -->
+                  </div>
                 </div>
-              </div>
-              <!-- col end -->
-            </li>
-          </a>
-          {% include drawing_modal.html %}
+                <!-- col end -->
+              </li>
+            </a>
+          </div>
         {% endfor %}
       </ul>
     </div>
