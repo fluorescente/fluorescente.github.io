@@ -8,10 +8,13 @@
 
 // Color variables
 
-$brand: #FFB6C6;
-$dark: #000;
-$bright: #FFF;
 $brand: #40FC81;
+$brand: #B431F4;
+$brand: #46E4BC;
+$brand: #23EEB4;
+$dark: #000;
+// $dark: #4D1D47;
+$bright: #FFF;
 $gray-0: #FAFAFA;
 $gray-1: #F7F7F7;
 $gray-2: #C6C6C6;
@@ -37,6 +40,8 @@ $regular: 400;
 $regular-italic: 400i;
 $bold: 700;
 $bold-italic: 700i;
+
+$small: 0.79rem;
 
 // Space variables
 
@@ -210,7 +215,7 @@ button, input, optgroup, select, textarea{
   &:hover{
     color: $dark;
     &:after{
-      background-color: $dark;
+      background-color: $brand;
     }
   }
 }
@@ -237,7 +242,12 @@ h1, h2, h3, h4, h5, h6{
 
 // Headings
 
-h1, h1-giant{
+.h1-giant{
+  font-size: 3.653rem;
+  line-height: 5.202rem;
+}
+
+h1{
   font-size: 2.027rem;
   line-height: 2.887rem;
 }
@@ -490,6 +500,11 @@ p, .base{
       margin-bottom: $quarter-space;
     }
   }
+  & .uk-slidenav-previous, .uk-slidenav-next{
+    &:after{
+      content: "";
+    }
+  }
   & .slideshow-controls{
     & a{
       font-size: $space-and-half;
@@ -526,12 +541,12 @@ p, .base{
       border-bottom: 0;
       border-radius: 50%;
       &:hover{
-        background-color: $dark;
+        background-color: $brand;
       }
     }
     & .uk-active{
       & a{
-        background-color: $dark;
+        background-color: $brand;
       }
     }
   }
@@ -832,6 +847,61 @@ button{
   }
 }
 
+.uk-lightbox{
+  background-color: $bright;
+  & .uk-close{
+    margin: $space-and-half $space;
+    color: $dark;
+    font-family: 'icomoon';
+    font-size: 1.75rem;
+    &:hover, &:active, &:focus{
+      color: $brand;
+    }
+    &:after{
+      content: "\e908";
+    }
+    & svg{
+      display: none;
+    }
+  }
+}
+
+.uk-lightbox-toolbar{
+  background: $transparent;
+}
+
+.uk-lightbox-caption{
+  color: $dark;
+  font-family: $headings;
+  padding-bottom: $two-spaces;
+  // font-size: $small;
+}
+
+.uk-lightbox-button{
+  color: $dark;
+  background-color: $transparent;
+  font-family: "icomoon";
+  font-size: $two-spaces;
+  &:hover, &:active, &:focus{
+    color: $brand;
+  }
+  & svg{
+    display: none;
+  }
+}
+
+.uk-slidenav-previous{
+  &:after{
+    content: "\e903";
+  }
+}
+
+.uk-slidenav-next{
+  &:after{
+    content: "\e904";
+  }
+}
+
 // Suscribe
 
 .suscribe{
@@ -882,5 +952,20 @@ footer{
         margin-right: 0;
       }
     }
+  }
+}
+
+// 404
+
+.four-zero-four{
+  margin: $three-spaces 0 $four-spaces 0;
+  & figure{
+    margin-bottom: -$half-space;
+  }
+  & h1{
+    margin-bottom: $quarter-space;
+  }
+  & p{
+    margin-bottom: $space;
   }
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "YoungSerif", serif;
   src: url("../fonts/young-serif/YoungSerif-Regular.eot");
@@ -70,10 +71,10 @@ a {
   font-weight: 700;
   color: #000;
   text-decoration: none;
-  border-bottom: 1px solid #40FC81;
+  border-bottom: 1px solid #23EEB4;
 }
 a:hover {
-  color: #40FC81;
+  color: #23EEB4;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   text-decoration: none;
 }
@@ -125,7 +126,7 @@ button, input, optgroup, select, textarea {
   color: #000;
 }
 .custom-underline:hover:after {
-  background-color: #000;
+  background-color: #23EEB4;
 }
 
 .break {
@@ -145,7 +146,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 
-h1, h1-giant {
+.h1-giant {
+  font-size: 3.653rem;
+  line-height: 5.202rem;
+}
+
+h1 {
   font-size: 2.027rem;
   line-height: 2.887rem;
 }
@@ -251,7 +257,7 @@ p, .base {
 }
 .button-dark:hover {
   color: #000;
-  background-color: #40FC81;
+  background-color: #23EEB4;
 }
 
 .main-nav-mobile {
@@ -289,7 +295,7 @@ p, .base {
   border-bottom: 0;
 }
 .modal-nav .modal-nav-body a:hover {
-  color: #40FC81;
+  color: #23EEB4;
   border-bottom: 0;
 }
 .modal-nav .modal-nav-body .icon-close {
@@ -298,7 +304,7 @@ p, .base {
   padding: 1rem 1.5rem;
 }
 .modal-nav .modal-nav-body .icon-close:hover {
-  color: #40FC81;
+  color: #23EEB4;
 }
 .modal-nav .modal-nav-body .icon-close svg {
   display: none;
@@ -372,13 +378,16 @@ p, .base {
 .index-projects .index-project-info h6 {
   margin-bottom: 0.25rem;
 }
+.index-projects .uk-slidenav-previous:after, .index-projects .uk-slidenav-next:after {
+  content: "";
+}
 .index-projects .slideshow-controls a {
   font-size: 1.5rem;
   color: #000;
   border-bottom: 0;
 }
 .index-projects .slideshow-controls a:hover {
-  color: #40FC81;
+  color: #23EEB4;
   border-bottom: 0;
 }
 .index-projects .slideshow-controls a svg {
@@ -408,10 +417,10 @@ p, .base {
   border-radius: 50%;
 }
 .index-projects .slideshow-dotnav a:hover {
-  background-color: #000;
+  background-color: #23EEB4;
 }
 .index-projects .slideshow-dotnav .uk-active a {
-  background-color: #000;
+  background-color: #23EEB4;
 }
 
 .project-cards {
@@ -545,7 +554,7 @@ p, .base {
   padding: 1rem 1.5rem;
 }
 .contact-modal .icon-close:hover {
-  color: #40FC81;
+  color: #23EEB4;
 }
 .contact-modal .icon-close svg {
   display: none;
@@ -643,7 +652,7 @@ button {
   font-weight: 400;
 }
 .post .prev-next a:hover {
-  color: #40FC81;
+  color: #23EEB4;
 }
 .post .prev-next a .icon {
   font-size: 2rem;
@@ -659,7 +668,7 @@ button {
   color: #000;
 }
 .drawings-gallery a:hover h4, .drawings-gallery a:hover h5, .drawings-gallery a:hover h6 {
-  color: #40FC81;
+  color: #23EEB4;
 }
 .drawings-gallery li {
   margin-bottom: 3rem;
@@ -679,6 +688,56 @@ button {
 }
 .drawing-open h4, .drawing-open h5, .drawing-open h6 {
   margin-bottom: 0.5rem;
+}
+
+.uk-lightbox {
+  background-color: #FFF;
+}
+.uk-lightbox .uk-close {
+  margin: 1.5rem 1rem;
+  color: #000;
+  font-family: "icomoon";
+  font-size: 1.75rem;
+}
+.uk-lightbox .uk-close:hover, .uk-lightbox .uk-close:active, .uk-lightbox .uk-close:focus {
+  color: #23EEB4;
+}
+.uk-lightbox .uk-close:after {
+  content: "";
+}
+.uk-lightbox .uk-close svg {
+  display: none;
+}
+
+.uk-lightbox-toolbar {
+  background: rgba(0, 0, 0, 0);
+}
+
+.uk-lightbox-caption {
+  color: #000;
+  font-family: "YoungSerif", serif;
+  padding-bottom: 2rem;
+}
+
+.uk-lightbox-button {
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "icomoon";
+  font-size: 2rem;
+}
+.uk-lightbox-button:hover, .uk-lightbox-button:active, .uk-lightbox-button:focus {
+  color: #23EEB4;
+}
+.uk-lightbox-button svg {
+  display: none;
+}
+
+.uk-slidenav-previous:after {
+  content: "";
+}
+
+.uk-slidenav-next:after {
+  content: "";
 }
 
 .suscribe {
@@ -703,7 +762,7 @@ footer a {
   border-bottom: 0;
 }
 footer a:hover {
-  color: #40FC81 !important;
+  color: #23EEB4 !important;
   border-bottom: 0;
 }
 footer .footer-nav {
@@ -728,6 +787,19 @@ footer .footer-social li {
 }
 footer .footer-social li:last-child {
   margin-right: 0;
+}
+
+.four-zero-four {
+  margin: 3rem 0 4rem 0;
+}
+.four-zero-four figure {
+  margin-bottom: -0.5rem;
+}
+.four-zero-four h1 {
+  margin-bottom: 0.25rem;
+}
+.four-zero-four p {
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

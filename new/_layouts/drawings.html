@@ -10,7 +10,7 @@ layout: basic_structure
 
           <div uk-lightbox>
             {% for drawing in site.drawings %}
-            <a href="{{ drawing.image }}">
+            <a href="{{ drawing.image }}" data-caption="{{ drawing.title }} / {{ drawing.author }}">
               <li>
                 <!-- col -->
                 <div class="col-xs-12">
