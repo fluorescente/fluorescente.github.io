@@ -12,7 +12,7 @@ layout: basic_structure
         <ul class="project-cards">
           {% for project in site.projects reversed %}
             <a href="{{ project.url }}">
-              <li uk-scrollspy="cls: uk-animation-fade; delay: 100">
+              <li uk-scrollspy="cls: uk-animation-fade; delay: 100" class="{{ project.card_class }}">
                 <!-- col -->
                 <div class="col-xs-4">
                   <figure class="project-card-logo">

@@ -565,6 +565,7 @@ p, .base{
     margin-bottom: $two-spaces;
     padding: $space-and-half $space $space;
     padding-bottom: $two-spaces;
+    background-size: cover;
     height: 28rem;
     &:hover{
       color: $dark;

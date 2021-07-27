@@ -435,6 +435,7 @@ p, .base {
   margin-bottom: 2rem;
   padding: 1.5rem 1rem 1rem;
   padding-bottom: 2rem;
+  background-size: cover;
   height: 28rem;
 }
 .project-cards li:hover {
