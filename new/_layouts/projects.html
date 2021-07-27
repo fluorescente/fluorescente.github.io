@@ -12,7 +12,7 @@ layout: basic_structure
         <ul class="project-cards">
           {% for project in site.projects reversed %}
             <a href="{{ project.url }}">
-              <li>
+              <li uk-scrollspy="cls: uk-animation-fade; delay: 100">
                 <!-- col -->
                 <div class="col-xs-4">
                   <figure class="project-card-logo">
@@ -46,7 +46,7 @@ layout: basic_structure
       <!-- col end -->
     </div>
     <!-- row end -->
-    <div class="row">
+    <div class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
       <!-- col -->
       <div class="col-xs-12 center-xs">
         <ul class="projects-end">

@@ -7,10 +7,9 @@ layout: basic_structure
     <!-- row -->
     <div class="row">
       <ul class="drawings-gallery">
-
           <div uk-lightbox>
             {% for drawing in site.drawings %}
-            <a href="{{ drawing.image }}" data-caption="{{ drawing.title }} / {{ drawing.author }}">
+            <a href="{{ drawing.image }}" data-caption="{{ drawing.title }} / {{ drawing.author }}" uk-scrollspy="cls: uk-animation-fade; delay: 100">
               <li>
                 <!-- col -->
                 <div class="col-xs-12">

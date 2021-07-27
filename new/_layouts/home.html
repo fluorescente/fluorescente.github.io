@@ -5,7 +5,7 @@ layout: basic_structure
   <!-- wrapper -->
   <div class="wrapper container-fluid">
     <!-- row -->
-    <div class="row">
+    <div class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
       <!-- col -->
       <div class="col-xs-12 center-xs col-lg-9 start-sm">
         <h1>{{ page.header_title }}</h1>
@@ -26,7 +26,7 @@ layout: basic_structure
   <!-- wrapper -->
   <div class="wrapper container-fluid">
     <!-- row -->
-    <div class="row">
+    <div class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
       <!-- col -->
       <div class="col-xs-12 center-xs">
         <!-- slideshow -->
@@ -86,7 +86,7 @@ layout: basic_structure
     </div>
     <!-- row end -->
     <!-- row -->
-    <div class="row">
+    <div class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
       <!-- col -->
       <div class="col-xs-12 center-xs">
         <a href="/proyectos/" class="link link-base no-underline custom-underline">{{ site.link_to_more_projects }}</a>
@@ -102,7 +102,7 @@ layout: basic_structure
   <!-- wrapper -->
   <div class="wrapper container-fluid">
     <!-- row -->
-    <div class="row">
+    <div class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
       <!-- col -->
       <div class="col-xs-12">
         <h3>{{ page.services_title }}</h3>
@@ -111,7 +111,7 @@ layout: basic_structure
     </div>
     <!-- row end -->
     <!-- row -->
-    <ul class="row">
+    <ul class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
       {% for service in site.services %}
       <!-- col -->
       <li class="col-xs-12 col-sm-4">
@@ -134,7 +134,7 @@ layout: basic_structure
   <!-- wrapper -->
   <div class="wrapper container-fluid">
     <!-- row -->
-    <div class="row">
+    <div class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
       <!-- col -->
       <div class="col-xs-12">
         <h3>{{ page.team_title }}</h3>
@@ -146,7 +146,7 @@ layout: basic_structure
     <ul class="row">
       {% for team_member in site.team_members %}
         <!-- col -->
-        <div class="col-xs-12 col-lg-6 team-member">
+        <div class="col-xs-12 col-lg-6 team-member" uk-scrollspy="cls: uk-animation-fade; delay: 100">
           <!-- row member-->
           <li class="row center-xs start-sm">
             <!-- col -->
@@ -179,7 +179,7 @@ layout: basic_structure
     </ul>
     <!-- row end -->
     <!-- row -->
-    <div class="row">
+    <div class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
       <!-- col -->
       <div class="col-xs-12 center-xs">
         <a uk-toggle="target: #contact-modal" class="link link-base no-underline custom-underline">{{ site.link_to_contact }}</a>
