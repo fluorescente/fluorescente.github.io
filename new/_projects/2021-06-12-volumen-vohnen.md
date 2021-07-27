@@ -6,7 +6,9 @@ logo: assets/images/projects/logos/volumen-vohnen-logo.svg
 image:
 thumbnail:
 thumbnail_big: assets/images/projects/thumbnails/volumen-vohnen-thumbnail-big.png
-hero-image:
+hero_image:
+square_image:
+card_class: volumen-vohnen-card
 excerpt: Una marca de diseño de muebles que se enfoca en el uso inteligente de espacios reducidos.
 categories:
 - Identidad visual

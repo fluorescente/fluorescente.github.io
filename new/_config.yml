@@ -23,9 +23,9 @@ email: hola@fluorescente.design
 description: >- # this means to ignore newlines until "baseurl:"
   Identidad visual, ilustraciones y sitios web para organizaciones conscientes y amigables.
 author: Fluore_scente
-link_to_projects: Ver proyectos
+link_to_projects: Proyectos
 link_to_contact: Escríbenos
-link_to_more_projects: Ver más proyectos
+link_to_more_projects: Más proyectos
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_url: https://github.com/fluorescente

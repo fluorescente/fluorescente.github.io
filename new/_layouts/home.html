@@ -8,7 +8,7 @@ layout: basic_structure
     <div class="row">
       <!-- col -->
       <div class="col-xs-12 center-xs col-lg-9 start-sm">
-        <h1 class="start-xs">{{ page.header_title }}</h1>
+        <h1>{{ page.header_title }}</h1>
         <nav>
           <a href="/proyectos/" class="button button-big button-dark">{{ site.link_to_projects }}</a>
           <div class="break hidden-sm"></div>
@@ -30,10 +30,10 @@ layout: basic_structure
       <!-- col -->
       <div class="col-xs-12 center-xs">
         <!-- slideshow -->
-        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: slide; ratio: 3:5">
+        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: slide; ratio: 3:5; autoplay: true">
           <ul class="uk-slideshow-items">
             {% for project in site.projects reversed %}
-              <a href="{{ project.url }}" class="index-project">
+              <a href="{{ project.url }}" class="index-project {{ project.card_class }}">
                 <li>
                   <!-- col -->
                   <div class="col-xs-5">

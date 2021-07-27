@@ -7,6 +7,8 @@ image:
 thumbnail:
 thumbnail_big: assets/images/projects/thumbnails/taller-veganista-thumbnail-big.png
 hero_image: assets/images/projects/hero/taller-veganista-hero.jpg
+square_image:
+card_class: taller-veganista-card
 excerpt: Apoyando el movimiento antiespecista y a las personas que quieren hacerse veganas.
 categories:
 - Identidad visual

@@ -61,6 +61,8 @@ $two-spaces: 2rem;
 $three-spaces: 3rem;
 // 64px
 $four-spaces: 4rem;
+// 80px
+$five-spaces: 5rem;
 // 96px
 $six-spaces: 6rem;
 // 128px
@@ -476,6 +478,8 @@ p, .base{
     padding: $space-and-half;
     border-bottom: 0;
     font-weight: normal;
+    background-size: cover;
+    cursor: pointer;
     &:hover{
       font-weight: normal;
       color: $dark;
@@ -620,10 +624,34 @@ p, .base{
   }
 }
 
+.taller-veganista-card{
+  background-color: #FFB6C6 !important;
+  background-image: url(../images/backgrounds/taller-veganista-card-background-xs.jpg);
+}
+
+.del-arquitecto-card{
+  background-color: #f2eee9 !important;
+  background-image: url(../images/backgrounds/del-arquitecto-card-background-xs.jpg);
+}
+
+.volumen-vohnen-card{
+  background-color: #fec611 !important;
+  background-image: url(../images/backgrounds/volumen-vohnen-background-xs.png);
+}
+
+.treebox-ebooks-card{
+  background-color: #e2f1f7 !important;
+  background-image: url(../images/backgrounds/treebox-ebooks-background-xs.png);
+  // & h3, h6, p{
+  //   color: $bright;
+  // }
+}
+
+
 // services
 
 .services{
-  padding: $three-spaces 0;
+  padding: $three-spaces 0 $four-spaces 0;
   & h3{
     margin-bottom: $two-spaces;
   }
@@ -975,5 +1003,23 @@ footer{
   }
   & p{
     margin-bottom: $space;
+  }
+}
+
+// Suscribe / cancel
+
+.suscribe-unsuscribe{
+  & .content{
+    height: 100vh;
+  }
+  & .logo{
+    font-size: $five-spaces;
+    margin-bottom: $space;
+  }
+  & h2{
+    margin-bottom: $space;
+  }
+  & p{
+    margin-bottom: $three-spaces;
   }
 }
