@@ -16,11 +16,11 @@ $dark: #000;
 $blanch: #fff;
 $bright: #fff;
 $gray-0: #f9f8f7;
-$gray-1: #F7F7F7;
-$gray-2: #C6C6C6;
-$gray-3: #949494;
-$gray-4: #636363;
-$gray-5: #313131;
+$gray-1: #d9d7d5;
+$gray-2: #b9b6b4;
+$gray-3: #999592;
+$gray-4: #787470;
+$gray-5: #58534f;
 
 $transparent: rgba(0,0,0,0);
 $box-shadow: -1px -1px 17px -2px rgba(0,0,0,0.13);
@@ -467,8 +467,8 @@ p, .base{
 .index-projects{
   padding: $three-spaces 0 $four-spaces 0;
   background-color: $gray-0;
-  // background-image: url(../images/backgrounds/projects.png);
-  background-size: cover;
+  background-image: url(../images/backgrounds/projects-sm.png);
+  background-size: contain;
   & .index-project{
     border-radius: $half-space;
     background-color: $blanch;
@@ -559,7 +559,7 @@ p, .base{
     background-color: $gray-0;
     display: grid;
     margin-bottom: $two-spaces;
-    padding: $space;
+    padding: $space-and-half $space $space;
     padding-bottom: $two-spaces;
     height: 28rem;
     &:hover{
@@ -576,6 +576,11 @@ p, .base{
       }
       & p{
         font-weight: $regular;
+      }
+    }
+    & .project-card-logo{
+      & img{
+        width: inherit;
       }
     }
   }
@@ -642,7 +647,7 @@ p, .base{
 
 .team{
   background-color: $gray-0;
-  // background-image: url(../images/backgrounds/team-xs.png);
+  background-image: url(../images/backgrounds/team-xs.png);
   background-size: cover;
   padding: $three-spaces 0;
   & h3{

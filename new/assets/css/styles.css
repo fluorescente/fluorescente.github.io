@@ -346,7 +346,8 @@ p, .base {
 .index-projects {
   padding: 3rem 0 4rem 0;
   background-color: #f9f8f7;
-  background-size: cover;
+  background-image: url(../images/backgrounds/projects-sm.png);
+  background-size: contain;
 }
 .index-projects .index-project {
   border-radius: 0.5rem;
@@ -411,7 +412,7 @@ p, .base {
   display: inline-block;
   width: 0.375rem;
   height: 0.375rem;
-  background-color: #C6C6C6;
+  background-color: #b9b6b4;
   border-bottom: 0;
   border-radius: 50%;
 }
@@ -430,7 +431,7 @@ p, .base {
   background-color: #f9f8f7;
   display: grid;
   margin-bottom: 2rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem 1rem;
   padding-bottom: 2rem;
   height: 28rem;
 }
@@ -445,6 +446,9 @@ p, .base {
 }
 .project-cards li .project-info p {
   font-weight: 400;
+}
+.project-cards li .project-card-logo img {
+  width: inherit;
 }
 
 .projects-end {
@@ -500,6 +504,7 @@ p, .base {
 
 .team {
   background-color: #f9f8f7;
+  background-image: url(../images/backgrounds/team-xs.png);
   background-size: cover;
   padding: 3rem 0;
 }
