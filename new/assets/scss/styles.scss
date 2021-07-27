@@ -13,9 +13,9 @@ $brand: #B431F4;
 $brand: #46E4BC;
 $brand: #23EEB4;
 $dark: #000;
-// $dark: #4D1D47;
-$bright: #FFF;
-$gray-0: #FAFAFA;
+$blanch: #fff;
+$bright: #fff;
+$gray-0: #f9f8f7;
 $gray-1: #F7F7F7;
 $gray-2: #C6C6C6;
 $gray-3: #949494;
@@ -467,11 +467,11 @@ p, .base{
 .index-projects{
   padding: $three-spaces 0 $four-spaces 0;
   background-color: $gray-0;
-  background-image: url(../images/backgrounds/projects.png);
+  // background-image: url(../images/backgrounds/projects.png);
   background-size: cover;
   & .index-project{
     border-radius: $half-space;
-    background-color: $bright;
+    background-color: $blanch;
     margin-bottom: $space;
     padding: $space-and-half;
     border-bottom: 0;
@@ -642,7 +642,7 @@ p, .base{
 
 .team{
   background-color: $gray-0;
-  background-image: url(../images/backgrounds/team-xs.png);
+  // background-image: url(../images/backgrounds/team-xs.png);
   background-size: cover;
   padding: $three-spaces 0;
   & h3{
@@ -942,6 +942,9 @@ footer{
     & a{
       font-size: $four-spaces;
     }
+  }
+  & .icon-heart-fill{
+    color: $brand;
   }
   & .footer-social{
     margin-top: $space;
