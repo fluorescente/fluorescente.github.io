@@ -8,9 +8,6 @@
 
 // Color variables
 
-$brand: #40FC81;
-$brand: #B431F4;
-$brand: #46E4BC;
 $brand: #23EEB4;
 $dark: #000;
 $blanch: #fff;
@@ -367,6 +364,10 @@ p, .base{
     color: $dark;
     background-color: $brand;
   }
+}
+
+.input-button{
+  width: inherit;
 }
 
 // main nav mobile

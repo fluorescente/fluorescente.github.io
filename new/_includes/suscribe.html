@@ -8,10 +8,10 @@
         <!-- col -->
         <div class="col-xs-12">
           <h3>{{ site.suscribe_call_to_action }}</h3>
-          <form class="contact-form" action="https://formspree.io/f/mleojvdq" method="POST">
-            <label for="email">Correo electrónico*</label>
-            <input type="email" id="email" name="email">
-            <button class="button button-big button-dark" type="submit">{{ site.suscribe_button }}</button>
+          <form class="contact-form embeddable-buttondown-form" action="https://buttondown.email/api/emails/embed-subscribe/fluore_scente" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/fluore_scente', 'popupwindow')"
+            <label for="bd-email">Correo electrónico*</label>
+            <input type="email" id="bd-email" name="email">
+            <input class="button button-big button-dark input-button" type="submit" name="" value="{{ site.suscribe_button }}">
           </form>
           <p class="p-small">*Campos requeridos</p>
         </div>

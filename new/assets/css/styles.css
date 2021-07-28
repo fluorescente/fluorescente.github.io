@@ -261,6 +261,10 @@ p, .base {
   background-color: #23EEB4;
 }
 
+.input-button {
+  width: inherit;
+}
+
 .main-nav-mobile {
   padding: 1rem 0;
 }
