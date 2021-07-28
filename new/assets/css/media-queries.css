@@ -183,6 +183,10 @@
     letter-spacing: 0.18rem;
     margin-bottom: 0.75rem !important;
   }
+
+  .four-zero-four p {
+    margin-bottom: 2rem;
+  }
 }
 @media only screen and (min-width: 62em) {
   .visible-lg {

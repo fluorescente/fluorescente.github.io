@@ -271,6 +271,12 @@ $eight-spaces: 8rem;
       }
     }
   }
+  // 404
+  .four-zero-four{
+    & p{
+      margin-bottom: $two-spaces;
+    }
+  }
 }
 
 // lg - from 962

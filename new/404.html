@@ -12,9 +12,9 @@ button: Ir al inicio
     <!-- row -->
     <div class="row center-xs">
       <!-- col -->
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-offset-1 col-sm-10">
         <figure>
-          <img src="{{ page.image }}" alt="">
+          <img src="{{ page.image | relative_url }}" alt="">
         </figure>
         <h1 class="h1-giant">{{ page.title }}</h1>
         <p>{{ page.paragraph }}</p>
