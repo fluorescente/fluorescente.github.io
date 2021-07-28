@@ -119,7 +119,7 @@ $eight-spaces: 8rem;
   .link-base, .button-big{
     font-size: 1.125rem;
     line-height: 1.802rem;
-    letter-spacing: .23rem;
+    letter-spacing: .30rem;
   }
   // Buttons
   .button-big{
@@ -132,6 +132,34 @@ $eight-spaces: 8rem;
     }
     & .icon-hamburger-bite{
       font-size: $two-spaces;
+    }
+  }
+  // projects
+  .project-page{
+    & .author-date{
+      margin-bottom: $half-space-and-quarter;
+    }
+    & .sticky-navigation{
+      & .previous, & .next{
+        position: fixed;
+        top: 35%;
+      }
+      & .previous{
+        left: $two-spaces;
+      }
+      & .next{
+        right: $two-spaces;
+      }
+      & a{
+        font-size: $three-spaces;
+        border-bottom: $transparent;
+      }
+    }
+  }
+  // modal nav
+  .modal-nav-links{
+    & a{
+      margin-bottom: $space-and-half !important;
     }
   }
   // home
@@ -176,6 +204,7 @@ $eight-spaces: 8rem;
       & .link-base{
         font-size: 0.889rem;
         line-height: 1.424rem;
+        letter-spacing: .23rem;
       }
     }
   }

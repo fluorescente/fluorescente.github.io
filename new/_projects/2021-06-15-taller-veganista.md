@@ -1,7 +1,7 @@
 ---
 layout: project
 tags: project
-title: Taller veganista
+title: Taller Veganista
 logo: assets/images/projects/logos/taller-veganista-logo.svg
 image:
 thumbnail:

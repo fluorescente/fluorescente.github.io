@@ -54,7 +54,7 @@
   .link-base, .button-big {
     font-size: 1.125rem;
     line-height: 1.802rem;
-    letter-spacing: 0.23rem;
+    letter-spacing: 0.3rem;
   }
 
   .button-big {
@@ -66,6 +66,28 @@
   }
   .main-nav-mobile .icon-hamburger-bite {
     font-size: 2rem;
+  }
+
+  .project-page .author-date {
+    margin-bottom: 0.75rem;
+  }
+  .project-page .sticky-navigation .previous, .project-page .sticky-navigation .next {
+    position: fixed;
+    top: 35%;
+  }
+  .project-page .sticky-navigation .previous {
+    left: 2rem;
+  }
+  .project-page .sticky-navigation .next {
+    right: 2rem;
+  }
+  .project-page .sticky-navigation a {
+    font-size: 3rem;
+    border-bottom: rgba(0, 0, 0, 0);
+  }
+
+  .modal-nav-links a {
+    margin-bottom: 1.5rem !important;
   }
 
   .header-home {
@@ -103,6 +125,7 @@
   footer .footer-nav .link-base {
     font-size: 0.889rem;
     line-height: 1.424rem;
+    letter-spacing: 0.23rem;
   }
 }
 @media only screen and (min-width: 62em) {
