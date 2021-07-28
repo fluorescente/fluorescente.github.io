@@ -56,7 +56,7 @@ layout: basic_structure
   <!-- wrapper end -->
 
   <!-- sticky navigation -->
-  <div class="sticky-navigation hidden-xs visible-sm">
+  <div class="sticky-navigation hidden-xs visible-sm" uk-scrollspy="cls: uk-animation-fade; delay: 100">
     <ul class="ul-inline">
       <li class="previous">
         {% if page.next.url != nil and page.next.tags contains 'project' %}

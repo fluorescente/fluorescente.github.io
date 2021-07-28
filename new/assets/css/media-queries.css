@@ -86,6 +86,10 @@
     border-bottom: rgba(0, 0, 0, 0);
   }
 
+  .modal-nav .icon-close {
+    font-size: 2rem !important;
+  }
+
   .modal-nav-links a {
     margin-bottom: 1.5rem !important;
   }
@@ -117,15 +121,29 @@
     background-image: url(../images/backgrounds/team-sm.png);
   }
 
+  .contact-modal .contact-form {
+    margin-top: 3rem;
+  }
+  .contact-modal .contact-form input, .contact-modal .contact-form textarea {
+    margin-bottom: 2rem;
+  }
+  .contact-modal .contact-form .button, .contact-modal .contact-form p {
+    display: inline-block;
+  }
+  .contact-modal .contact-form .button {
+    margin-right: 1.5rem;
+  }
+
   footer .footer-nav {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
   }
   footer .footer-nav .link-base {
-    font-size: 0.889rem;
-    line-height: 1.424rem;
-    letter-spacing: 0.23rem;
+    font-size: 0.79rem !important;
+    line-height: 1.266rem !important;
+    letter-spacing: 0.18rem;
+    margin-bottom: 0.75rem !important;
   }
 }
 @media only screen and (min-width: 62em) {

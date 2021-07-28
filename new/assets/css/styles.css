@@ -598,6 +598,8 @@ p, .base {
 }
 .contact-modal form {
   margin-top: 2rem;
+}
+.contact-modal form .button {
   margin-bottom: 1rem;
 }
 

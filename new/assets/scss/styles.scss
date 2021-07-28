@@ -749,7 +749,9 @@ p, .base{
   }
   & form{
     margin-top: $two-spaces;
-    margin-bottom: $space;
+    & .button{
+      margin-bottom: $space;
+    }
   }
 }
 

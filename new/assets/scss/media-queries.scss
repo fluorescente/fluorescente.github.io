@@ -157,6 +157,11 @@ $eight-spaces: 8rem;
     }
   }
   // modal nav
+  .modal-nav{
+    & .icon-close{
+      font-size: $two-spaces !important;
+    }
+  }
   .modal-nav-links{
     & a{
       margin-bottom: $space-and-half !important;
@@ -195,6 +200,21 @@ $eight-spaces: 8rem;
   .team{
     background-image: url(../images/backgrounds/team-sm.png);
   }
+  // contact modal
+  .contact-modal{
+    & .contact-form{
+      margin-top: $three-spaces;
+      & input, textarea{
+        margin-bottom: $two-spaces;
+      }
+      & .button, & p{
+        display: inline-block;
+      }
+      & .button{
+        margin-right: $space-and-half;
+      }
+    }
+  }
   // footer
   footer{
     & .footer-nav{
@@ -202,9 +222,10 @@ $eight-spaces: 8rem;
       -ms-hyphens: auto;
       hyphens: auto;
       & .link-base{
-        font-size: 0.889rem;
-        line-height: 1.424rem;
-        letter-spacing: .23rem;
+        font-size: 0.79rem !important;
+        line-height: 1.266rem !important;
+        letter-spacing: .18rem;
+        margin-bottom: $half-space-and-quarter !important;
       }
     }
   }
