@@ -228,6 +228,35 @@ $eight-spaces: 8rem;
       top: $space-and-half;
     }
   }
+  .post{
+    & .prev-next{
+      & span{
+        display: inline-block;
+      }
+      & .icon-arrow-left-light{
+        margin-right: $space;
+      }
+      & .icon-arrow-right-light{
+        margin-left: $space;
+      }
+      & .link-text{
+        position: relative;
+        top: -$half-space;
+        letter-spacing: .18rem;
+      }
+    }
+  }
+  // drawings
+  .lightbox{
+    & .col-sm-6{
+      display: inline-block;
+      max-width: 49.7%;
+    }
+  }
+  .uk-lightbox-items>*>*{
+    max-width: 80vh;
+    max-height: 80vh;
+  }
   // footer
   footer{
     & .footer-nav{

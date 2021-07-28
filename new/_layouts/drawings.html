@@ -5,30 +5,29 @@ layout: basic_structure
   <!-- wrapper -->
   <div class="wrapper container-fluid">
     <!-- row -->
-    <div class="row">
-      <ul class="drawings-gallery">
-          <div uk-lightbox>
-            {% for drawing in site.drawings %}
-            <a href="{{ drawing.image }}" data-caption="{{ drawing.title }} / {{ drawing.author }}" uk-scrollspy="cls: uk-animation-fade; delay: 100">
-              <li>
-                <!-- col -->
-                <div class="col-xs-12">
-                  <div class="drawing">
-                    <figure>
-                      <img src="{{ drawing.image }}" alt="">
-                    </figure>
-                    <h4>{{ drawing.title }}</h4>
-                    <!-- <p class="author-date small">{{ drawing.author }}</p> -->
-                  </div>
-                </div>
-                <!-- col end -->
-              </li>
-            </a>
-            {% endfor %}
-          </div>
-
-      </ul>
-    </div>
+    <ul class="drawings-gallery row">
+      <!-- lightbox link -->
+      <div class="lightbox" uk-lightbox>
+      {% for drawing in site.drawings %}
+        <!-- col -->
+        <div class="col-xs-12 col-sm-6">
+          <a href="{{ drawing.image }}" data-caption="{{ drawing.title }} / {{ drawing.author }}" uk-scrollspy="cls: uk-animation-fade; delay: 100">
+            <li>
+              <div class="drawing">
+                <figure>
+                  <img src="{{ drawing.image }}" alt="">
+                </figure>
+                <h5>{{ drawing.title }}</h5>
+                <!-- <p class="author-date small">{{ drawing.author }}</p> -->
+              </div>
+            </li>
+          </a>
+        </div>
+        <!-- col end -->
+      {% endfor %}
+      </div>
+      <!-- lightbox-end -->
+    </ul>
     <!-- row end -->
   </div>
   <!-- wrapper end -->

@@ -23,12 +23,12 @@ layout: basic_structure
         <div class="row prev-next">
           <div class="col-xs-6 inline">
             {% if page.previous.url != nil and page.previous.tags contains 'post' %}
-              <a class="link" href="{% if page.previous.tags contains 'post' %}{{ page.previous.url }}{% endif %}"><span class="icon icon-arrow-left-light"></span></a>
+              <a class="link" href="{% if page.previous.tags contains 'post' %}{{ page.previous.url }}{% endif %}"><span class="icon icon-arrow-left-light"></span><span class="hidden-xs visible-sm link-text">Anterior</span></a>
             {% endif %}
           </div>
           <div class="col-xs-6 inline end-xs">
             {% if page.next.url != nil and page.next.tags contains 'post' %}
-              <a class="link" href="{% if page.next.tags contains 'post' %}{{ page.next.url }}{% endif %}"><span class="icon icon-arrow-right-light"></span></a>
+              <a class="link" href="{% if page.next.tags contains 'post' %}{{ page.next.url }}{% endif %}"><span class="hidden-xs visible-sm link-text">Siguiente</span><span class="icon icon-arrow-right-light"></span></a>
             {% endif %}
           </div>
         </div>

@@ -147,6 +147,31 @@
     top: 1.5rem;
   }
 
+  .post .prev-next span {
+    display: inline-block;
+  }
+  .post .prev-next .icon-arrow-left-light {
+    margin-right: 1rem;
+  }
+  .post .prev-next .icon-arrow-right-light {
+    margin-left: 1rem;
+  }
+  .post .prev-next .link-text {
+    position: relative;
+    top: -0.5rem;
+    letter-spacing: 0.18rem;
+  }
+
+  .lightbox .col-sm-6 {
+    display: inline-block;
+    max-width: 49.7%;
+  }
+
+  .uk-lightbox-items > * > * {
+    max-width: 80vh;
+    max-height: 80vh;
+  }
+
   footer .footer-nav {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
