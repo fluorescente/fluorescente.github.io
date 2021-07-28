@@ -57,6 +57,10 @@
     letter-spacing: 0.3rem;
   }
 
+  input, textarea {
+    padding: 1rem 0.5rem;
+  }
+
   .button-big {
     padding: 1rem 2rem;
   }
@@ -132,6 +136,15 @@
   }
   .contact-modal .contact-form .button {
     margin-right: 1.5rem;
+  }
+
+  .suscribe {
+    padding: 3rem 2rem;
+  }
+  .suscribe .button {
+    margin-left: 1rem;
+    position: relative;
+    top: 1.5rem;
   }
 
   footer .footer-nav {

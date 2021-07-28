@@ -722,7 +722,7 @@ p, .base{
 
 .contact-modal{
   & .contact-modal-wrapper{
-    height: 100vh;
+    height: 100%;
   }
   & .contact-modal-body{
     background-color: $bright;
@@ -772,7 +772,7 @@ input, textarea{
  border-color: rgba(0, 0, 0, 0);
  border-bottom: $border-input;
  margin: 0 0 $space-and-half 0;
- padding: $half-space 0;
+ padding: $half-space $quarter-space;
  background-color:rgba(0, 0, 0, 0);
  &:focus{
    background-color: $gray-0;
@@ -953,6 +953,17 @@ button{
   }
   & form{
     margin-bottom: $space;
+  }
+  & label{
+    font-family: $headings;
+  }
+  & input, textarea{
+    &:focus{
+      background-color: $gray-1;
+    }
+  }
+  & .button{
+    margin-bottom: $space
   }
 }
 

@@ -121,6 +121,10 @@ $eight-spaces: 8rem;
     line-height: 1.802rem;
     letter-spacing: .30rem;
   }
+  // input, textarea
+  input, textarea{
+    padding: $space $half-space;
+  }
   // Buttons
   .button-big{
     padding: $space $two-spaces;
@@ -213,6 +217,15 @@ $eight-spaces: 8rem;
       & .button{
         margin-right: $space-and-half;
       }
+    }
+  }
+  // blog
+  .suscribe{
+    padding: $three-spaces $two-spaces;
+    & .button{
+      margin-left: $space;
+      position: relative;
+      top: $space-and-half;
     }
   }
   // footer
