@@ -1,0 +1,64 @@
+@media only screen and (max-width: 48em) {
+  .visible-sm {
+    display: block;
+  }
+
+  .hidden-xs {
+    display: none;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .visible-sm {
+    display: block;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .h1-giant {
+    font-size: 5.852rem;
+    line-height: 8.331rem;
+  }
+
+  h1 {
+    font-size: 3.247rem;
+    line-height: 4.624rem;
+  }
+
+  h2 {
+    font-size: 2.566rem;
+    line-height: 3.653rem;
+  }
+
+  h3 {
+    font-size: 2.027rem;
+    line-height: 2.887rem;
+  }
+
+  h4 {
+    font-size: 1.602rem;
+    line-height: 2.281rem;
+  }
+
+  h5 {
+    font-size: 1.266rem;
+    line-height: 1.802rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+    line-height: 1.424rem;
+  }
+}
+@media only screen and (min-width: 62em) {
+  .visible-lg {
+    display: block;
+  }
+
+  .hidden-lg {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=media-queries.css.map */

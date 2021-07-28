@@ -619,6 +619,9 @@ input, textarea {
   padding: 0.5rem 0;
   background-color: rgba(0, 0, 0, 0);
 }
+input:focus, textarea:focus {
+  background-color: #f9f8f7;
+}
 
 textarea {
   height: 6rem;

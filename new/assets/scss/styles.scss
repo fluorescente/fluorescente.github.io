@@ -772,6 +772,9 @@ input, textarea{
  margin: 0 0 $space-and-half 0;
  padding: $half-space 0;
  background-color:rgba(0, 0, 0, 0);
+ &:focus{
+   background-color: $gray-0;
+ }
 }
 
 textarea{
