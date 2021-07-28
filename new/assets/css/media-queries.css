@@ -50,6 +50,60 @@
     font-size: 1rem;
     line-height: 1.424rem;
   }
+
+  .link-base, .button-big {
+    font-size: 1.125rem;
+    line-height: 1.802rem;
+    letter-spacing: 0.23rem;
+  }
+
+  .button-big {
+    padding: 1rem 2rem;
+  }
+
+  .main-nav-mobile .icon-kirby-crackle {
+    font-size: 4rem !important;
+  }
+  .main-nav-mobile .icon-hamburger-bite {
+    font-size: 2rem;
+  }
+
+  .header-home {
+    padding: 6rem 0;
+  }
+  .header-home .button-big {
+    margin-right: 1.5rem;
+  }
+
+  .index-projects .slideshow-controls a {
+    font-size: 3rem;
+  }
+  .index-projects .slideshow-controls .icon-left {
+    left: -4rem;
+  }
+  .index-projects .slideshow-controls .icon-right {
+    right: -4rem;
+  }
+  .index-projects .index-project-info h6, .index-projects .index-project-info p {
+    display: inline-block;
+  }
+  .index-projects .index-project-info h6 {
+    margin-right: 0.25rem;
+  }
+
+  .team {
+    background-image: url(../images/backgrounds/team-sm.png);
+  }
+
+  footer .footer-nav {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+  footer .footer-nav .link-base {
+    font-size: 0.889rem;
+    line-height: 1.424rem;
+  }
 }
 @media only screen and (min-width: 62em) {
   .visible-lg {

@@ -116,7 +116,69 @@ $eight-spaces: 8rem;
     font-size: 1rem;
     line-height: 1.424rem;
   }
+  .link-base, .button-big{
+    font-size: 1.125rem;
+    line-height: 1.802rem;
+    letter-spacing: .23rem;
+  }
+  // Buttons
+  .button-big{
+    padding: $space $two-spaces;
+  }
   // nav
+  .main-nav-mobile{
+    & .icon-kirby-crackle{
+      font-size: $four-spaces !important;
+    }
+    & .icon-hamburger-bite{
+      font-size: $two-spaces;
+    }
+  }
+  // home
+  .header-home{
+    padding: $six-spaces 0;
+    & .button-big{
+      margin-right: $space-and-half;
+    }
+  }
+  // index projects
+  .index-projects{
+    & .slideshow-controls{
+      & a{
+        font-size: $three-spaces;
+      }
+      & .icon-left{
+        left: -$four-spaces;
+      }
+      & .icon-right{
+        right: -$four-spaces;
+      }
+    }
+    & .index-project-info{
+      & h6, & p{
+        display: inline-block;
+      }
+      & h6{
+        margin-right: $quarter-space;
+      }
+    }
+  }
+  // team
+  .team{
+    background-image: url(../images/backgrounds/team-sm.png);
+  }
+  // footer
+  footer{
+    & .footer-nav{
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+      & .link-base{
+        font-size: 0.889rem;
+        line-height: 1.424rem;
+      }
+    }
+  }
 }
 
 // lg - from 962

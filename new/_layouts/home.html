@@ -22,7 +22,8 @@ layout: basic_structure
   <!-- wrapper end -->
 </header>
 
-<section class="index-projects">
+<!-- slideshow-xs -->
+<section class="index-projects hidden-sm">
   <!-- wrapper -->
   <div class="wrapper container-fluid">
     <!-- row -->
@@ -31,6 +32,84 @@ layout: basic_structure
       <div class="col-xs-12 center-xs">
         <!-- slideshow -->
         <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: slide; ratio: 3:5; autoplay: true">
+          <ul class="uk-slideshow-items">
+            {% for project in site.projects reversed %}
+              <a href="{{ project.url }}" class="index-project {{ project.card_class }}">
+                <li>
+                  <!-- col -->
+                  <div class="col-xs-5">
+                    <figure class="index-project-logo">
+                      <img src="{{ project.logo }}" alt="{{ project.name }} logo">
+                    </figure>
+                  </div>
+                  <!-- col end -->
+                  <!-- col -->
+                  <div class="col-xs-12 start-xs">
+                    <h3>{{ project.excerpt }}</h3>
+                  </div>
+                  <!-- col end -->
+                  <!-- row -->
+                  <div class="row bottom-xs">
+                    <!-- col -->
+                    <div class="col-xs-12 start-xs">
+                      <div class="index-project-info">
+                        <h6>{{ project.title }}</h6>
+                        <p>{{ project.categories | join:' / '}}</p>
+                      </div>
+                    </div>
+                    <!-- col end -->
+                  </div>
+                  <!-- row end -->
+                </li>
+              </a>
+            {% endfor %}
+          </ul>
+          <!-- slideshow controls -->
+          <div class="slideshow-controls">
+            <a class="uk-position-center-left icon icon-left" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right icon icon-right" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+          </div>
+          <!-- slideshow controls end -->
+          <!-- slideshow dotnav -->
+          <div class="slideshow-dotnav">
+            <ul class="ul-inline">
+              <li uk-slideshow-item="0"><a href="#"></a></li>
+              <li uk-slideshow-item="1"><a href="#"></a></li>
+              <li uk-slideshow-item="2"><a href="#"></a></li>
+              <li uk-slideshow-item="3"><a href="#"></a></li>
+            </ul>
+          </div>
+          <!-- slideshow dotnav end -->
+        </div>
+        <!-- slideshow end -->
+      </div>
+      <!-- col end -->
+    </div>
+    <!-- row end -->
+    <!-- row -->
+    <div class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
+      <!-- col -->
+      <div class="col-xs-12 center-xs">
+        <a href="/proyectos/" class="link link-base no-underline custom-underline">{{ site.link_to_more_projects }}</a>
+      </div>
+      <!-- col end -->
+    </div>
+    <!-- row end -->
+  </div>
+  <!-- wrapper end -->
+</section>
+<!-- slideshow-xs end -->
+
+<!-- slideshow-sm -->
+<section class="index-projects hidden-xs visible-sm">
+  <!-- wrapper -->
+  <div class="wrapper container-fluid">
+    <!-- row -->
+    <div class="row" uk-scrollspy="cls: uk-animation-fade; delay: 100">
+      <!-- col -->
+      <div class="col-xs-offset-1 col-xs-12 col-sm-10 center-xs">
+        <!-- slideshow -->
+        <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: slide; ratio: 16:14; autoplay: true">
           <ul class="uk-slideshow-items">
             {% for project in site.projects reversed %}
               <a href="{{ project.url }}" class="index-project {{ project.card_class }}">
@@ -150,14 +229,14 @@ layout: basic_structure
           <!-- row member-->
           <li class="row center-xs start-sm">
             <!-- col -->
-            <div class="col-xs-6 col-sm-4">
+            <div class="col-xs-6 col-sm-3">
               <figure>
                 <img src="{{ team_member.image | relative_url }}" alt="{{ team_member.name }}">
               </figure>
             </div>
             <!-- col end -->
             <!-- col -->
-            <div class="col-xs-12 col-sm-8">
+            <div class="col-xs-12 col-sm-9">
               <h4>{{ team_member.name }}</h4>
               <p class="author-date small">{{ team_member.role }}</p>
               <p class="team-member-description">{{ team_member.description }}</p>
