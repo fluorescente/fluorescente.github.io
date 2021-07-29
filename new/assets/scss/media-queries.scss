@@ -342,8 +342,13 @@ $eight-spaces: 8rem;
     }
   }
   // home
+  .giant-wrapper{
+    // max-width: 1280px;
+  }
   .header-home{
-    padding: $six-spaces 0 8rem 0;
+    padding: $six-spaces 0 12rem 0;
+    background-image: url(../images/backgrounds/header-home-background.png);
+    background-size: cover;
   }
   // contact
   .contact-page{
