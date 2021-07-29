@@ -619,7 +619,7 @@ p, .base{
     margin-bottom: $space-and-half;
   }
   & .content{
-    margin-bottom: $four-spaces;
+    margin-bottom: $space;
     & p{
       font-size: $mid;
       line-height: $mid-line-height;
@@ -630,10 +630,13 @@ p, .base{
       &:first-child{
         margin-top: $space-and-half;
       }
+      &:last-child{
+        margin-bottom: 0;
+      }
     }
   }
   & .prev-next{
-    margin-bottom: $three-spaces;
+    margin: $space 0;
     & a{
       border-bottom: $transparent;
     }

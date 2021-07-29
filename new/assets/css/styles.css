@@ -479,7 +479,7 @@ p, .base {
   margin-bottom: 1.5rem;
 }
 .project-page .content {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 .project-page .content p {
   font-size: 1.125rem;
@@ -492,8 +492,11 @@ p, .base {
 .project-page .content img:first-child {
   margin-top: 1.5rem;
 }
+.project-page .content img:last-child {
+  margin-bottom: 0;
+}
 .project-page .prev-next {
-  margin-bottom: 3rem;
+  margin: 1rem 0;
 }
 .project-page .prev-next a {
   border-bottom: rgba(0, 0, 0, 0);
