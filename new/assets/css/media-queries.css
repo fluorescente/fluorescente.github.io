@@ -142,6 +142,10 @@
     margin-right: 0.25rem;
   }
 
+  .project-page h2 {
+    margin-bottom: 2rem;
+  }
+
   .team {
     background-image: url(../images/backgrounds/team-sm.png);
   }
@@ -169,7 +173,7 @@
   }
 
   .post h2 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   .post .prev-next span {
     display: inline-block;
@@ -254,6 +258,10 @@
 
   .project-cards {
     margin: 2rem 0 4rem 0;
+  }
+
+  .project-page .sticky-navigation .previous, .project-page .sticky-navigation .next {
+    top: 50%;
   }
 
   .contact-page {

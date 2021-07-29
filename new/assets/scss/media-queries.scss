@@ -227,6 +227,11 @@ $eight-spaces: 8rem;
       }
     }
   }
+  .project-page{
+    & h2{
+      margin-bottom: $two-spaces;
+    }
+  }
   // team
   .team{
     background-image: url(../images/backgrounds/team-sm.png);
@@ -257,7 +262,7 @@ $eight-spaces: 8rem;
   }
   .post{
     & h2{
-      margin-bottom: $three-spaces;
+      margin-bottom: $two-spaces;
     }
     & .prev-next{
       & span{
@@ -358,6 +363,13 @@ $eight-spaces: 8rem;
   }
   .project-cards{
     margin: $two-spaces 0 $four-spaces 0;
+  }
+  .project-page{
+    & .sticky-navigation{
+      & .previous, & .next{
+        top: 50%;
+      }
+    }
   }
   // contact
   .contact-page{

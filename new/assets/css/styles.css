@@ -479,10 +479,12 @@ p, .base {
   margin-bottom: 1.5rem;
 }
 .project-page .content {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 .project-page .content p {
-  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.802rem;
+  margin-bottom: 1.5rem;
 }
 .project-page .prev-next {
   margin-bottom: 3rem;
@@ -699,7 +701,7 @@ button {
 .post .content p {
   font-size: 1.125rem;
   line-height: 1.802rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .post .prev-next a {
   font-weight: 400;

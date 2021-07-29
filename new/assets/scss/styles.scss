@@ -619,9 +619,11 @@ p, .base{
     margin-bottom: $space-and-half;
   }
   & .content{
-    margin-bottom: $three-spaces;
+    margin-bottom: $four-spaces;
     & p{
-      margin-bottom: $space;
+      font-size: $mid;
+      line-height: $mid-line-height;
+      margin-bottom: $space-and-half;
     }
   }
   & .prev-next{
@@ -860,7 +862,7 @@ button{
     & p{
       font-size: $mid;
       line-height: $mid-line-height;
-      margin-bottom: $space;
+      margin-bottom: $space-and-half;
     }
   }
   & .prev-next{
