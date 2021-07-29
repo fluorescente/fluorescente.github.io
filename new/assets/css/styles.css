@@ -697,6 +697,8 @@ button {
   margin-bottom: 4rem;
 }
 .post .content p {
+  font-size: 1.125rem;
+  line-height: 1.802rem;
   margin-bottom: 1rem;
 }
 .post .prev-next a {
@@ -810,6 +812,9 @@ button {
 }
 .suscribe .button {
   margin-bottom: 1rem;
+}
+.suscribe input[type=email] {
+  width: 96%;
 }
 
 footer {

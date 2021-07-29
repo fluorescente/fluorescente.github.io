@@ -168,6 +168,9 @@
     top: 1.5rem;
   }
 
+  .post h2 {
+    margin-bottom: 3rem;
+  }
   .post .prev-next span {
     display: inline-block;
   }
@@ -233,6 +236,12 @@
     margin-right: 0;
   }
 
+  .header-home {
+    padding: 6rem 0 12rem 0;
+    background-image: url(../images/backgrounds/header-home-background.png);
+    background-size: cover;
+  }
+
   .index-projects .slideshow-controls a {
     font-size: 4rem;
   }
@@ -243,10 +252,8 @@
     right: -5rem;
   }
 
-  .header-home {
-    padding: 6rem 0 12rem 0;
-    background-image: url(../images/backgrounds/header-home-background.png);
-    background-size: cover;
+  .project-cards {
+    margin: 2rem 0 4rem 0;
   }
 
   .contact-page {
@@ -257,6 +264,29 @@
   }
   .contact-page textarea {
     height: 4rem;
+  }
+
+  .drawings {
+    margin: 2rem 0 4rem 0;
+  }
+
+  .blog {
+    margin: 2rem 0 4rem 0;
+  }
+
+  .post {
+    margin: 2rem 0 4rem 0;
+  }
+
+  .suscribe {
+    margin-bottom: 4rem;
+  }
+  .suscribe h3, .suscribe label, .suscribe p {
+    padding-left: 4rem;
+  }
+  .suscribe input[type=email] {
+    margin-left: 4rem;
+    width: 88%;
   }
 
   .team {

@@ -39,6 +39,9 @@ $bold: 700;
 $bold-italic: 700i;
 
 $small: 0.79rem;
+$small-line-height: 1.266rem;
+$mid: 1.125rem;
+$mid-line-height: 1.802rem;
 
 // Space variables
 
@@ -855,6 +858,8 @@ button{
   & .content{
     margin-bottom: $four-spaces;
     & p{
+      font-size: $mid;
+      line-height: $mid-line-height;
       margin-bottom: $space;
     }
   }
@@ -982,6 +987,9 @@ button{
   }
   & .button{
     margin-bottom: $space
+  }
+  & input[type="email"]{
+    width: 96%;
   }
 }
 

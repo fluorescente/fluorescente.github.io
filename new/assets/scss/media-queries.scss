@@ -39,6 +39,9 @@ $bold: 700;
 $bold-italic: 700i;
 
 $small: 0.79rem;
+$small-line-height: 1.266rem;
+$mid: 1.125rem;
+$mid-line-height: 1.802rem;
 
 // Space variables
 
@@ -253,6 +256,9 @@ $eight-spaces: 8rem;
     }
   }
   .post{
+    & h2{
+      margin-bottom: $three-spaces;
+    }
     & .prev-next{
       & span{
         display: inline-block;
@@ -327,6 +333,15 @@ $eight-spaces: 8rem;
       }
     }
   }
+  // home
+  .giant-wrapper{
+    // max-width: 1280px;
+  }
+  .header-home{
+    padding: $six-spaces 0 12rem 0;
+    background-image: url(../images/backgrounds/header-home-background.png);
+    background-size: cover;
+  }
   // projects
   .index-projects{
     & .slideshow-controls{
@@ -341,14 +356,8 @@ $eight-spaces: 8rem;
       }
     }
   }
-  // home
-  .giant-wrapper{
-    // max-width: 1280px;
-  }
-  .header-home{
-    padding: $six-spaces 0 12rem 0;
-    background-image: url(../images/backgrounds/header-home-background.png);
-    background-size: cover;
+  .project-cards{
+    margin: $two-spaces 0 $four-spaces 0;
   }
   // contact
   .contact-page{
@@ -358,6 +367,27 @@ $eight-spaces: 8rem;
     }
     & textarea{
       height: $four-spaces;
+    }
+  }
+  // drawings
+  .drawings{
+    margin: $two-spaces 0 $four-spaces 0;
+  }
+  // blog
+  .blog{
+    margin: $two-spaces 0 $four-spaces 0;
+  }
+  .post{
+    margin: $two-spaces 0 $four-spaces 0;
+  }
+  .suscribe{
+    margin-bottom: $four-spaces;
+    & h3, & label, & p{
+      padding-left: $four-spaces;
+    }
+    & input[type="email"]{
+      margin-left: $four-spaces;
+      width: 88%;
     }
   }
   // team
