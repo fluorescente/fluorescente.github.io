@@ -655,9 +655,6 @@ p, .base{
 .treebox-ebooks-card{
   background-color: #e2f1f7 !important;
   background-image: url(../images/backgrounds/treebox-ebooks-background-xs.png);
-  // & h3, h6, p{
-  //   color: $bright;
-  // }
 }
 
 
@@ -795,7 +792,7 @@ input, textarea{
  border-color: rgba(0, 0, 0, 0);
  border-bottom: $border-input;
  margin: 0 0 $space-and-half 0;
- padding: $half-space $quarter-space;
+ padding: $space;
  background-color:rgba(0, 0, 0, 0);
  &:focus{
    background-color: $gray-0;

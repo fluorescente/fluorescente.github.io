@@ -126,7 +126,7 @@ $eight-spaces: 8rem;
   }
   // input, textarea
   input, textarea{
-    padding: $space $half-space;
+    padding: $space;
   }
   // Buttons
   .button-big{
@@ -231,6 +231,25 @@ $eight-spaces: 8rem;
     & h2{
       margin-bottom: $two-spaces;
     }
+  }
+  .taller-veganista-card{
+    background-color: #FFB6C6 !important;
+    background-image: url(../images/backgrounds/taller-veganista-card-background-sm.jpg);
+  }
+
+  .del-arquitecto-card{
+    background-color: #f2eee9 !important;
+    background-image: url(../images/backgrounds/del-arquitecto-card-background-sm.jpg);
+  }
+
+  .volumen-vohnen-card{
+    background-color: #fec611 !important;
+    background-image: url(../images/backgrounds/volumen-vohnen-background-sm.png);
+  }
+
+  .treebox-ebooks-card{
+    background-color: #e2f1f7 !important;
+    background-image: url(../images/backgrounds/treebox-ebooks-background-sm.png);
   }
   // team
   .team{
@@ -370,6 +389,25 @@ $eight-spaces: 8rem;
         top: 50%;
       }
     }
+  }
+  .taller-veganista-card{
+    background-color: #FFB6C6 !important;
+    background-image: url(../images/backgrounds/taller-veganista-card-background-lg.jpg);
+  }
+
+  .del-arquitecto-card{
+    background-color: #f2eee9 !important;
+    background-image: url(../images/backgrounds/del-arquitecto-card-background-lg.jpg);
+  }
+
+  .volumen-vohnen-card{
+    background-color: #fec611 !important;
+    background-image: url(../images/backgrounds/volumen-vohnen-background-lg.png);
+  }
+
+  .treebox-ebooks-card{
+    background-color: #e2f1f7 !important;
+    background-image: url(../images/backgrounds/treebox-ebooks-background-lg.png);
   }
   // contact
   .contact-page{
