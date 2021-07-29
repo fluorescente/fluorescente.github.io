@@ -273,6 +273,9 @@ $eight-spaces: 8rem;
   // blog
   .suscribe{
     padding: $three-spaces $two-spaces;
+    & input[type="email"]{
+      width: 92%;
+    }
     & .button{
       margin-left: $space;
       position: relative;
@@ -437,7 +440,11 @@ $eight-spaces: 8rem;
     }
     & input[type="email"]{
       margin-left: $four-spaces;
-      width: 88%;
+      width: 86%;
+    }
+    & .button{
+      position: relative;
+      top: 1.7rem;
     }
   }
   // team

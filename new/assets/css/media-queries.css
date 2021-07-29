@@ -186,6 +186,9 @@
   .suscribe {
     padding: 3rem 2rem;
   }
+  .suscribe input[type=email] {
+    width: 92%;
+  }
   .suscribe .button {
     margin-left: 1rem;
     position: relative;
@@ -334,7 +337,11 @@
   }
   .suscribe input[type=email] {
     margin-left: 4rem;
-    width: 88%;
+    width: 86%;
+  }
+  .suscribe .button {
+    position: relative;
+    top: 1.7rem;
   }
 
   .team {
