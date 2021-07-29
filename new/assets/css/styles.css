@@ -470,10 +470,10 @@ p, .base {
 }
 
 .project-page .project-hero-image {
-  margin: 1rem 0 1.5rem 0;
+  margin: 1rem 0 2rem 0;
 }
 .project-page .author-date {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 .project-page h2 {
   margin-bottom: 1.5rem;
@@ -485,6 +485,12 @@ p, .base {
   font-size: 1.125rem;
   line-height: 1.802rem;
   margin-bottom: 1.5rem;
+}
+.project-page .content img {
+  margin-bottom: 2rem;
+}
+.project-page .content img:first-child {
+  margin-top: 1.5rem;
 }
 .project-page .prev-next {
   margin-bottom: 3rem;

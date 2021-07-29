@@ -143,13 +143,10 @@ $eight-spaces: 8rem;
   }
   // projects
   .project-page{
-    & .author-date{
-      margin-bottom: $half-space-and-quarter;
-    }
     & .sticky-navigation{
       & .previous, & .next{
         position: fixed;
-        top: 35%;
+        top: 50%;
       }
       & .previous{
         left: $two-spaces;
@@ -387,11 +384,11 @@ $eight-spaces: 8rem;
     margin: $two-spaces 0 $four-spaces 0;
   }
   .project-page{
-    & .sticky-navigation{
-      & .previous, & .next{
-        top: 50%;
-      }
-    }
+    // & .sticky-navigation{
+    //   & .previous, & .next{
+    //     top: 50%;
+    //   }
+    // }
   }
   .taller-veganista-card{
     background-color: #FFB6C6 !important;

@@ -610,10 +610,10 @@ p, .base{
 
 .project-page{
   & .project-hero-image{
-    margin: $space 0 $space-and-half 0;
+    margin: $space 0 $two-spaces 0;
   }
   & .author-date{
-    margin-bottom: $space;
+    margin-bottom: 0;
   }
   & h2{
     margin-bottom: $space-and-half;
@@ -624,6 +624,12 @@ p, .base{
       font-size: $mid;
       line-height: $mid-line-height;
       margin-bottom: $space-and-half;
+    }
+    & img{
+      margin-bottom: $two-spaces;
+      &:first-child{
+        margin-top: $space-and-half;
+      }
     }
   }
   & .prev-next{

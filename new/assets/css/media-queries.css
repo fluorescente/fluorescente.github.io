@@ -72,12 +72,9 @@
     font-size: 2rem;
   }
 
-  .project-page .author-date {
-    margin-bottom: 0.75rem;
-  }
   .project-page .sticky-navigation .previous, .project-page .sticky-navigation .next {
     position: fixed;
-    top: 35%;
+    top: 50%;
   }
   .project-page .sticky-navigation .previous {
     left: 2rem;
@@ -281,10 +278,6 @@
 
   .project-cards {
     margin: 2rem 0 4rem 0;
-  }
-
-  .project-page .sticky-navigation .previous, .project-page .sticky-navigation .next {
-    top: 50%;
   }
 
   .taller-veganista-card {
