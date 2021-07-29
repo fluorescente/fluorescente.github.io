@@ -351,6 +351,17 @@ $eight-spaces: 8rem;
       width: 90%;
     }
   }
+  // footer
+  footer{
+    & .footer-nav{
+      & .link-base{
+        font-size: 0.889rem !important;
+        line-height: 1.424rem !important;
+        letter-spacing: .23rem !important;
+        margin-bottom: $space !important;
+      }
+    }
+  }
 }
 
 // lg - from 1200

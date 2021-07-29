@@ -250,6 +250,13 @@
   .contact-page input, .contact-page textarea {
     width: 90%;
   }
+
+  footer .footer-nav .link-base {
+    font-size: 0.889rem !important;
+    line-height: 1.424rem !important;
+    letter-spacing: 0.23rem !important;
+    margin-bottom: 1rem !important;
+  }
 }
 
 /*# sourceMappingURL=media-queries.css.map */
