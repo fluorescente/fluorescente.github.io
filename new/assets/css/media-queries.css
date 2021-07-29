@@ -65,10 +65,10 @@
     padding: 1rem 2rem;
   }
 
-  .main-nav-mobile .icon-kirby-crackle {
+  .main-nav-mobile .icon-kirby-crackle, .main-nav .icon-kirby-crackle {
     font-size: 4rem !important;
   }
-  .main-nav-mobile .icon-hamburger-bite {
+  .main-nav-mobile .icon-hamburger-bite, .main-nav .icon-hamburger-bite {
     font-size: 2rem;
   }
 
@@ -118,6 +118,13 @@
     display: inline-block;
   }
   .index-projects .index-project-info h6 {
+    margin-right: 0.25rem;
+  }
+
+  .project-cards .project-info h6, .project-cards .project-info p {
+    display: inline-block;
+  }
+  .project-cards .project-info h6 {
     margin-right: 0.25rem;
   }
 
@@ -195,6 +202,25 @@
 
   .hidden-lg {
     display: none;
+  }
+
+  .main-nav {
+    padding: 2rem 0;
+  }
+  .main-nav .main-nav-links {
+    font-size: 0.889rem;
+    line-height: 1.424rem;
+    letter-spacing: 0.18rem;
+  }
+  .main-nav .main-nav-links li {
+    margin-right: 1.5rem;
+  }
+  .main-nav .main-nav-links li:last-child {
+    margin-right: 0;
+  }
+
+  .header-home {
+    padding: 6rem 0 8rem 0;
   }
 }
 

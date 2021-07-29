@@ -130,6 +130,10 @@ button, input, optgroup, select, textarea {
   background-color: #23EEB4;
 }
 
+.active:after {
+  background-color: #23EEB4;
+}
+
 .break {
   display: block;
   content: "";
@@ -265,19 +269,19 @@ p, .base {
   width: inherit;
 }
 
-.main-nav-mobile {
+.main-nav-mobile, .main-nav {
   padding: 1rem 0;
 }
-.main-nav-mobile a {
+.main-nav-mobile a, .main-nav a {
   border-bottom: 0;
 }
-.main-nav-mobile a:hover {
+.main-nav-mobile a:hover, .main-nav a:hover {
   border-bottom: 0;
 }
-.main-nav-mobile .icon-kirby-crackle {
+.main-nav-mobile .icon-kirby-crackle, .main-nav .icon-kirby-crackle {
   font-size: 2.75rem;
 }
-.main-nav-mobile .icon-hamburger-bite {
+.main-nav-mobile .icon-hamburger-bite, .main-nav .icon-hamburger-bite {
   font-size: 1.5rem;
   margin-top: 0.75rem;
   display: inline-block;

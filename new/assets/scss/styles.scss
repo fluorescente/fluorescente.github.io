@@ -220,6 +220,12 @@ button, input, optgroup, select, textarea{
   }
 }
 
+.active{
+  &:after{
+    background-color: $brand;
+  }
+}
+
 .break{
   display: block;
   content: '';
@@ -372,7 +378,7 @@ p, .base{
 
 // main nav mobile
 
-.main-nav-mobile{
+.main-nav-mobile, .main-nav{
   padding: $space 0;
   & a{
     border-bottom: 0;

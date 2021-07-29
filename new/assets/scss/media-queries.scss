@@ -130,7 +130,7 @@ $eight-spaces: 8rem;
     padding: $space $two-spaces;
   }
   // nav
-  .main-nav-mobile{
+  .main-nav-mobile, .main-nav{
     & .icon-kirby-crackle{
       font-size: $four-spaces !important;
     }
@@ -192,6 +192,16 @@ $eight-spaces: 8rem;
       }
     }
     & .index-project-info{
+      & h6, & p{
+        display: inline-block;
+      }
+      & h6{
+        margin-right: $quarter-space;
+      }
+    }
+  }
+  .project-cards{
+    & .project-info{
       & h6, & p{
         display: inline-block;
       }
@@ -287,6 +297,25 @@ $eight-spaces: 8rem;
   }
   .hidden-lg{
     display: none;
+  }
+  // nav
+  .main-nav{
+    padding: $two-spaces 0;
+    .main-nav-links{
+      font-size: .889rem;
+      line-height: 1.424rem;
+      letter-spacing: .18rem;
+      & li{
+        margin-right: $space-and-half;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  // home
+  .header-home{
+    padding: $six-spaces 0 8rem 0;
   }
 }
 
