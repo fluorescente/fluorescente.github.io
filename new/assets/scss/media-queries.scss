@@ -347,9 +347,17 @@ $eight-spaces: 8rem;
   }
   // contact
   .contact-page{
+    margin: $two-spaces 0;
     & input, & textarea{
       width: 90%;
     }
+    & textarea{
+      height: $four-spaces;
+    }
+  }
+  // team
+  .team{
+    background-image: url(../images/backgrounds/team-lg.png);
   }
   // footer
   footer{

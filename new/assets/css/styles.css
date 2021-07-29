@@ -533,6 +533,10 @@ p, .base {
   margin-bottom: 1rem;
 }
 
+.services-page {
+  padding: 2rem 0 4rem 0 !important;
+}
+
 .team {
   background-color: #f9f8f7;
   background-image: url(../images/backgrounds/team-xs.png);
@@ -574,6 +578,12 @@ p, .base {
   border-bottom: 0;
 }
 
+.team-page {
+  padding: 1rem 0 4rem 0 !important;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none !important;
+}
+
 .contact-modal .contact-modal-wrapper {
   height: 100%;
 }
@@ -594,8 +604,10 @@ p, .base {
   display: none;
 }
 .contact-modal .contact-page {
-  margin-top: 6rem;
-  margin-bottom: 2rem;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin: 4rem 0 2rem 0;
 }
 .contact-modal .contact-page a {
   font-weight: 400;
@@ -630,7 +642,7 @@ input:focus, textarea:focus {
 }
 
 textarea {
-  height: 6rem;
+  height: 5rem;
 }
 
 button {
