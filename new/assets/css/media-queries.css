@@ -90,6 +90,20 @@
     border-bottom: rgba(0, 0, 0, 0);
   }
 
+  .services {
+    padding: 4rem 0;
+  }
+  .services h3 {
+    margin-bottom: 3rem;
+  }
+
+  .team {
+    padding: 4rem 0;
+  }
+  .team h3 {
+    margin-bottom: 3rem;
+  }
+
   .modal-nav .icon-close {
     font-size: 2rem !important;
   }
@@ -219,8 +233,22 @@
     margin-right: 0;
   }
 
+  .index-projects .slideshow-controls a {
+    font-size: 4rem;
+  }
+  .index-projects .slideshow-controls .icon-left {
+    left: -5rem;
+  }
+  .index-projects .slideshow-controls .icon-right {
+    right: -5rem;
+  }
+
   .header-home {
     padding: 6rem 0 8rem 0;
+  }
+
+  .contact-page input, .contact-page textarea {
+    width: 90%;
   }
 }
 

@@ -160,6 +160,20 @@ $eight-spaces: 8rem;
       }
     }
   }
+  // services
+  .services{
+    padding: $four-spaces 0;
+    & h3{
+      margin-bottom: $three-spaces;
+    }
+  }
+  // team
+  .team{
+    padding: $four-spaces 0;
+    & h3{
+      margin-bottom: $three-spaces;
+    }
+  }
   // modal nav
   .modal-nav{
     & .icon-close{
@@ -313,9 +327,29 @@ $eight-spaces: 8rem;
       }
     }
   }
+  // projects
+  .index-projects{
+    & .slideshow-controls{
+      & a{
+        font-size: $four-spaces;
+      }
+      & .icon-left{
+        left: -$five-spaces;
+      }
+      & .icon-right{
+        right: -$five-spaces;
+      }
+    }
+  }
   // home
   .header-home{
     padding: $six-spaces 0 8rem 0;
+  }
+  // contact
+  .contact-page{
+    & input, & textarea{
+      width: 90%;
+    }
   }
 }
 
