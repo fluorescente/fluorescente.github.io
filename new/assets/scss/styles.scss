@@ -782,11 +782,10 @@ button{
 .post{
   margin-bottom: $four-spaces;
   & .post-hero-image{
-    margin-top: $space;
-    margin-bottom: $space-and-half;
+    margin: $space 0 $two-spaces 0;
   }
   & .post-info{
-    margin-bottom: $half-space;
+    margin-bottom: 0;
   }
   & h2{
     margin-bottom: $two-spaces;

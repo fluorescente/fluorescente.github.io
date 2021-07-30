@@ -643,11 +643,10 @@ button {
   margin-bottom: 4rem;
 }
 .post .post-hero-image {
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin: 1rem 0 2rem 0;
 }
 .post .post-info {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 .post h2 {
   margin-bottom: 2rem;
