@@ -39,7 +39,7 @@ $bold: 700;
 $bold-italic: 700i;
 
 $small: 0.79rem;
-$small-line-height: 1.266rem;
+$small-line-height: 1.424rem;
 $mid: 1.125rem;
 $mid-line-height: 1.802rem;
 
@@ -379,8 +379,9 @@ $eight-spaces: 8rem;
     // max-width: 1280px;
   }
   .header-home{
-    padding: $six-spaces 0 12rem 0;
+    padding: $six-spaces 0 13rem 0;
     background-image: url(../images/backgrounds/header-home-background.png);
+    background-position: top right;
     background-size: cover;
   }
   // projects
@@ -500,6 +501,8 @@ $eight-spaces: 8rem;
   // team
   .team{
     background-image: url(../images/backgrounds/team-lg.png);
+    background-position: top center;
+    background-size: cover;
   }
   // footer
   footer{
@@ -517,4 +520,13 @@ $eight-spaces: 8rem;
 // lg - from 1200
 @media only screen and (min-width: 75em) {
 
+}
+
+// Special
+@media only screen and (min-width: 1023px) and (max-width: 1199px){
+  .contact-page{
+    & figure{
+      display: none;
+    }
+  }
 }
