@@ -1,1 +1,0 @@
-jsonFeed({"country":"US","state":"GA","stateName":"Georgia","zipcode":"30301","timezone":"America/New_York","latitude":"33.74850","longitude":"-84.38710","city":"Atlanta","continent":"NA"});

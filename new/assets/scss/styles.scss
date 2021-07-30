@@ -320,10 +320,10 @@ p, .base{
   }
   & .main-nav-logo-desk{
     &:hover{
-      transition: $transition;
+      // transition: $transition;
       color: $dark;
-      position: relative;
-      top: -$quarter-space;
+      // position: relative;
+      // top: -$quarter-space;
     }
   }
   & .icon-kirby-crackle{
@@ -344,10 +344,10 @@ p, .base{
   }
   & .icon-kirby-crackle{
     &:hover{
-      transition: $transition;
+      // transition: $transition;
       color: $dark;
-      position: relative;
-      top: -$quarter-space;
+      // position: relative;
+      // top: -$quarter-space;
     }
   }
 }
@@ -443,7 +443,7 @@ p, .base{
     border-bottom: 0;
     font-weight: normal;
     background-size: cover;
-    &:hover{
+    &:hover, &:focus, &:active{
       font-weight: normal;
       color: $dark;
       border-bottom: 0;
@@ -544,6 +544,7 @@ p, .base{
       }
       & p{
         font-weight: $regular;
+        color: $dark;
       }
     }
     & .project-card-logo{
@@ -864,7 +865,7 @@ button{
     }
   }
   & li{
-    margin-bottom: $three-spaces;
+    margin-bottom: $space;
     & figure{
       margin-bottom: $space;
     }

@@ -223,8 +223,8 @@
   }
 
   .uk-lightbox-items > * > * {
-    max-width: 98vh;
-    max-height: 98vh;
+    max-width: 99vh;
+    max-height: 99vh;
   }
 
   footer .footer-nav {
@@ -326,6 +326,10 @@
     max-width: 33%;
   }
 
+  .uk-lightbox-button {
+    font-size: 3rem;
+  }
+
   .blog {
     margin: 2rem 0 4rem 0;
   }
@@ -352,9 +356,13 @@
   .drawing .uk-overlay {
     background-color: rgba(0, 0, 0, 0);
     color: rgba(0, 0, 0, 0);
-    padding: 28% 20%;
+    width: 88%;
+    height: 88%;
+    padding: 1.5rem;
+    transition: 0.7s ease;
   }
   .drawing .uk-overlay h5 {
+    margin-top: 28%;
     color: rgba(0, 0, 0, 0);
   }
   .drawing .uk-overlay:hover {

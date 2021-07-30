@@ -228,10 +228,7 @@ p, .base {
   border-bottom: 0;
 }
 .main-nav-mobile .main-nav-logo-desk:hover, .main-nav .main-nav-logo-desk:hover {
-  transition: 0.7s ease;
   color: #000;
-  position: relative;
-  top: -0.25rem;
 }
 .main-nav-mobile .icon-kirby-crackle, .main-nav .icon-kirby-crackle {
   font-size: 2.75rem;
@@ -246,10 +243,7 @@ p, .base {
   color: #999592;
 }
 .main-nav-mobile .icon-kirby-crackle:hover {
-  transition: 0.7s ease;
   color: #000;
-  position: relative;
-  top: -0.25rem;
 }
 
 .modal-nav .modal-nav-wrapper {
@@ -332,7 +326,7 @@ p, .base {
   font-weight: normal;
   background-size: cover;
 }
-.index-projects .index-project:hover {
+.index-projects .index-project:hover, .index-projects .index-project:focus, .index-projects .index-project:active {
   font-weight: normal;
   color: #000;
   border-bottom: 0;
@@ -422,6 +416,7 @@ p, .base {
 }
 .project-cards li .project-info p {
   font-weight: 400;
+  color: #000;
 }
 .project-cards li .project-card-logo img {
   width: inherit;
@@ -703,7 +698,7 @@ button {
   color: #000;
 }
 .drawings-gallery li {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .drawings-gallery li figure {
   margin-bottom: 1rem;
