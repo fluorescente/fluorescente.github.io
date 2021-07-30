@@ -1,6 +1,6 @@
 ---
-title:  "Angela Davis"
-date: 2021-07-24 16:15:53 -0500
+title:  Angela Davis old
+date: 2021-07-24
 image: "/assets/images/posts/angela-davis-01.jpg"
 author: Alejandro Narváez Isaza
 drawing_id: angela

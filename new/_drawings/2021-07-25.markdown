@@ -1,6 +1,6 @@
 ---
-title:  "Hen"
-date: 2021-07-24 17:15:53 -0500
+title:  Hen new
+date: 2021-07-25
 image: "/assets/images/posts/cc-hen.jpg"
 author: Alejandro Narváez Isaza
 drawing_id: hen

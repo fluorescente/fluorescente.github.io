@@ -8,7 +8,7 @@ layout: basic_structure
     <ul class="drawings-gallery row">
       <!-- lightbox link -->
       <div class="lightbox" uk-lightbox>
-      {% for drawing in site.drawings %}
+      {% for drawing in site.drawings reversed %}
         <!-- col -->
         <div class="col-xs-12 col-sm-6">
           <a href="{{ drawing.image }}" data-caption="{{ drawing.title }} / {{ drawing.author }}" uk-scrollspy="cls: uk-animation-fade; delay: 100">
