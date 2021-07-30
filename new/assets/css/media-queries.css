@@ -314,6 +314,11 @@
     margin: 2rem 0 4rem 0;
   }
 
+  .lightbox .col-lg-4 {
+    display: inline-block;
+    max-width: 33%;
+  }
+
   .blog {
     margin: 2rem 0 4rem 0;
   }

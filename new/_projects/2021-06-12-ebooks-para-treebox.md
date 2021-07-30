@@ -15,3 +15,11 @@ permalink: /ebooks-para-treebox/
 Treebox es una agencia de Inbound Marketing. Les gusta compartir sus conocimientos y unos de sus medios disponibles son ebooks. Diseñamos dos ebooks sobre el tema en formato pdf. El Inbound Marketing es un conjunto de metodologías bastante efectivo, pero el público en general desconoce su naturaleza y suele hacer interpretaciones erróneas que pueden dificultar el trabajo y la relación con los clientes. La marca maneja un lenguaje fresco y el equipo busca que sus contenidos sean llamativos y divertidos.
 
 [treebox.co](https://treebox.co/){:target='_blank'}
+
+![inbound marketing 01](../assets/images/projects/treebox-ebooks/inbound-marketing-01.jpg)
+![inbound marketing 02](../assets/images/projects/treebox-ebooks/inbound-marketing-02.jpg)
+![inbound marketing ilustraciones 01](../assets/images/projects/treebox-ebooks/inbound-marketing-illustrations-01.jpg)
+![inbound marketing 03](../assets/images/projects/treebox-ebooks/inbound-marketing-03.jpg)
+![inbound marketing 04](../assets/images/projects/treebox-ebooks/inbound-marketing-04.jpg)
+![inbound marketing 05](../assets/images/projects/treebox-ebooks/inbound-marketing-05.jpg)
+![inbound marketing ilustraciones 02](../assets/images/projects/treebox-ebooks/inbound-marketing-illustrations-02.jpg)

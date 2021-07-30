@@ -10,7 +10,7 @@ layout: basic_structure
       <div class="lightbox" uk-lightbox>
       {% for drawing in site.drawings reversed %}
         <!-- col -->
-        <div class="col-xs-12 col-sm-6">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
           <a href="{{ drawing.image }}" data-caption="{{ drawing.title }} / {{ drawing.author }}" uk-scrollspy="cls: uk-animation-fade; delay: 100">
             <li>
               <div class="drawing">

@@ -423,6 +423,12 @@ $eight-spaces: 8rem;
   .drawings{
     margin: $two-spaces 0 $four-spaces 0;
   }
+  .lightbox{
+    & .col-lg-4{
+      display: inline-block;
+      max-width: 33%;
+    }
+  }
   // blog
   .blog{
     margin: $two-spaces 0 $four-spaces 0;
