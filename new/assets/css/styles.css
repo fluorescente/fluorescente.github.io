@@ -227,9 +227,6 @@ p, .base {
 .main-nav-mobile a:hover, .main-nav a:hover {
   border-bottom: 0;
 }
-.main-nav-mobile .main-nav-logo-desk, .main-nav .main-nav-logo-desk {
-  transition: 0.7s ease;
-}
 .main-nav-mobile .main-nav-logo-desk:hover, .main-nav .main-nav-logo-desk:hover {
   transition: 0.7s ease;
   color: #000;
@@ -243,6 +240,16 @@ p, .base {
   font-size: 1.5rem;
   margin-top: 0.75rem;
   display: inline-block;
+}
+
+.main-nav-mobile .icon-hamburger-bite:hover {
+  color: #999592;
+}
+.main-nav-mobile .icon-kirby-crackle:hover {
+  transition: 0.7s ease;
+  color: #000;
+  position: relative;
+  top: -0.25rem;
 }
 
 .modal-nav .modal-nav-wrapper {
@@ -560,7 +567,7 @@ p, .base {
   height: 100%;
 }
 .contact-modal .contact-modal-body {
-  background-color: #fff;
+  background-color: #f9f8f7;
   color: #000;
   display: block;
 }
@@ -570,7 +577,7 @@ p, .base {
   padding: 1rem 1.5rem;
 }
 .contact-modal .icon-close:hover {
-  color: #23EEB4;
+  color: #999592;
 }
 .contact-modal .icon-close svg {
   display: none;
@@ -582,6 +589,7 @@ p, .base {
   margin: 4rem 0 2rem 0;
 }
 .contact-modal .contact-page a {
+  color: #000;
   font-weight: 400;
 }
 .contact-modal form {
@@ -589,6 +597,9 @@ p, .base {
 }
 .contact-modal form .button {
   margin-bottom: 1rem;
+}
+.contact-modal form input:focus, .contact-modal form textarea:focus {
+  background-color: #fff;
 }
 
 input, label {
@@ -691,9 +702,6 @@ button {
 .drawings-gallery a:hover {
   color: #000;
 }
-.drawings-gallery a:hover h4, .drawings-gallery a:hover h5, .drawings-gallery a:hover h6 {
-  color: #999592;
-}
 .drawings-gallery li {
   margin-bottom: 3rem;
 }
@@ -715,16 +723,16 @@ button {
 }
 
 .uk-lightbox {
-  background-color: #000;
+  background-color: #f9f8f7;
 }
 .uk-lightbox .uk-close {
   margin: 1.5rem 1rem;
-  color: #fff;
+  color: #000;
   font-family: "icomoon";
   font-size: 1.75rem;
 }
 .uk-lightbox .uk-close:hover, .uk-lightbox .uk-close:active, .uk-lightbox .uk-close:focus {
-  color: #b9b6b4;
+  color: #999592;
 }
 .uk-lightbox .uk-close:after {
   content: "";
@@ -738,7 +746,7 @@ button {
 }
 
 .uk-lightbox-caption {
-  color: #fff;
+  color: #000;
   font-family: "YoungSerif", sans-serif;
   padding-bottom: 2rem;
 }
@@ -779,7 +787,7 @@ button {
   font-family: "YoungSerif", sans-serif;
 }
 .suscribe input:focus, .suscribe textarea:focus {
-  background-color: #d9d7d5;
+  background-color: #fff;
 }
 .suscribe .button {
   margin-bottom: 1rem;

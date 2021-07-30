@@ -3,11 +3,11 @@ layout: basic_structure
 ---
 <section class="project-page">
   <!-- wrapper -->
-  <div class="wrapper container-fluid" uk-scrollspy="cls: uk-animation-fade; delay: 100">
+  <div class="wrapper container-fluid">
     <!-- row -->
     <div class="row">
       <!-- col -->
-      <div class="col-xs-12">
+      <div class="col-xs-12" uk-scrollspy="cls: uk-animation-fade; delay: 100">
         <figure class="project-hero-image hidden-xs visible-sm visible-lg">
           <img src="{{ page.hero_image | relative_url }}" alt="">
         </figure>
@@ -17,7 +17,7 @@ layout: basic_structure
       </div>
       <!-- col end -->
       <!-- col -->
-      <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+      <div class="col-xs-12 col-sm-offset-1 col-sm-10" uk-scrollspy="cls: uk-animation-fade; delay: 100">
         <p class="author-date p-small">{{ page.categories | join: ' / ' }}</p>
         <h2>{{ page.title }}</h2>
         <!-- content -->

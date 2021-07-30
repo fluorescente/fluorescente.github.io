@@ -319,7 +319,6 @@ p, .base{
     }
   }
   & .main-nav-logo-desk{
-    transition: $transition;
     &:hover{
       transition: $transition;
       color: $dark;
@@ -334,6 +333,22 @@ p, .base{
     font-size: $space-and-half;
     margin-top: .75rem;
     display: inline-block;
+  }
+}
+
+.main-nav-mobile{
+  & .icon-hamburger-bite{
+    &:hover{
+      color: $gray-3;
+    }
+  }
+  & .icon-kirby-crackle{
+    &:hover{
+      transition: $transition;
+      color: $dark;
+      position: relative;
+      top: -$quarter-space;
+    }
   }
 }
 
@@ -693,16 +708,20 @@ p, .base{
     height: 100%;
   }
   & .contact-modal-body{
-    background-color: $bright;
+    background-color: $gray-0;
     color: $dark;
     display: block;
   }
+  & h3{
+    // color: $bright;
+  }
   & .icon-close{
     font-size: 1.75rem;
+    // color: $bright;
     color: $dark;
     padding: $space $space-and-half;
     &:hover{
-      color: $brand;
+      color: $gray-3;
     }
     & svg{
       display: none;
@@ -714,6 +733,8 @@ p, .base{
     hyphens: auto;
     margin: $four-spaces 0 $two-spaces 0;
     & a{
+      // color: $bright;
+      color: $dark;
       font-weight: $regular;
     }
   }
@@ -721,6 +742,11 @@ p, .base{
     margin-top: $two-spaces;
     & .button{
       margin-bottom: $space;
+    }
+    & input, & textarea{
+      &:focus{
+        background-color: $bright;
+      }
     }
   }
 }
@@ -833,7 +859,7 @@ button{
     &:hover{
       color: $dark;
       & h4, & h5, & h6{
-        color: $gray-3;
+        // color: $gray-3;
       }
     }
   }
@@ -859,14 +885,14 @@ button{
 }
 
 .uk-lightbox{
-  background-color: $dark;
+  background-color: $gray-0;
   & .uk-close{
     margin: $space-and-half $space;
-    color: $bright;
+    color: $dark;
     font-family: 'icomoon';
     font-size: 1.75rem;
     &:hover, &:active, &:focus{
-      color: $gray-2;
+      color: $gray-3;
     }
     &:after{
       content: "\e908";
@@ -882,7 +908,7 @@ button{
 }
 
 .uk-lightbox-caption{
-  color: $bright;
+  color: $dark;
   font-family: $headings;
   padding-bottom: $two-spaces;
   // font-size: $small;
@@ -930,7 +956,7 @@ button{
   }
   & input, textarea{
     &:focus{
-      background-color: $gray-1;
+      background-color: $bright;
     }
   }
   & .button{

@@ -213,6 +213,10 @@
     letter-spacing: 0.18rem;
   }
 
+  .uk-lightbox .uk-close {
+    font-size: 2rem;
+  }
+
   .lightbox .col-sm-6 {
     display: inline-block;
     max-width: 49.7%;
@@ -239,7 +243,7 @@
     margin-bottom: 2rem;
   }
 }
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 64em) {
   .visible-lg {
     display: block;
   }
@@ -343,6 +347,22 @@
   .suscribe .button {
     position: relative;
     top: 1.7rem;
+  }
+
+  .drawing .uk-overlay {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    padding: 28% 20%;
+  }
+  .drawing .uk-overlay h5 {
+    color: rgba(0, 0, 0, 0);
+  }
+  .drawing .uk-overlay:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .drawing .uk-overlay:hover h5 {
+    color: #000;
   }
 
   .team {

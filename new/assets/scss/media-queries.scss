@@ -304,6 +304,12 @@ $eight-spaces: 8rem;
     }
   }
   // drawings
+  .uk-lightbox{
+    & .uk-close{
+      font-size: $two-spaces;
+    }
+  }
+
   .lightbox{
     & .col-sm-6{
       display: inline-block;
@@ -336,8 +342,8 @@ $eight-spaces: 8rem;
   }
 }
 
-// lg - from 962
-@media only screen and (min-width: 62em) {
+// lg - from 1024
+@media only screen and (min-width: 64em) {
   // visible/hidden
   .visible-lg{
     display: block;
@@ -451,6 +457,23 @@ $eight-spaces: 8rem;
     & .button{
       position: relative;
       top: 1.7rem;
+    }
+  }
+  .drawing{
+    & .uk-overlay{
+      background-color: $transparent;
+      color: $transparent;
+      padding: 28% 20%;
+      & h5{
+        color: $transparent;
+      }
+      &:hover{
+        background-color: $bright;
+        color: $dark;
+        & h5{
+          color: $dark;
+        }
+      }
     }
   }
   // team
