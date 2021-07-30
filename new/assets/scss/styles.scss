@@ -142,18 +142,19 @@ button, input, optgroup, select, textarea{
     position: relative;
     top: $half-space;
     margin: 0 auto;
+    transition: $transition;
   }
   &:hover{
     color: $dark;
     &:after{
-      background-color: $brand;
+      background-color: $dark;
     }
   }
 }
 
 .active{
   &:after{
-    background-color: $brand;
+    background-color: $dark;
   }
 }
 
@@ -315,6 +316,15 @@ p, .base{
     border-bottom: 0;
     &:hover{
       border-bottom: 0;
+    }
+  }
+  & .main-nav-logo-desk{
+    transition: $transition;
+    &:hover{
+      transition: $transition;
+      color: $dark;
+      position: relative;
+      top: -$quarter-space;
     }
   }
   & .icon-kirby-crackle{
