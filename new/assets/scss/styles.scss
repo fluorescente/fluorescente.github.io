@@ -226,8 +226,8 @@ p{
 }
 
 .p-mid, .mid{
-  font-size: 1.125rem;
-  line-height: 1.802rem;
+  font-size: 1.125rem !important;
+  line-height: 1.802rem !important;
 }
 
 p, .base{
@@ -236,8 +236,8 @@ p, .base{
 }
 
 .p-small, .small{
-  font-size: 0.79rem;
-  line-height: 1.266rem;
+  font-size: 0.79rem !important;
+  line-height: 1.266rem !important;
 }
 
 .p-micro, .micro{
@@ -453,7 +453,7 @@ p, .base{
       color: $dark;
       border-bottom: 0;
       &:hover{
-        color: $brand;
+        color: $gray-3;
         border-bottom: 0;
       }
       & svg{
@@ -479,16 +479,16 @@ p, .base{
       display: inline-block;
       width: .375rem;
       height: .375rem;
-      background-color: $gray-2;
+      background-color: $gray-1;
       border-bottom: 0;
       border-radius: 50%;
       &:hover{
-        background-color: $brand;
+        background-color: $dark;
       }
     }
     & .uk-active{
       & a{
-        background-color: $brand;
+        background-color: $dark;
       }
     }
   }
@@ -567,6 +567,9 @@ p, .base{
     margin: $space 0;
     & a{
       border-bottom: $transparent;
+      &:hover{
+        color: $gray-3;
+      }
     }
     & .icon{
       font-size: $two-spaces;
@@ -802,7 +805,7 @@ button{
     & a{
       font-weight: $regular;
       &:hover{
-        color: $brand;
+        color: $gray-3;
       }
       & .icon{
         font-size: $two-spaces;
@@ -820,7 +823,7 @@ button{
     &:hover{
       color: $dark;
       & h4, & h5, & h6{
-        color: $brand;
+        color: $gray-3;
       }
     }
   }
@@ -846,14 +849,14 @@ button{
 }
 
 .uk-lightbox{
-  background-color: $bright;
+  background-color: $dark;
   & .uk-close{
     margin: $space-and-half $space;
-    color: $dark;
+    color: $bright;
     font-family: 'icomoon';
     font-size: 1.75rem;
     &:hover, &:active, &:focus{
-      color: $brand;
+      color: $gray-2;
     }
     &:after{
       content: "\e908";
@@ -869,7 +872,7 @@ button{
 }
 
 .uk-lightbox-caption{
-  color: $dark;
+  color: $bright;
   font-family: $headings;
   padding-bottom: $two-spaces;
   // font-size: $small;
@@ -881,7 +884,7 @@ button{
   font-family: "icomoon";
   font-size: $two-spaces;
   &:hover, &:active, &:focus{
-    color: $brand;
+    color: $gray-2;
   }
   & svg{
     display: none;

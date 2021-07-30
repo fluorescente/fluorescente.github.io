@@ -157,6 +157,9 @@ $eight-spaces: 8rem;
       & a{
         font-size: $three-spaces;
         border-bottom: $transparent;
+        &:hover{
+          color: $gray-3;
+        }
       }
     }
   }
@@ -308,8 +311,8 @@ $eight-spaces: 8rem;
     }
   }
   .uk-lightbox-items>*>*{
-    max-width: 80vh;
-    max-height: 80vh;
+    max-width: 98vh;
+    max-height: 98vh;
   }
   // footer
   footer{

@@ -22,3 +22,4 @@ El arte callejero como intervención urbana que rompe fronteras. Ilustraciones p
 ![Recorridos](../assets/images/projects/del-arquitecto/del-arquitecto-recorridos.jpg)
 
 Fotos: Chris Barbalis y Marc Olivier. Unsplash.com
+{: class="p-small"}

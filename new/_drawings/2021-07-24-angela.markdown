@@ -1,8 +1,0 @@
----
-title:  Angela Davis old
-date: 2021-07-24
-image: "/assets/images/posts/angela-davis-01.jpg"
-author: Alejandro Narváez Isaza
-drawing_id: angela
-tags: drawing
----
