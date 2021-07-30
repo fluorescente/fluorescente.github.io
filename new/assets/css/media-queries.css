@@ -195,6 +195,13 @@
     top: 1.5rem;
   }
 
+  .post-card h3, .post-card .post-info, .post-card .post-excerpt {
+    padding: 0 1rem 0 0.5rem;
+  }
+  .post-card figure {
+    margin: 0 !important;
+  }
+
   .post h2 {
     margin-bottom: 2rem;
   }
@@ -335,7 +342,14 @@
   }
 
   .post {
-    margin: 2rem 0 4rem 0;
+    margin: 0 0 4rem 0;
+  }
+  .post .post-hero-image {
+    margin-top: 0;
+  }
+
+  .post-card {
+    padding: 2rem 1rem !important;
   }
 
   .suscribe {

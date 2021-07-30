@@ -282,6 +282,14 @@ $eight-spaces: 8rem;
       top: $space-and-half;
     }
   }
+  .post-card{
+    & h3, & .post-info, & .post-excerpt{
+      padding: 0 $space 0 $half-space;
+    }
+    & figure{
+      margin: 0 !important;
+    }
+  }
   .post{
     & h2{
       margin-bottom: $two-spaces;
@@ -446,7 +454,13 @@ $eight-spaces: 8rem;
     margin: $two-spaces 0 $four-spaces 0;
   }
   .post{
-    margin: $two-spaces 0 $four-spaces 0;
+    margin: 0 0 $four-spaces 0;
+    & .post-hero-image{
+      margin-top: 0;
+    }
+  }
+  .post-card{
+    padding: $two-spaces $space !important;
   }
   .suscribe{
     margin-bottom: $four-spaces;

@@ -796,7 +796,7 @@ button{
   & .post-card{
     font-weight: $regular;
     background-color: $gray-0;
-    padding: $two-spaces $space;
+    padding: $two-spaces $space $three-spaces $space;
     margin-bottom: $two-spaces;
     border-radius: $half-space;
     &:hover{

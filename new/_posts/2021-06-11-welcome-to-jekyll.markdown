@@ -1,34 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll1!"
-date:   2021-06-11 16:15:53 -0500
+title:  Propósito antes que diseño
+date:   2021-07-30
 categories: jekyll update
 tags: ['blog-gallery','post']
-excerpt: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-image: "/assets/images/posts/angela-davis-01.jpg"
+excerpt: Generalmente destruir y explotar suele ser lo más rentable. En una economía competitiva y sin regulaciones efectivas, las prácticas más rentables se convierten en lo normal, y las consecuencias no importan mucho. Lucrarse de actividades que causan daños graves a la sociedad, en la mayoría de los casos es totalmente legal.
+image: "/assets/images/posts/purpose-before-design-hero-image.png"
+square_image: "/assets/images/posts/purpose-dribbble.png"
 author: Alejandro Narváez Isaza
 permalink: /post1/
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Generalmente destruir y explotar suele ser lo más rentable. En una economía competitiva y sin regulaciones efectivas, las prácticas más rentables se convierten en lo normal, y las consecuencias no importan mucho. Lucrarse de actividades que causan daños graves a la sociedad, en la mayoría de los casos es totalmente legal.
 
-Jekyll requires blog post files to be named according to the following format:
+Evitar que nuestras habilidades y horas de trabajo estén al servicio de propósitos perjudiciales para la comunidad, o que van en contravía de nuestros intereses como ciudadanos, no es fácil, pero si se tiene la intención se puede avanzar. Nada nos impide que busquemos trabajar con equipos de personas que aporten productos o ideas que podamos recomendar personalmente. Empresas que excluyan la explotación de humanos y animales de sus modelos de negocio, ofrezcan beneficios reales a sus consumidores o audiencias, y sigan procesos sostenibles.
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+El diseño es un recurso para alcanzar objetivos. Nunca va a ser más importante que su propósito, o la realidad que está ayudando a crear. Los diseñadores estamos particularmente bien entrenados para no caer en historias engañosas, porque podemos ver las estrategias detrás de la imagen. Además la información sobre prácticas reprochables que siguen sistemáticamente la mayoría de empresas grandes, está disponible y proviene de fuentes confiables. En algún momento de nuestras carreras tenemos que decidir entre dedicar nuestro tiempo y habilidad a representar marcas de empresas con alta notoriedad, pero impactos negativos considerables; o buscar otro tipo de clientes y proyectos.
