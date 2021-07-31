@@ -35,13 +35,8 @@
             <ul>
               <li class="modal-nav-logo"><a href="/" class="icon icon-fluoresecente-logo"></a></li>
               <li><a href="/proyectos/" class="link no-underline link-base link-base">Proyectos</a></li>
-              {% if page.url == "/" %}
-                <li><a href="/#que-hacemos" class="link no-underline link-base link-base" onclick="setTimeout(location.reload.bind(location), 1)">Qué hacemos</a></li>
-                <li><a href="/#nosotros" class="link no-underline link-base" onclick="setTimeout(location.reload.bind(location), 1)">Nosotros</a></li>
-              {% elsif page.url != "/" %}
-                <li><a href="/que-hacemos/" class="link no-underline link-base link-base">Qué hacemos</a></li>
-                <li><a href="/nosotros/" class="link no-underline link-base">Nosotros</a></li>
-              {% endif %}
+              <li><a href="/que-hacemos/" class="link no-underline link-base link-base">Qué hacemos</a></li>
+              <li><a href="/nosotros/" class="link no-underline link-base">Nosotros</
               <li><a href="/dibujos/" class="link no-underline link-base link-base">Dibujos</a></li>
               <li><a uk-toggle="target: #contact-modal" class="link no-underline link-base link-base">{{ site.link_to_contact }}</a></li>
               <!-- <li><a href="/blog/" class="link no-underline link-base link-base">Blog</a></li> -->
