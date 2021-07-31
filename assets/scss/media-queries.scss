@@ -1,0 +1,537 @@
+// Fluore_scente
+// Design and Development. Fluorescente github: @fluorescente
+// fluorescente.design
+
+// Type scale: https://www.modularscale.com/?16&px&1.2
+
+// Variables
+
+// Color variables
+
+$brand: #23EEB4;
+$dark: #000;
+$blanch: #fff;
+$bright: #fff;
+$gray-0: #f9f8f7;
+$gray-1: #d9d7d5;
+$gray-2: #b9b6b4;
+$gray-3: #999592;
+$gray-4: #787470;
+$gray-5: #58534f;
+
+$transparent: rgba(0,0,0,0);
+$box-shadow: -1px -1px 17px -2px rgba(0,0,0,0.13);
+
+$border-line: 1px dotted $dark;
+$border-input: 1px solid $dark;
+
+$transition: .7s ease;
+$transition-quick: .4s ease;
+
+// Type variables
+
+$headings: 'YoungSerif', serif;
+$paragraphs: 'DM Sans', sans-serif;
+
+$regular: 400;
+$regular-italic: 400i;
+$bold: 700;
+$bold-italic: 700i;
+
+$small: 0.79rem;
+$small-line-height: 1.424rem;
+$mid: 1.125rem;
+$mid-line-height: 1.802rem;
+
+// Space variables
+
+// 4px
+$quarter-space: .25rem;
+// 8px
+$half-space: .5rem;
+// 12px
+$half-space-and-quarter: .75rem;
+// 16px
+$space: 1rem;
+// 24px
+$space-and-half: 1.5rem;
+// 32px
+$two-spaces: 2rem;
+// 48px
+$three-spaces: 3rem;
+// 64px
+$four-spaces: 4rem;
+// 80px
+$five-spaces: 5rem;
+// 96px
+$six-spaces: 6rem;
+// 128px
+$eight-spaces: 8rem;
+
+// Styles
+
+// xs - Up to 768px
+@media only screen and (max-width: 48em){
+  // visible/hidden
+  .visible-sm{
+    display: block;
+  }
+  .hidden-xs{
+    display: none;
+  }
+}
+
+// sm - from 768
+@media only screen and (min-width: 48em) {
+  // visible/hidden
+  .visible-sm{
+    display: block;
+  }
+  .hidden-sm{
+    display: none;
+  }
+  // Headings
+  .h1-giant{
+    font-size: 5.852rem;
+    line-height: 8.331rem;
+  }
+  h1{
+    font-size: 3.247rem;
+    line-height: 4.624rem;
+  }
+  h2{
+    font-size: 2.566rem;
+    line-height: 3.653rem;
+  }
+  h3{
+    font-size: 2.027rem;
+    line-height: 2.887rem;
+  }
+  h4{
+    font-size: 1.602rem;
+    line-height: 2.281rem;
+  }
+  h5{
+    font-size: 1.266rem;
+    line-height: 1.802rem;
+  }
+  h6{
+    font-size: 1rem;
+    line-height: 1.424rem;
+  }
+  .link-base, .button-big{
+    font-size: 0.889rem;
+    line-height: 1.424rem;
+    letter-spacing: .20rem;
+  }
+  // input, textarea
+  input, textarea{
+    padding: $space;
+  }
+  // Buttons
+  .button-big{
+    padding: $space $two-spaces;
+  }
+  // nav
+  .main-nav-mobile, .main-nav{
+    & .icon-kirby-crackle{
+      font-size: $four-spaces !important;
+    }
+    & .icon-hamburger-bite{
+      font-size: $two-spaces;
+    }
+  }
+  // projects
+  .project-page{
+    & .sticky-navigation{
+      & .previous, & .next{
+        position: fixed;
+        top: 50%;
+      }
+      & .previous{
+        left: $two-spaces;
+      }
+      & .next{
+        right: $two-spaces;
+      }
+      & a{
+        font-size: $three-spaces;
+        border-bottom: $transparent;
+        &:hover{
+          color: $gray-3;
+        }
+      }
+    }
+  }
+  // services
+  .services{
+    padding: $four-spaces 0;
+    & h3{
+      margin-bottom: $three-spaces;
+    }
+  }
+  // team
+  .team{
+    padding: $four-spaces 0;
+    & h3{
+      margin-bottom: $three-spaces;
+    }
+  }
+  // modal nav
+  .modal-nav{
+    & .icon-close{
+      font-size: $two-spaces !important;
+    }
+  }
+  .modal-nav-links{
+    & a{
+      margin-bottom: $space-and-half !important;
+    }
+  }
+  // home
+  .header-home{
+    padding: $six-spaces 0;
+    & .button-big{
+      margin-right: $space-and-half;
+    }
+  }
+  // index projects
+  .index-projects{
+    & .slideshow-controls{
+      & a{
+        font-size: $three-spaces;
+      }
+      & .icon-left{
+        left: -$four-spaces;
+      }
+      & .icon-right{
+        right: -$four-spaces;
+      }
+    }
+    & .index-project-info{
+      & h6, & p{
+        display: inline-block;
+      }
+      & h6{
+        margin-right: $quarter-space;
+      }
+    }
+  }
+  .project-cards{
+    & .project-info{
+      & h6, & p{
+        display: inline-block;
+      }
+      & h6{
+        margin-right: $quarter-space;
+      }
+    }
+  }
+  .project-page{
+    & h2{
+      margin-bottom: $two-spaces;
+    }
+  }
+  .taller-veganista-card{
+    background-color: #FFB6C6 !important;
+    background-image: url(../images/backgrounds/taller-veganista-card-background-sm.jpg);
+  }
+
+  .del-arquitecto-card{
+    background-color: #f2eee9 !important;
+    background-image: url(../images/backgrounds/del-arquitecto-card-background-sm.jpg);
+  }
+
+  .volumen-vohnen-card{
+    background-color: #fec611 !important;
+    background-image: url(../images/backgrounds/volumen-vohnen-background-sm.png);
+  }
+
+  .treebox-ebooks-card{
+    background-color: #e2f1f7 !important;
+    background-image: url(../images/backgrounds/treebox-ebooks-background-sm.png);
+  }
+  // team
+  .team{
+    background-image: url(../images/backgrounds/team-sm.png);
+  }
+  // contact modal
+  .contact-modal{
+    & .contact-form{
+      margin-top: $three-spaces;
+      & input, textarea{
+        margin-bottom: $two-spaces;
+      }
+      & .button, & p{
+        display: inline-block;
+      }
+      & .button{
+        margin-right: $space-and-half;
+      }
+    }
+  }
+  // blog
+  .suscribe{
+    padding: $three-spaces $two-spaces;
+    & input[type="email"]{
+      width: 92%;
+    }
+    & .button{
+      margin-left: $space;
+      position: relative;
+      top: $space-and-half;
+    }
+  }
+  .post-card{
+    & h3, & .post-info, & .post-excerpt{
+      padding: 0 $space 0 $half-space;
+    }
+    & figure{
+      margin: 0 !important;
+    }
+  }
+  .post{
+    & h2{
+      margin-bottom: $two-spaces;
+    }
+    & .prev-next{
+      & span{
+        display: inline-block;
+      }
+      & .icon-arrow-left-light{
+        margin-right: $space;
+      }
+      & .icon-arrow-right-light{
+        margin-left: $space;
+      }
+      & .link-text{
+        position: relative;
+        top: -$half-space;
+        letter-spacing: .18rem;
+      }
+    }
+  }
+  // drawings
+  .uk-lightbox{
+    & .uk-close{
+      font-size: $two-spaces;
+    }
+  }
+
+  .lightbox{
+    & .col-sm-6{
+      display: inline-block;
+      max-width: 49.7%;
+    }
+  }
+  .uk-lightbox-items>*>*{
+    max-width: 99vh;
+    max-height: 99vh;
+  }
+  // footer
+  footer{
+    & .footer-nav{
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+  }
+  // 404
+  .four-zero-four{
+    & p{
+      margin-bottom: $two-spaces;
+    }
+  }
+}
+
+// lg - from 1024
+@media only screen and (min-width: 64em) {
+  // visible/hidden
+  .visible-lg{
+    display: block;
+  }
+  .hidden-lg{
+    display: none;
+  }
+  // nav
+  .main-nav{
+    padding: $two-spaces 0;
+    .main-nav-links{
+      font-size: .889rem;
+      line-height: 1.424rem;
+      letter-spacing: .20rem;
+      & li{
+        margin-right: $space;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  // home
+  .giant-wrapper{
+    // max-width: 1280px;
+  }
+  .header-home{
+    padding: $six-spaces 0 13rem 0;
+    background-image: url(../images/backgrounds/header-home-background.png);
+    background-position: top right;
+    background-size: cover;
+  }
+  // projects
+  .index-projects{
+    & .slideshow-controls{
+      & a{
+        font-size: $four-spaces;
+      }
+      & .icon-left{
+        left: -$five-spaces;
+      }
+      & .icon-right{
+        right: -$five-spaces;
+      }
+    }
+  }
+  .project-cards{
+    margin: $two-spaces 0 $four-spaces 0;
+  }
+  .project-page{
+    // & .sticky-navigation{
+    //   & .previous, & .next{
+    //     top: 50%;
+    //   }
+    // }
+  }
+  .taller-veganista-card{
+    background-color: #FFB6C6 !important;
+    background-image: url(../images/backgrounds/taller-veganista-card-background-lg.jpg);
+  }
+
+  .del-arquitecto-card{
+    background-color: #f2eee9 !important;
+    background-image: url(../images/backgrounds/del-arquitecto-card-background-lg.jpg);
+  }
+
+  .volumen-vohnen-card{
+    background-color: #fec611 !important;
+    background-image: url(../images/backgrounds/volumen-vohnen-background-lg.png);
+  }
+
+  .treebox-ebooks-card{
+    background-color: #e2f1f7 !important;
+    background-image: url(../images/backgrounds/treebox-ebooks-background-lg.png);
+  }
+  // contact
+  .contact-page{
+    margin: $two-spaces 0;
+    & input, & textarea{
+      width: 90%;
+    }
+    & textarea{
+      height: $four-spaces;
+    }
+  }
+  // drawings
+  .drawings{
+    margin: $two-spaces 0 $four-spaces 0;
+  }
+  .lightbox{
+    & .col-lg-4{
+      display: inline-block;
+      max-width: 33%;
+    }
+  }
+  .uk-lightbox-button{
+    font-size: $three-spaces;
+  }
+  // blog
+  .blog{
+    margin: $two-spaces 0 $four-spaces 0;
+  }
+  .post{
+    margin: 0 0 $four-spaces 0;
+    & .post-hero-image{
+      margin-top: 0;
+    }
+  }
+  .post-card{
+    padding: $two-spaces $space !important;
+  }
+  .suscribe{
+    margin-bottom: $four-spaces;
+    & h3, & label, & p{
+      padding-left: $four-spaces;
+    }
+    & input[type="email"]{
+      margin-left: $four-spaces;
+      width: 86%;
+    }
+    & .button{
+      position: relative;
+      top: 1.7rem;
+    }
+  }
+  .drawings-gallery{
+    & li{
+      margin-bottom: $space !important;
+    }
+  }
+  .drawing{
+    & .uk-overlay{
+      background-color: $transparent;
+      color: $transparent;
+      width: 88%;
+      height: 88%;
+      padding: $space-and-half;
+      transition: $transition;
+      -webkit-transition: $transition;
+      -moz-transition: $transition;
+      & h5{
+        margin-top: 28%;
+        color: $transparent;
+      }
+      &:hover{
+        background-color: $bright;
+        color: $dark;
+        & h5{
+          color: $dark;
+        }
+      }
+    }
+  }
+  // team
+  .team{
+    background-image: url(../images/backgrounds/team-lg.png);
+    background-position: top center;
+    background-size: cover;
+  }
+  // footer
+  footer{
+    & .footer-nav{
+      margin-bottom: $space;
+    }
+    & .footer-logo{
+      margin-bottom: $two-spaces;
+    }
+    & .footer-links{
+      & li{
+        display: inline-block;
+        margin-right: $space;
+      }
+    }
+  }
+}
+
+// lg - from 1200
+@media only screen and (min-width: 75em) {
+
+}
+
+// Special
+@media only screen and (min-width: 1023px) and (max-width: 1199px){
+  .contact-page{
+    & figure{
+      display: none;
+    }
+  }
+}

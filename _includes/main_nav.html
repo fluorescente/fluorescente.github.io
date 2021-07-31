@@ -1,0 +1,92 @@
+<nav uk-sticky="show-on-up: true; animation: uk-animation-slide-top" class="main-nav hidden-xs hidden-sm visible-lg">
+  <!-- wrapper -->
+  <div class="wrapper container-fluid giant-wrapper">
+    <!-- row -->
+    <ul class="row middle-xs">
+      <!-- col -->
+      <li class="col-xs-2 start-xs">
+        <a href="/" class="main-nav-logo-desk icon icon-kirby-crackle no-underline"></a>
+      </li>
+      <!-- col end -->
+      <li class="col-xs-10 end-xs">
+        <nav class="main-nav-links">
+          <ul class="ul-inline">
+            <li><a href="/proyectos/" {% if page.url == "/proyectos/" %} class="active link no-underline custom-underline" {% endif %} class="link no-underline custom-underline">Proyectos</a></li>
+            {% if page.url == "/" %}
+              <li><a href="/#que-hacemos" class="link no-underline custom-underline" uk-scroll>Que hacemos</a></li>
+              <li><a href="/#nosotros" class="link no-underline custom-underline" uk-scroll>Nosotros</a></li>
+            {% elsif page.url != "/" %}
+              <li><a href="/que-hacemos/" {% if page.url == "/que-hacemos/" %} class="active link no-underline custom-underline" {% endif %} class="link no-underline custom-underline">Que hacemos</a></li>
+              <li><a href="/nosotros/" {% if page.url == "/nosotros/" %} class="active link no-underline custom-underline" {% endif %} class="link no-underline custom-underline">Nosotros</a></li>
+            {% endif %}
+            <!-- <li><a href="/blog/" {% if page.url == "/blog/" %} class="active link no-underline custom-underline" {% endif %} class="link no-underline custom-underline">Blog</a></li> -->
+            <li><a href="/dibujos/" {% if page.url == "/dibujos/" %} class="active link no-underline custom-underline" {% endif %} class="link no-underline custom-underline">Dibujos</a></li>
+            <li><a uk-toggle="target: #contact-modal" class="link no-underline custom-underline">{{ site.link_to_contact }}</a></li>
+          </ul>
+        </nav>
+      </li>
+    </ul>
+    <!-- row end -->
+  </div>
+  <!-- wrapper-end -->
+</nav>
+
+<!-- main_nav modal -->
+<div id="modal-nav" class="modal-nav uk-modal-full" uk-modal>
+  <div class="uk-modal-dialog uk-modal-body modal-nav-body">
+    <!-- wrapper -->
+    <div class="wrapper container-fluid modal-nav-wrapper">
+      <!-- row -->
+      <div class="row top-xs">
+        <a class="uk-modal-close-default icon icon-close" uk-close></a>
+      </div>
+      <!-- row end -->
+      <!-- row -->
+      <div class="row center-xs middle-xs">
+        <!-- col -->
+        <div class="col-xs-12">
+          <nav class="modal-nav-links">
+            <ul>
+              <li class="modal-nav-logo"><a href="/" class="icon icon-fluoresecente-logo"></a></li>
+              <li><a href="/proyectos/" class="link no-underline link-base link-base">Proyectos</a></li>
+              {% if page.url == "/" %}
+                <li><a href="/#services" class="link no-underline link-base link-base" onclick="setTimeout(location.reload.bind(location), 1)">Que hacemos</a></li>
+                <li><a href="/#team" class="link no-underline link-base" onclick="setTimeout(location.reload.bind(location), 1)">Equipo</a></li>
+              {% elsif page.url != "/" %}
+                <li><a href="/#services" class="link no-underline link-base link-base">Que hacemos</a></li>
+                <li><a href="/#team" class="link no-underline link-base">Equipo</a></li>
+              {% endif %}
+              <li><a uk-toggle="target: #contact-modal" class="link no-underline link-base link-base">{{ site.link_to_contact }}</a></li>
+              <li><a href="/blog/" class="link no-underline link-base link-base">Blog</a></li>
+              <li><a href="/dibujos/" class="link no-underline link-base link-base">Ilustraciones</a></li>
+            </ul>
+            <ul class="center-xs ul-inline modal-nav-social">
+              {% if site.github_url != nil %}
+                <li><a href="{{ site.github_url }}" target="_blank" class="icon icon-github no-underline"></a></li>
+              {% endif %}
+              {% if site.behance_url != nil %}
+                <li><a href="{{ site.behance_url }}" target="_blank" class="icon icon-behance no-underline"></a></li>
+              {% endif %}
+              {% if site.dribbble_url != nil %}
+                <li><a href="{{ site.dribbble_url }}" target="_blank" class="icon icon-dribbble no-underline"></a></li>
+              {% endif %}
+              {% if site.deviant_art_url != nil %}
+                <li><a href="{{ site.deviant_art_url }}" target="_blank" class="icion icon-deviant-art no-underline"></a></li>
+              {% endif %}
+              {% if site.meetup_url != nil %}
+                <li><a href="{{ site.meetup_url }}" target="_blank" class="icon icon-meetup no-underline"></a></li>
+              {% endif %}
+              {% if site.telegram_url != nil %}
+                <li><a href="{{ site.telegram_url }}" target="_blank" class="icon icon-telegram no-underline"></a></li>
+              {% endif %}
+            </ul>
+          </nav>
+        </div>
+        <!-- col end -->
+      </div>
+      <!-- row end -->
+    </div>
+    <!-- wrapper end -->
+  </div>
+</div>
+<!-- main-nav modal end -->
