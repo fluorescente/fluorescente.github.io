@@ -24,15 +24,17 @@ email: hola@fluore&shy;scente.design
 description: >- # this means to ignore newlines until "baseurl:"
   Identidad visual, ilustraciones y sitios, web para organizaciones conscientes y amigables. Ubicado en Medellín, Colombia.
 author: fluore_scente
-logo: assets/images/fluore_scente-logo.png
 image: assets/images/fluorescente-card-image.png
+logo: assets/images/fluore_scente-logo.png
+url: "https://fluorescente.design/"
+github_username: fluorescente
 # webmaster_verifications:
 #   google: 1234
 locale: es_CO
+
 link_to_projects: Ver proyectos
 link_to_contact: Escríbenos
 link_to_more_projects: Más proyectos
-url: "https://fluorescente.design/"
 github_url: https://github.com/fluorescente
 behance_url: https://www.behance.net/fluore_scente
 dribbble_url: https://dribbble.com/fluore_scente
@@ -41,6 +43,7 @@ telegram_url: https://t.me/joinchat/J9QQERoNyllnuRbAYo7iwg
 link_to_behance: Más proyectos en Behance
 suscribe_call_to_action: Suscríbete al blog :)
 suscribe_button: Suscríbete
+
 # Build settings
 theme: minima
 plugins:
@@ -50,7 +53,7 @@ plugins:
   - jekyll-seo-tag
 
 plugins:
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 defaults:
   -
@@ -61,7 +64,7 @@ defaults:
       #values
       layout: "post"
       logo: assets/images/fluore_scente-logo.png
-      image: assets/images/fluorescente-card-image.png
+      image: true
 
 collections:
   services:

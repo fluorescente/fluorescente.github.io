@@ -4,4 +4,5 @@ header_title: Identidad visual, ilustraciones y sitios web para organizaciones c
 services_title: Qué hacemos
 team_title: Nosotros
 permalink: /
+image: assets/images/fluorescente-card-image.png
 ---
