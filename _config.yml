@@ -18,16 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fluore_scente
+title: fluore_scente
+tagline: Identidad visual, ilustraciones y sitios, web para organizaciones conscientes y amigables.
 email: hola@fluore&shy;scente.design
 description: >- # this means to ignore newlines until "baseurl:"
-  Identidad visual, ilustraciones y sitios web para organizaciones conscientes y amigables.
-author: Fluore_scente
+  Identidad visual, ilustraciones y sitios, web para organizaciones conscientes y amigables. Ubicado en Medellín, Colombia.
+author: fluore_scente
+logo: assets/images/fluore_scente-logo.png
+image: assets/images/fluorescente-card-image.png
+# webmaster_verifications:
+#   google: 1234
+locale: es_CO
 link_to_projects: Ver proyectos
 link_to_contact: Escríbenos
 link_to_more_projects: Más proyectos
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fluorescente.design/"
 github_url: https://github.com/fluorescente
 behance_url: https://www.behance.net/fluore_scente
 dribbble_url: https://dribbble.com/fluore_scente
@@ -41,6 +46,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+plugins:
+  - jekyll-seo-tag
+
+plugins:
+  - jekyll-sitemap  
+
 defaults:
   -
     scope:
@@ -49,8 +60,8 @@ defaults:
     values:
       #values
       layout: "post"
-      logo: /assets/taller-veganista-logo.png
-      image: true
+      logo: assets/images/fluore_scente-logo.png
+      image: assets/images/fluorescente-card-image.png
 
 collections:
   services:
