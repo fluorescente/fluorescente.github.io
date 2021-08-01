@@ -6,7 +6,7 @@ logo: assets/images/projects/logos/taller-veganista-logo.svg
 hero_image: assets/images/projects/taller-veganista/taller-veganista-hero.jpg
 square_image: assets/images/projects/taller-veganista/taller-veganista-dribbble.jpg
 card_class: taller-veganista-card
-excerpt: Apoyando el movimiento antiespecista y a las personas que quieren hacerse veganas.
+excerpt: Un sitio web para divulgar información sobre veganismo y antiespecismo.
 categories:
 - Identidad visual
 - Diseño y desarrollo web
