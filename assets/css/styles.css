@@ -743,8 +743,8 @@ button {
 .uk-lightbox .uk-close {
   margin: 1.5rem 1rem;
   color: #000;
-  font-family: "icomoon";
-  font-size: 1.75rem;
+  font-family: "icomoon" !important;
+  font-size: 1.75rem !important;
 }
 .uk-lightbox .uk-close:hover, .uk-lightbox .uk-close:active, .uk-lightbox .uk-close:focus {
   color: #999592;
