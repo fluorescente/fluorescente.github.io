@@ -16,7 +16,7 @@ image_2: ../assets/images/projects/treebox-ebooks/inbound-marketing-02.jpg
 image_2_alt: inbound marketing 02
 image_3: ../assets/images/projects/treebox-ebooks/inbound-marketing-illustrations-01.jpg
 image_3_alt: inbound marketing ilustraciones 01
-image_4: ../assets/images/projects/treebox-ebooks/inbound-marketing-04.jpg
+image_4: ../assets/images/projects/treebox-ebooks/inbound-marketing-03.jpg
 image_4_alt: inbound marketing 03
 image_5: ../assets/images/projects/treebox-ebooks/inbound-marketing-04.jpg
 image_5_alt: inbound marketing 04
