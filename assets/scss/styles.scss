@@ -1066,12 +1066,17 @@ footer{
   }
   & .logo{
     font-size: $five-spaces;
+    display: block;
     margin-bottom: $space;
+    border-bottom: $transparent;
+    &:hover{
+      color: $dark;
+    }
   }
-  & h2{
+  & h2, & h3{
     margin-bottom: $space;
   }
   & p{
-    margin-bottom: $three-spaces;
+    margin-bottom: $two-spaces;
   }
 }

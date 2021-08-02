@@ -8,15 +8,20 @@ layout: basic_structure_no_nav_no_footer
     <div class="row center-xs middle-xs content">
       <!-- col -->
       <div class="col-xs-12">
-        <div class="logo">
+        <a class="logo" href="/">
           <span class="icon icon-fluoresecente-logo"></span>
-        </div>
-        <h2>{{ page.title }}</h2>
+        </a>
+        <h3>{{ page.title }}</h3>
         <!-- row -->
         <!-- col -->
-        <div class="col-xs-12 col-xs-offset-1 col-sm-10">
+        <div class="col-xs-12 col-sm-offset-1 col-sm-10">
           <p>{{ page.paragraph }}</p>
-          <a href="{{ page.link }}" class="button button-big button-dark">{{ page.button }}</a>
+          {% if page.link != 'back' %}
+            <a href="{{ page.link }}"class="button button-big button-dark">{{ page.button }}</a>
+          {% endif %}
+          {% if page.link == 'back' %}
+            <a href="#" class="button button-big button-dark" onclick="window.location.href = window.history.go(-2);">{{ page.button }}</a>
+          {% endif %}
         </div>
         <!-- col end -->
         <!-- row end -->

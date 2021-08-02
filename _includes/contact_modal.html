@@ -14,8 +14,10 @@
           <!-- col -->
           <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-lg-offset-1 col-lg-6">
             <h3>Llena este formulario, <span class="break hidden-xs visible-sm visible-lg"></span>envía un correo a <a href="mailto:{{ site.email }}">{{ site.email }}</a> o escríbenos por <a href="{{ site.telegram_url }}" target="_blank">Telegram.</a></h3>
-            <form class="contact-form" action="https://formcarry.com/s/ZeuI2QpWEGb" method="POST" accept-charset="UTF-8">
+            <form class="contact-form" action="https://formsubmit.co/hola@fluorescente.design" method="POST" accept-charset="UTF-8">
               <label for="name">Nombre*</label>
+              <input type="hidden" name="_next" value="https://fluorescente.design/mensaje-enviado/">
+              <input type="text" name="_honey" style="display:none">
               <input type="text" name="yourName" id="name">
               <label for="email">Correo electrónico*</label>
               <input type="email" id="email" name="yourEmail">
