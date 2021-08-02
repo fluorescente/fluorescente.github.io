@@ -20,7 +20,7 @@ layout: basic_structure_no_nav_no_footer
             <a href="{{ page.link }}"class="button button-big button-dark">{{ page.button }}</a>
           {% endif %}
           {% if page.link == 'back' %}
-            <a href="#" class="button button-big button-dark" onclick="window.location.href = window.history.go(-2);">{{ page.button }}</a>
+            <a href="#" class="button button-big button-dark" onclick="window.location.href = window.history.go(-2); opener.location.reload();">{{ page.button }}</a>
           {% endif %}
         </div>
         <!-- col end -->
