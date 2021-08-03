@@ -8,6 +8,7 @@ square_image: assets/images/projects/volumen-wohnen/volumen-wohnen-dribbble.jpg
 image: assets/images/projects/volumen-wohnen/volumen-wohnen-dribbble.jpg
 card_class: volumen-vohnen-card
 excerpt: Una marca de diseño de muebles que se enfoca en el uso inteligente de espacios reducidos.
+description: Una marca de diseño de muebles que se enfoca en el uso inteligente de espacios reducidos. Identidad visual, ilustración, diseño y desarrollo web.
 categories:
 - Identidad visual
 - Diseño y desarrollo web

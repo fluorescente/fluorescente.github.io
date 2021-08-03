@@ -8,6 +8,7 @@ square_image: assets/images/projects/treebox-ebooks/treebox-ebooks-dribbble.png
 image: assets/images/projects/treebox-ebooks/treebox-ebooks-dribbble.png
 card_class: treebox-ebooks-card
 excerpt: Ebooks para compartir conocimientos sobre Inbound Marketing.
+description: Ebooks para compartir conocimientos sobre Inbound Marketing. Ilustración, diseño editorial.
 categories:
 - Ilustración
 - Diseño editorial

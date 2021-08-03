@@ -8,6 +8,7 @@ square_image: assets/images/projects/taller-veganista/taller-veganista-dribbble.
 image: assets/images/projects/taller-veganista/taller-veganista-dribbble.jpg
 card_class: taller-veganista-card
 excerpt: Un sitio web para divulgar información sobre veganismo y antiespecismo.
+description: Un sitio web para divulgar información sobre veganismo y antiespecismo. Identidad visual, ilustración, diseño y desarrollo web.
 categories:
 - Identidad visual
 - Diseño y desarrollo web

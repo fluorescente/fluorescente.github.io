@@ -8,6 +8,7 @@ square_image: assets/images/projects/del-arquitecto/del-arquitecto-dribbble.jpg
 image: assets/images/projects/del-arquitecto/del-arquitecto-dribbble.jpg
 card_class: del-arquitecto-card
 excerpt: El arte callejero como intervención urbana que rompe fronteras.
+description: El arte callejero como intervención urbana que rompe fronteras. Ilustración.
 categories:
 - Ilustración
 image_1: ../assets/images/projects/del-arquitecto/del-arquitecto-portada.jpg
