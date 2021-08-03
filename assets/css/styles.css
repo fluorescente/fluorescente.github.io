@@ -726,10 +726,10 @@ button {
   transform: scale(1.03);
 }
 .drawings-gallery li figure {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .drawings-gallery li h4, .drawings-gallery li h5, .drawings-gallery li h6 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .drawing-open {

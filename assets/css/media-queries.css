@@ -320,7 +320,7 @@
   }
 
   .drawings {
-    margin: 2rem 0 4rem 0;
+    margin: 2rem 0 0 0;
   }
 
   .lightbox .col-lg-4 {
@@ -362,6 +362,9 @@
     top: 1.7rem;
   }
 
+  .drawings-gallery {
+    margin-bottom: 2rem;
+  }
   .drawings-gallery li {
     margin-bottom: 1rem !important;
   }

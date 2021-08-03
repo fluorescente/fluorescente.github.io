@@ -433,7 +433,7 @@ $eight-spaces: 8rem;
   }
   // drawings
   .drawings{
-    margin: $two-spaces 0 $four-spaces 0;
+    margin: $two-spaces 0 0 0;
   }
   .lightbox{
     & .col-lg-4{
@@ -472,6 +472,7 @@ $eight-spaces: 8rem;
     }
   }
   .drawings-gallery{
+    margin-bottom: $two-spaces;
     & li{
       margin-bottom: $space !important;
     }
