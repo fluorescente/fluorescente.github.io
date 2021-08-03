@@ -5,6 +5,7 @@ title: Taller Veganista
 logo: assets/images/projects/logos/taller-veganista-logo.svg
 hero_image: assets/images/projects/taller-veganista/taller-veganista-hero.jpg
 square_image: assets/images/projects/taller-veganista/taller-veganista-dribbble.jpg
+image: assets/images/projects/taller-veganista/taller-veganista-dribbble.jpg
 card_class: taller-veganista-card
 excerpt: Un sitio web para divulgar información sobre veganismo y antiespecismo.
 categories:

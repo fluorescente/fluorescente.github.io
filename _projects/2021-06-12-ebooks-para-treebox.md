@@ -5,6 +5,7 @@ title: Ebooks para Treebox
 logo: assets/images/projects/logos/ebooks-para-treebox-logo.svg
 hero_image: assets/images/projects/treebox-ebooks/treebox-ebooks-hero.png
 square_image: assets/images/projects/treebox-ebooks/treebox-ebooks-dribbble.png
+image: assets/images/projects/treebox-ebooks/treebox-ebooks-dribbble.png
 card_class: treebox-ebooks-card
 excerpt: Ebooks para compartir conocimientos sobre Inbound Marketing.
 categories:

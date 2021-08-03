@@ -5,6 +5,7 @@ title: Del arquitecto al graffitero, y del policía al maestro
 logo: assets/images/projects/logos/del-arquitecto-logo.svg
 hero_image: assets/images/projects/del-arquitecto/del-arquitecto-hero.jpg
 square_image: assets/images/projects/del-arquitecto/del-arquitecto-dribbble.jpg
+image: assets/images/projects/del-arquitecto/del-arquitecto-dribbble.jpg
 card_class: del-arquitecto-card
 excerpt: El arte callejero como intervención urbana que rompe fronteras.
 categories:
