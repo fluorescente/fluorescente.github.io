@@ -66,7 +66,7 @@
   }
 
   .main-nav-mobile .icon-kirby-crackle, .main-nav .icon-kirby-crackle {
-    font-size: 4rem !important;
+    font-size: 3.3rem !important;
   }
   .main-nav-mobile .icon-hamburger-bite, .main-nav .icon-hamburger-bite {
     font-size: 2rem;
@@ -112,9 +112,6 @@
     margin-bottom: 1.5rem !important;
   }
 
-  .header-home {
-    padding: 6rem 0;
-  }
   .header-home .button-big {
     margin-right: 1.5rem;
   }

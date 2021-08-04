@@ -135,7 +135,7 @@ $eight-spaces: 8rem;
   // nav
   .main-nav-mobile, .main-nav{
     & .icon-kirby-crackle{
-      font-size: $four-spaces !important;
+      font-size: 3.3rem !important;
     }
     & .icon-hamburger-bite{
       font-size: $two-spaces;
@@ -190,7 +190,7 @@ $eight-spaces: 8rem;
   }
   // home
   .header-home{
-    padding: $six-spaces 0;
+    // padding: $six-spaces 0;
     & .button-big{
       margin-right: $space-and-half;
     }
