@@ -266,7 +266,7 @@
   }
 
   .header-home {
-    padding: 6rem 0 12rem 0;
+    padding: 7rem 0 11rem 0;
     background-image: url(../images/backgrounds/header-home-background.png);
     background-position: top right;
     background-size: cover;
@@ -407,17 +407,17 @@
 }
 @media only screen and (min-width: 1520px) {
   .header-home {
-    padding: 9rem 0 15rem 0 !important;
+    padding: 9rem 0 14rem 0 !important;
   }
 }
 @media only screen and (min-width: 1720px) {
   .header-home {
-    padding: 10rem 0 16em 0 !important;
+    padding: 10rem 0 15rem 0 !important;
   }
 }
 @media only screen and (min-width: 1780px) {
   .header-home {
-    padding: 11rem 0 17em 0 !important;
+    padding: 11rem 0 17rem 0 !important;
   }
 }
 @media only screen and (min-width: 1023px) and (max-width: 1199px) {
