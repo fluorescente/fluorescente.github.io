@@ -353,6 +353,10 @@ $eight-spaces: 8rem;
   .hidden-lg{
     display: none;
   }
+  body{
+    margin: 0 auto;
+    max-width: 1680px;
+  }
   // nav
   .main-nav{
     padding: $two-spaces 0;
@@ -534,18 +538,18 @@ $eight-spaces: 8rem;
     padding: 9rem 0 14rem 0 !important;
   }
 }
-
-@media only screen and (min-width: 1720px) {
-  .header-home{
-    padding: 10rem 0 15rem 0 !important;
-  }
-}
-
-@media only screen and (min-width: 1780px) {
-  .header-home{
-    padding: 11rem 0 17rem 0 !important;
-  }
-}
+//
+// @media only screen and (min-width: 1720px) {
+//   .header-home{
+//     padding: 10rem 0 15rem 0 !important;
+//   }
+// }
+//
+// @media only screen and (min-width: 1780px) {
+//   .header-home{
+//     padding: 11rem 0 17rem 0 !important;
+//   }
+// }
 
 // Special
 @media only screen and (min-width: 1023px) and (max-width: 1199px){
