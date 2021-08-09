@@ -23,9 +23,9 @@ image_5: ../assets/images/projects/del-arquitecto/del-arquitecto-recorridos.jpg
 image_5_alt: Recorridos
 permalink: /del-arquitecto-al-graffitero-y-del-policía-al-maestro/
 ---
-El arte callejero como intervención urbana que rompe fronteras. Ilustraciones para el artículo “Del arquitecto, al graffitero, y del policía al maestro.” de Casa de las Estrategias para La Silla Llena.
+El arte callejero como intervención urbana que rompe fronteras. Ilustraciones para el artículo “Del arquitecto, al graffitero, y del policía al maestro.” de Casa de las Estrategias.
 
-[Del arquitecto al graffitero y del policía al maestro・La Silla Llena](https://www.lasillavacia.com/historias/historias-silla-llena/del-arquitecto-al-graffitero-y-del-policia-al-maestro){:target='_blank'}
+<!-- [Del arquitecto al graffitero y del policía al maestro・La Silla Llena](https://www.lasillavacia.com/historias/historias-silla-llena/del-arquitecto-al-graffitero-y-del-policia-al-maestro){:target='_blank'} -->
 
 Fotos: Chris Barbalis y Marc Olivier. Unsplash.com
 {: class="p-small"}
