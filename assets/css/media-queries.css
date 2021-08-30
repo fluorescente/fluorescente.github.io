@@ -97,6 +97,10 @@
     margin-bottom: 3rem;
   }
 
+  .services-page ul {
+    margin-bottom: 0;
+  }
+
   .team {
     padding: 4rem 0;
   }

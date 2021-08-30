@@ -170,6 +170,11 @@ $eight-spaces: 8rem;
       margin-bottom: $three-spaces;
     }
   }
+  .services-page{
+    & ul{
+      margin-bottom: 0;
+    }
+  }
   // team
   .team{
     padding: $four-spaces 0;

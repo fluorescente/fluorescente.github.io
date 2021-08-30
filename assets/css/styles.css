@@ -530,6 +530,9 @@ p, .base {
 .services-page {
   padding: 2rem 0 4rem 0 !important;
 }
+.services-page ul {
+  margin-bottom: 3rem;
+}
 
 .team {
   background-color: #f9f8f7;
