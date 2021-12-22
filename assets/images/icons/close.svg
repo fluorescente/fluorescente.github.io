@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icons/close</title>
-    <g id="lg-1400px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="contact-form" transform="translate(-1256.000000, -48.000000)" fill-rule="nonzero">
-            <g id="Group" transform="translate(1256.000000, 48.000000)">
-                <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
-                <polygon id="close-light" fill="#000000" points="31.277 0 15.992 15.286 0.708 0 -4.97379915e-14 0.707 15.286 15.992 -4.97379915e-14 31.277 0.708 31.984 15.992 16.7 31.277 31.984 31.984 31.277 16.7 15.992 31.984 0.707"></polygon>
-            </g>
-        </g>
-    </g>
+<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M30.8857 1.70711C31.2762 1.31658 31.2762 0.683418 30.8857 0.292893C30.4951 -0.097631 29.862 -0.0976311 29.4715 0.292893L16.1568 13.6076L2.84212 0.292893C2.4516 -0.0976307 1.81843 -0.0976311 1.42791 0.292893C1.03739 0.683417 1.03739 1.31658 1.42791 1.70711L14.7426 15.0218L0.292893 29.4715C-0.0976308 29.862 -0.0976312 30.4951 0.292893 30.8857C0.683417 31.2762 1.31658 31.2762 1.70711 30.8857L16.1568 16.436L30.6065 30.8857C30.997 31.2762 31.6302 31.2762 32.0207 30.8857C32.4112 30.4951 32.4112 29.862 32.0207 29.4715L17.571 15.0218L30.8857 1.70711Z" fill="black"/>
 </svg>
