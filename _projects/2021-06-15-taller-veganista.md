@@ -28,6 +28,8 @@ image_7: ../assets/images/projects/taller-veganista/receta-frijoles-negros-lands
 image_7_alt: taller veganista receta
 image_8: ../assets/images/projects/taller-veganista/vegan-shoppers-landscape.jpg
 image_8_alt: taller veganista artículo
+image_9: ../assets/images/projects/taller-veganista/leche-asesina.jpg
+image_9_alt: leche asesina
 permalink: /taller-veganista/
 
 ---
