@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
@@ -758,7 +757,7 @@ button {
   color: #999592;
 }
 .uk-lightbox .uk-close:after {
-  content: "";
+  content: "\e908";
 }
 .uk-lightbox .uk-close svg {
   display: none;
@@ -788,11 +787,11 @@ button {
 }
 
 .uk-slidenav-previous:after {
-  content: "";
+  content: "\e903";
 }
 
 .uk-slidenav-next:after {
-  content: "";
+  content: "\e904";
 }
 
 .suscribe {
