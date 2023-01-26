@@ -7,7 +7,7 @@ hero_image: assets/images/projects/taller-veganista/taller-veganista-hero.jpg
 square_image: assets/images/projects/taller-veganista/taller-veganista-dribbble.jpg
 image: assets/images/projects/taller-veganista/taller-veganista-dribbble.jpg
 card_class: taller-veganista-card
-excerpt: Un sitio web para divulgar información sobre veganismo y antiespecismo.
+excerpt: Un sitio web para divulgar información sobre liberación animal.
 description: Un sitio web para divulgar información sobre veganismo y antiespecismo. Identidad visual, ilustración, diseño y desarrollo web.
 categories:
 - Identidad visual
@@ -33,7 +33,7 @@ image_9_alt: leche asesina
 permalink: /taller-veganista/
 
 ---
-Taller Veganista es una iniciativa local dedicada a ayudar a las personas que están interesadas en ser veganas pero no saben cómo hacerlo, tienen dificultades, preguntas, o no tienen con quién hablar.
+Taller Veganista es una iniciativa local dedicada a ayudar a las personas que quieren unirse a la lucha por la liberación animal, desde sus hábitos de vida y participación ciudadana.
 
 Generalmente el diseño de proyectos para la promoción del veganismo incorpora lenguajes gráficos enfocados a conectar con quienes buscan llegar a objetivos de transformación física, salud y crecimiento espiritual. En este proyecto estoy intentando usar lenguajes compatibles con personas con posiciones críticas frente establecimiento que valoran la ilustración, el lettering y el arte callejero.
 
