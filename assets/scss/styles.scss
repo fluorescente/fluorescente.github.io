@@ -1091,6 +1091,13 @@ footer{
 
 // Club de dibujo
 
-.club-de-dibujo-texto{
-  margin-top: $two-spaces;
+
+.drawing-club{
+  margin: $three-spaces 0 $four-spaces 0;
+  & h2{
+    margin-bottom: $two-spaces;
+  }
+  & p{
+    margin-bottom: $space;
+  }
 }
