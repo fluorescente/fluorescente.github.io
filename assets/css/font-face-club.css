@@ -1,0 +1,17 @@
+/* // @font-face */
+
+/* montegu-slab */
+@font-face {
+  font-family: 'Montegu Slab';
+  font-weight: 400;
+  src: url('../fonts/montagu-slab/MontaguSlab_24pt-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+/* montegu-slab */
+@font-face {
+  font-family: 'Montegu Slab';
+  font-weight: 600;
+  src: url('../fonts/montagu-slab/MontaguSlab_24pt-SemiBold.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+

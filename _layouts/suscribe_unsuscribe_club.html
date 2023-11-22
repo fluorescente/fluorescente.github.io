@@ -1,0 +1,40 @@
+---
+layout: basic_structure_club_de_dibujo
+---
+<section class="suscribe-unsuscribe">
+  <!-- wrapper -->
+  <div class="wrapper container-fluid">
+    <!-- row -->
+    <div class="row center-xs middle-xs content">
+      <!-- col -->
+      <div class="col-xs-12">
+        <!-- row -->
+        <div class="row center-xs">
+          <!-- col -->
+          <div class="col-xs-12 col-sm-6">
+            <a href="/clubdedibujo">
+            <figure class="confirm-logo">
+              <img src="../assets/images/club-de-dibujo.svg">
+            </figure>
+            </a>  
+          </div>
+          <!-- col end -->          
+        </div>
+        <!-- row end -->
+        <h3>{{ page.title }}</h3>
+        <!-- col -->
+        <div class="col-xs-12 col-sm-offset-1 col-sm-10">
+          <p class="confirm">{{ page.paragraph }}</p>
+          {% if page.link != 'back' %}
+            <a href="/clubdedibujo" class="button button-big button-dark">{{ page.button }}</a>
+          {% endif %}
+          <!-- {% if page.link == 'back' %}
+            <a href="#" class="button button-big button-dark" onclick="window.location.href = window.history.go(-2);">{{ page.button }}</a>
+          {% endif %} -->
+        </div>
+        <!-- col end -->
+    </div>  
+    <!-- row end -->
+  </div>
+  <!-- wrapper end -->
+</section>

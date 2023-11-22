@@ -1,0 +1,269 @@
+// Fluore_scente
+// Design and Development. Fluorescente github: @fluorescente
+// fluorescente.design
+
+// Type scale: https://www.modularscale.com/?16&px&1.2
+
+// Variables
+
+// Color variables
+
+$brand: #23EEB4;
+$dark: #000;
+$blanch: #fff;
+$bright: #fff;
+$gray-0: #f9f8f7;
+$gray-1: #d9d7d5;
+$gray-2: #b9b6b4;
+$gray-3: #999592;
+$gray-4: #787470;
+$gray-5: #58534f;
+
+$transparent: rgba(0,0,0,0);
+$box-shadow: 0 0 6px 4px rgba(0,0,0,0.1);
+
+$border-line: 1px dotted $dark;
+$border-input: 1px solid $dark;
+
+$transition: .7s ease;
+$transition-quick: .4s ease;
+$animated-underline: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+
+$transform-scale: scale(1.03);
+$transform-scale-small: scale(1.01);
+
+// Type variables
+
+$headings: 'Montegu Slab', sans-serif;
+$paragraphs: 'Montegu Slab', sans-serif;
+
+$regular: 400;
+$regular-italic: 400i;
+$semibold: 600;
+$semibold-italic: 600i;
+
+$small: 0.79rem;
+$small-line-height: 1.266rem;
+$mid: 1.125rem;
+$mid-line-height: 1.802rem;
+
+// Space variables
+
+// 4px
+$quarter-space: .25rem;
+// 8px
+$half-space: .5rem;
+// 12px
+$half-space-and-quarter: .75rem;
+// 16px
+$space: 1rem;
+// 24px
+$space-and-half: 1.5rem;
+// 32px
+$two-spaces: 2rem;
+// 48px
+$three-spaces: 3rem;
+// 64px
+$four-spaces: 4rem;
+// 80px
+$five-spaces: 5rem;
+// 96px
+$six-spaces: 6rem;
+// 128px
+$eight-spaces: 8rem;
+
+// Styles
+
+// General
+
+html{
+  background-image: url(../images/papel-claro.jpg);
+}
+
+body{
+  font-family: $paragraphs;
+  font-weight: $regular;
+  color: $dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+:focus{
+  outline: 0;
+}
+
+figure{
+  margin: 0;
+  & img{
+    width: 100%;
+  }
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  margin: 0;
+}
+
+button, input, optgroup, select, textarea{
+  font-family: $paragraphs;
+  color: $dark;
+}
+
+a{
+  font-weight: $semibold;
+  color: $dark;
+  border-bottom: 1px solid $dark;
+  &:hover{
+    text-decoration: none;
+    color: $dark;
+    border-bottom: 1px solid $brand;
+  }
+}
+
+::selection, -moz-selection{
+  color: $dark;
+  background: $brand;
+}
+
+.ul-inline{
+  display: inline-block;
+  & li{
+    display: inline-block;
+  }
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.no-underline{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: $headings;
+  font-weight: $semibold;
+  margin-top: 0;
+  color: $dark;
+}
+
+.heading-xs{
+  margin-bottom: $space;
+}
+
+.heading-sm{
+  margin-bottom: $two-spaces;
+}
+
+.lettering-title{
+  background-image: url(../images/club-de-dibujo.svg);
+  width: 100%;
+  height: 4rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-bottom: $space;
+  & span{
+    display: none;
+  }
+}
+
+h3{
+  font-size: 1.425rem;
+  line-height: 1.781rem;
+}
+
+h5{
+  font-size: 1.125rem;
+  line-height: 1.406rem;
+  margin-bottom: $quarter-space;
+}
+
+.form-comment{
+  margin-top: 0;
+  margin-bottom: $half-space;
+}
+
+.copy{
+  & p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-bottom: $space-and-half;
+  }
+}
+
+footer{
+  background-image: url(../images/papel-medio.jpg);
+  padding: $two-spaces 0 $four-spaces 0;
+}
+
+.club-de-dibujo-heading{
+  text-align: center;
+  margin-bottom: $two-spaces;
+}
+
+::placeholder {
+  color: $gray-4;
+}
+
+.contact-form{
+  input{
+    padding: $half-space 0 $half-space 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid $gray-4;
+    background-color: $transparent;
+    width: 100%;
+    font-size: 1rem;
+  }
+  margin-bottom: $two-spaces;
+}
+
+
+.button, .submit-button{
+  cursor: pointer;
+  margin-top: $space;
+  background-color: $dark;
+  color: $bright;
+  font-weight: $semibold;
+  border: 0;
+  font-size: 1rem;
+  padding: $half-space-and-quarter $space;
+  &:hover{
+    background-color: $brand;
+    color: $dark;
+  }
+}
+
+
+.calaca-footer{
+  width: 94%;
+  margin-bottom: $space;
+}
+
+.chat-info{
+  margin-bottom: $two-spaces;
+}
+
+.confirm-logo{
+  margin-bottom: $two-spaces;
+}
+
+.confirm{
+  margin-bottom: $two-spaces;
+}
+
+.suscribe-unsuscribe{
+    & .content{
+      height: 100vh;
+    }
+}
+

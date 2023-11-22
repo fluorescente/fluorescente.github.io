@@ -1,0 +1,94 @@
+@media only screen and (max-width: 48em) {
+  /* line 82, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .visible-sm {
+    display: block;
+  }
+  /* line 85, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .hidden-xs {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  /* line 93, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .visible-sm {
+    display: block;
+  }
+  /* line 96, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .hidden-sm {
+    display: none;
+  }
+  /* line 99, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .lettering-title {
+    width: 70%;
+    margin: 0 auto 1.5rem auto;
+    height: 6.8rem;
+  }
+  /* line 104, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  h3 {
+    font-size: 1.802rem;
+    line-height: 2.25rem;
+  }
+  /* line 108, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .club-de-dibujo-heading {
+    margin-bottom: 3rem;
+  }
+  /* line 111, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .chat-info {
+    margin-top: 0.75rem;
+  }
+  /* line 114, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  footer {
+    padding: 2rem 0 2rem;
+  }
+  /* line 117, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .contact-form {
+    margin-bottom: 0;
+  }
+  /* line 120, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .calaca-footer {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  /* line 124, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .chat-info {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 64em) and (min-width: 75em) {
+  /* line 136, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .visible-lg {
+    display: block;
+  }
+  /* line 139, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .hidden-lg {
+    display: none;
+  }
+  /* line 142, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  body {
+    margin: 0 auto;
+    max-width: 1680px;
+  }
+  /* line 146, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .club-de-dibujo-heading {
+    padding: 5.6rem 0;
+    background-image: url(../images/calacas-square.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 49%;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  /* line 155, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  .lettering-title {
+    height: 6.3rem;
+    width: 100%;
+  }
+  /* line 159, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
+  footer {
+    padding-bottom: 2rem;
+  }
+}
+
+/*# sourceMappingURL=media-queries-club.css.map */

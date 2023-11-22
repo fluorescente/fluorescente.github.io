@@ -1,0 +1,165 @@
+// Fluore_scente
+// Design and Development. Fluorescente github: @fluorescente
+// fluorescente.design
+
+// Type scale: https://www.modularscale.com/?16&px&1.2
+
+// Variables
+
+// Color variables
+
+$brand: #23EEB4;
+$dark: #000;
+$blanch: #fff;
+$bright: #fff;
+$gray-0: #f9f8f7;
+$gray-1: #d9d7d5;
+$gray-2: #b9b6b4;
+$gray-3: #999592;
+$gray-4: #787470;
+$gray-5: #58534f;
+
+$transparent: rgba(0,0,0,0);
+$box-shadow: 0 0 6px 4px rgba(0,0,0,0.1);
+
+$border-line: 1px dotted $dark;
+$border-input: 1px solid $dark;
+
+$transition: .7s ease;
+$transition-quick: .4s ease;
+$animated-underline: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+
+$transform-scale: scale(1.03);
+$transform-scale-small: scale(1.01);
+
+// Type variables
+
+$headings: 'YoungSerif', sans-serif;
+$paragraphs: 'DM Sans', sans-serif;
+
+$regular: 400;
+$regular-italic: 400i;
+$bold: 700;
+$bold-italic: 700i;
+
+$small: 0.79rem;
+$small-line-height: 1.266rem;
+$mid: 1.125rem;
+$mid-line-height: 1.802rem;
+
+// Space variables
+
+// 4px
+$quarter-space: .25rem;
+// 8px
+$half-space: .5rem;
+// 12px
+$half-space-and-quarter: .75rem;
+// 16px
+$space: 1rem;
+// 24px
+$space-and-half: 1.5rem;
+// 32px
+$two-spaces: 2rem;
+// 48px
+$three-spaces: 3rem;
+// 64px
+$four-spaces: 4rem;
+// 80px
+$five-spaces: 5rem;
+// 96px
+$six-spaces: 6rem;
+// 128px
+$eight-spaces: 8rem;
+
+
+
+// Styles
+
+// xs - Up to 768px
+@media only screen and (max-width: 48em){
+  // visible/hidden
+  .visible-sm{
+    display: block;
+  }
+  .hidden-xs{
+    display: none;
+  }
+}
+
+// sm - from 768
+@media only screen and (min-width: 48em) {
+  // visible/hidden
+  .visible-sm{
+    display: block;
+  }
+  .hidden-sm{
+    display: none;
+  }
+  .lettering-title{
+    width: 70%;
+    margin: 0 auto $space-and-half auto;
+    height: 6.8rem;
+  }
+  h3{
+    font-size: 1.802rem;
+    line-height: 2.25rem;
+  }
+  .club-de-dibujo-heading{
+    margin-bottom: $three-spaces;
+  }
+  .chat-info{
+    margin-top: $half-space-and-quarter;
+  }
+  footer{
+    padding: $two-spaces 0 $two-spaces 
+  }
+  .contact-form{
+    margin-bottom: 0;
+  }
+  .calaca-footer{
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .chat-info{
+    margin-bottom: $space-and-half;
+  }  
+}
+
+// lg - from 1024
+@media only screen and (min-width: 64em) {
+
+
+// lg - from 1200
+@media only screen and (min-width: 75em) {
+    // visible/hidden
+    .visible-lg{
+      display: block;
+    }
+    .hidden-lg{
+      display: none;
+    }
+    body{
+      margin: 0 auto;
+      max-width: 1680px;
+    }
+    .club-de-dibujo-heading{
+      padding: 5.6rem 0;
+      background-image: url(../images/calacas-square.jpg);
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: 49%;
+      text-align: left;
+      margin-bottom: 0;
+    }
+    .lettering-title{
+      height: 6.3rem;
+      width: 100%;
+    }
+    footer{
+      padding-bottom: $two-spaces;
+    }
+  }
+}
+
+
