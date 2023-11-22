@@ -97,9 +97,9 @@ $eight-spaces: 8rem;
     display: none;
   }
   .lettering-title{
-    width: 70%;
-    margin: 0 auto $space-and-half auto;
-    height: 6.8rem;
+    // width: 70%;
+    // margin: 0 auto $space-and-half auto;
+    // height: 6.8rem;
   }
   h3{
     font-size: 1.802rem;
@@ -109,7 +109,7 @@ $eight-spaces: 8rem;
     margin-bottom: $three-spaces;
   }
   .chat-info{
-    margin-top: $half-space-and-quarter;
+    margin-top: $space-and-half;
   }
   footer{
     padding: $two-spaces 0 $two-spaces 
@@ -153,8 +153,8 @@ $eight-spaces: 8rem;
       margin-bottom: 0;
     }
     .lettering-title{
-      height: 6.3rem;
-      width: 100%;
+      // height: 6.3rem;
+      // width: 100%;
     }
     footer{
       padding-bottom: $two-spaces;

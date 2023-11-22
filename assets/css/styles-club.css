@@ -106,12 +106,6 @@ h1, h2, h3, h4, h5 {
 
 /* line 164, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/styles-club.scss */
 .lettering-title {
-  background-image: url(../images/club-de-dibujo.svg);
-  width: 100%;
-  height: 4rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left top;
   margin-bottom: 1rem;
 }
 

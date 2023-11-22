@@ -18,12 +18,6 @@
   .hidden-sm {
     display: none;
   }
-  /* line 99, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
-  .lettering-title {
-    width: 70%;
-    margin: 0 auto 1.5rem auto;
-    height: 6.8rem;
-  }
   /* line 104, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
   h3 {
     font-size: 1.802rem;
@@ -35,7 +29,7 @@
   }
   /* line 111, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
   .chat-info {
-    margin-top: 0.75rem;
+    margin-top: 1.5rem;
   }
   /* line 114, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
   footer {
@@ -79,11 +73,6 @@
     background-size: 49%;
     text-align: left;
     margin-bottom: 0;
-  }
-  /* line 155, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
-  .lettering-title {
-    height: 6.3rem;
-    width: 100%;
   }
   /* line 159, ../../../../../Users/ale/Documents/fluorescente.github.io/assets/scss/media-queries-club.scss */
   footer {
