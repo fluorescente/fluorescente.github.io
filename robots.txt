@@ -1,3 +1,6 @@
 User-agent: *
 Disallow: https://fluorescente.design//post1
+Disallow: https://fluorescente.design/?source=user_profile---------------------------
+Disallow: https://fluorescente.design/?source=post_stats_page---------------------------
+Disallow: https://fluorescente.design/?source=user_profile----------------------------
 Sitemap: https://fluorescente.design/sitemap.xml
