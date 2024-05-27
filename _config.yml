@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 author: fluore_scente
 image: assets/images/fluorescente-card-image.png
 logo: assets/images/fluore_scente-logo.png
-url: "https://fluorescente.design/"
+url: "https://fluorescente.design"
 github_username: fluorescente
 # webmaster_verifications:
 #   google: 1234
