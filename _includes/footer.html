@@ -11,13 +11,8 @@
       <!-- col -->
       <div class="col-xs-12 footer-links">
         <li><a href="/proyectos/" class="link no-underline link-base">Proyectos</a></li>
-        {% if page.url == "/" %}
-          <li><a href="/#que-hacemos" class="link no-underline link-base">Qué hacemos</a></li>
-          <li><a href="/#nosotros" class="link no-underline link-base">Nosotros</a></li>
-        {% elsif page.url != "/" %}
-          <li><a href="/que-hacemos" class="link no-underline link-base">Qué hacemos</a></li>
-          <li><a href="/nosotros" class="link no-underline link-base">Nosotros</a></li>
-        {% endif %}
+        <li><a href="/que-hacemos" class="link no-underline link-base">Qué hacemos</a></li>
+        <li><a href="/nosotros" class="link no-underline link-base">Nosotros</a></li>
         <li><a href="/dibujos/" class="link no-underline link-base">Dibujos</a></li>
         <li><a uk-toggle="target: #contact-modal" class="link no-underline link-base">{{ site.link_to_contact }}</a></li>
       </div>
