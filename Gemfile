@@ -35,3 +35,7 @@ gem 'jekyll-seo-tag'
 
 # Jekyll Sitemap
 gem 'jekyll-sitemap'
+
+gem "csv"
+gem "base64"
+gem "bigdecimal"
