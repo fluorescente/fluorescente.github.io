@@ -31,6 +31,7 @@ image_8_alt: Animales Libres artículo
 image_9: ../assets/images/projects/animales-libres/leche-asesina.jpg
 image_9_alt: Leche Asesina
 permalink: /animales-libres/
+published: false
 
 ---
 Animales libres es una iniciativa local dedicada a ayudar a las personas que quieren unirse a la lucha por la liberación animal, desde sus hábitos de vida y participación ciudadana.
