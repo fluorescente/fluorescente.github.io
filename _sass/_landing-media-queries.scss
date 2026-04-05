@@ -32,6 +32,12 @@
     }
   }
   .landing-modal-nav-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 1216px;
+    margin: 0 auto;
+    height: 80vh;
+    justify-content: center;
     padding: 0 1.5rem;
   }
   .not-found-container{
@@ -79,6 +85,9 @@
         break-inside: avoid;
       }
     }
+  }
+  #landing-modal-nav{
+    margin-left: -.85rem;
   }
   .landing-modal-nav-content{
     padding: 0;
