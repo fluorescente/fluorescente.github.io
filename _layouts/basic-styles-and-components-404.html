@@ -1,0 +1,28 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" class="basic-styles-and-components landing">
+{% include basic-styles-and-components-head.html %}
+  <body class="not-found">
+    {% include landing-nav.html %}
+    <div class="not-found-container">
+      <div class="content">
+        <header class="boxed-width">
+          <div class="illustration">
+            <span class="icon icon-neutral"></span>
+          </div>
+        </header>
+        <main class="boxed-width">
+          <h1>{{ page.heading }}</h1>
+          <div class="main-text">
+            <p>{{ content | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          </div>
+          <a href="{{ page.button-url }}" class="button button-ghost button-l">{{ page.button-text }}</a>
+        </main>
+      </div>
+    </div>
+    {% include basic-styles-and-components-footer.html %} 
+  </body>
+</html>    

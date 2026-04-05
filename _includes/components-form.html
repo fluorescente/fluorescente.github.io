@@ -1,0 +1,21 @@
+<!-- Form -->
+<div class="form-container">
+  {% for item in site.data.form %}
+  <form method="post" action="{{ item.action }}" aria-labelledby="{{ item.form-labelledby }}">
+    <input type="hidden" name="_next" value="{{ item.confirmation-page }}">
+    <input type="hidden" name="_subject" value="{{ item.subject }}">
+    <input type="hidden" name="_cc" value="{{ item.cc }}">
+    <label for="name">{{ item.name-label }}</label>
+    <input required type="text" name="name" id="name" autocomplete="on" oninvalid="this.setCustomValidity('{{ item.name-validation }}')" oninput="this.setCustomValidity('')">
+    <label for="phone">{{ item.phone-label }}</label>
+    <input required type="tel" name="phone" id="phone" pattern=".{7,}" autocomplete="on" oninvalid="this.setCustomValidity('{{ item.phone-validation }}')" oninput="this.setCustomValidity('')">
+    <label for="email">{{ item.email-label }}</label>
+    <input required type="email" name="email" id="email" pattern=".{4,64}" autocomplete="on" oninvalid="this.setCustomValidity('{{ item.email-validation }}')" oninput="this.setCustomValidity('')">
+    <label for="message">{{ item.message-label }}</label>
+    <textarea required name="message" id="message" rows="5" pattern=".{4,}" oninvalid="this.setCustomValidity('{{ item.message-validation }}')" oninput="this.setCustomValidity('')"></textarea>
+    <button type="submit" class="{{ item.button-size }} form-button" aria-describedby="form-note">{{ item.button-text }}</button>
+    <p class="form-note" id="form-note">{{ item.form-note }}</p>
+  </form>
+  {% endfor %}
+</div>
+<!-- Form end -->

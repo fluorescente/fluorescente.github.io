@@ -1,0 +1,53 @@
+.containers-container,
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+  row-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container figure,
+.card figure {
+  margin-bottom: 1rem;
+}
+
+.container .container-heading,
+.card .card-heading {
+  margin-bottom: .5rem;
+}
+
+.container-text {
+  margin-bottom: 1.5rem;
+
+  h3 {
+    font-size: var(--h2);
+  }
+}
+
+.card {
+  background-color: var(--neutral-10);
+  border-bottom: none;
+  color: var(--text);
+
+  &:hover {
+    color: var(--neutral-80);
+    background-color: var(--bright);
+
+    h3 {
+      color: var(--neutral-80);
+    }
+  }
+}
+
+.card-text {
+  padding: 0 1.5rem 2rem 1.5rem;
+
+  h3{
+    font-size: var(--h2);
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}

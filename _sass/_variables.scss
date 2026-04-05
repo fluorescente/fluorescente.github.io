@@ -1,0 +1,63 @@
+
+// CSS Variables
+
+:root{
+  // Colors
+  --bright: #fff;
+  --neutral-0: #FAFAFA;
+  --neutral-10: #EBEBEB;
+  --neutral-20: #D6D6D6;
+  --neutral-30: #C2C2C2;
+  --neutral-40: #ADADAD;
+  --neutral-50: #999999;
+  --neutral-60: #858585;
+  --neutral-70: #707070;
+  --neutral-80: #5C5C5C;
+  --neutral-90: #474747;
+  --text: #333;
+
+  // Headings
+  --headings: 'DM Sans', sans-serif;
+  --headings-line-height: 1.12;
+
+  // Paragraphs
+  --paragraphs: 'DM Sans', sans-serif;
+  --paragraphs-line-height: 1.5;
+
+  // Font Sizes
+  --h6: 1.125rem;
+  --h5: 1.263rem;
+  --h4: 1.419rem;
+  --h3: 1.6rem;
+  --h2: 1.8rem;
+  --h1: 2.025rem;
+  --h-l: 2.281rem;
+  --h-xl: 2.563rem;
+  --h-xxl: 2.881rem;
+  
+  --p-xxs: 0.79rem;
+  --p-xs: 0.888rem;
+  --p-s: 1rem;
+  --p-base: 1.125rem;
+  --p-m: 1.263rem;
+  --p-l: 1.375rem;
+  --p-xl: 1.6rem;
+
+  // Font Weights
+  --thin: 100;
+  --extralight: 200;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+  --extrabold: 800;
+  --black: 900;
+
+  // Spaces and Others
+  --rounded-border-01: .5rem;;
+  --button-icon-space: .5rem;
+  --fade: all .4s ease;
+  --fade-in: fadeIn 3s;
+  --shadow: -3px 6px 12px 0px  var(--neutral-10);
+}

@@ -1,0 +1,182 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: var(--headings);
+  font-weight: var(--bold);
+  line-height: var(--headings-line-height);
+}
+
+h6 {
+  font-size: var(--h6) ;
+  margin-bottom: var(--p-s);
+}
+
+h5 {
+  font-size: var(--h5);
+  margin-bottom: var(--h6);
+}
+
+h4 {
+  font-size: var(--h4);
+  margin-bottom: var(--h5);
+}
+
+h3 {
+  font-size: var(--h3);
+  margin-bottom: var(--h4);
+}
+
+h2 {
+  font-size: var(--h2);
+  margin-bottom: var(--h3);
+}
+
+h1 {
+  font-size: var(--h1);
+  margin-bottom: var(--h2);
+}
+
+.h-l {
+  font-size: var(--h-l);
+  margin-bottom: var(--h1);
+}
+
+.h-xl {
+  font-size: var(--h-xl);
+  margin-bottom: var(--h-l);
+}
+
+.h-xxl {
+  font-size: var(--h-xxl);
+  margin-bottom: var(--h-xl);
+}
+
+p {
+  margin: 0;
+  font-family: var(--paragraphs);
+  line-height: var(--paragraphs-line-height);
+}
+
+.post{
+
+  p{
+    margin-bottom: var(--p-s);
+  }
+}
+
+blockquote{
+  display: block;
+  margin: 2rem 0;
+  padding: 1.5rem 0 1.75rem 0;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: var(--bold);
+  border-top: 1px dashed var(--neutral-40);
+  border-bottom: 1px dashed var(--neutral-40);
+
+  cite{
+    display: block;
+    margin-top: .25rem;
+    font-weight: var(--medium);
+  }
+}
+
+figcaption{
+  margin-top: .5rem;
+  font-weight: var(--semibold);
+  font-size: var(--p-s);
+}
+
+table{
+  width: 100%;
+  display: block;
+  overflow-y: scroll;
+  border-collapse: collapse;
+
+  tr{
+    border-bottom: 1px dashed var(--neutral-40);
+
+    &:nth-child(odd){
+      background-color: var(--neutral-0);
+    }
+
+    &:nth-child(even){
+      background-color: var(--bright);
+    }
+  }
+
+  th{
+    text-align: left;
+    padding: 1rem;
+    border-left: 1px dashed var(--neutral-40);
+    border-right: 1px dashed var(--neutral-40);
+    background-color: var(--neutral-10);
+  }
+
+  td{
+    padding: .75rem 1rem;
+    border-left: 1px dashed var(--neutral-40);
+    border-right: 1px dashed var(--neutral-40);
+  }
+}
+
+table + p, table + h2, table + h3{
+  margin-top: 2rem;
+}
+
+ul, ol{
+  padding-left: var(--p-base);
+  margin-top: 0;
+  margin-bottom: var(--p-l);
+
+  li{
+    line-height: var(--paragraphs-line-height);
+  }
+}
+
+:not(pre) > code, :not(pre) > kbd, :not(pre) > samp,
+code, pre, kbd, samp{
+  color: inherit;
+  font-size: var(--p-s);
+  background-color: transparent;
+}
+
+pre{
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  margin: 0 0 1.5rem 0;
+}
+
+.p-xs {
+  font-size: var(--p-xs);
+  margin-bottom: var(--p-xxs);
+}
+
+.p-s {
+  font-size: var(--p-s);
+  margin-bottom: var(--p-xs);
+}
+
+.p-base {
+  font-size: var(--p-base);
+  margin-bottom: var(--p-s);
+}
+
+.p-m {
+  font-size: var(--p-m);
+  margin-bottom: var(--p-base);
+}
+
+.p-l {
+  font-size: var(--p-l);
+  margin-bottom: var(--p-m);
+}
+
+.p-xl {
+  font-size: var(--p-xl);
+  margin-bottom: var(--p-l);
+}
+
+.bold {
+  font-weight: var(--bold);
+}

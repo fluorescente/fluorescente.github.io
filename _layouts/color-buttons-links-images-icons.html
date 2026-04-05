@@ -1,0 +1,107 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" class="basic-styles-and-components">
+{% include basic-styles-and-components-head.html %}
+  <body>
+    {% include landing-nav.html %}
+    <header class="full-width ux-library-header">
+      <h1 class="h-xxl">{{ page.heading | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+    </header>
+    <main class="full-width basic-styles-and-components-main">
+      <section>
+        <!-- Colors Data -->
+        <h2>{{ page.colors-heading }}</h2>
+        <div class="colors-container">
+          {% for item in site.data.colors %}
+          <article>
+            <div class="color-circle {{ item.color }}"></div>
+            <h3 class="p-xs">{{ item.heading }}</h3> 
+          </article> 
+          {% endfor %}
+        </div>
+      </section>
+      <section>
+        <!-- Buttons and links -->
+        <h2>{{ page.buttons-and-links-heading }}</h2>
+        <div class="buttons-container">
+          <!-- Buttons Data -->
+          {% for item in site.data.buttons %}
+          <article>
+            <div class="button-container">
+              <button class="{{ item.button-size }}" type="submit">{{ page.button-text }}</button>
+            </div>
+            <h3 class="p-xs">{{ item.heading }}</h3>   
+          </article>
+          {% endfor %}     
+        </div>
+        <div class="links-container">
+          <!-- Links Data -->
+          {% for item in site.data.links %}
+            <article>
+              <div class="link-container">
+                <a href="#" class="{{ item.link-size }}">{{ item.link-text }}</a>
+              </div>
+              <h3 class="p-xs">{{ item.heading }}</h3>  
+            </article>  
+          {% endfor %}
+        </div>
+        <div class="arrow-links-container">
+          <!-- Links Arrow Data -->
+          {% for item in site.data.links-arrow %}
+            <article>
+              <div class="arrow-link-container">
+                <a href="#" class="arrow-link {{ item.link-size }}">{{ item.link-text }}<span class="icon {{ item.icon }}"></span></a>
+              </div> 
+              <h3 class="p-xs">{{ item.heading }}</h3> 
+            </article>  
+          {% endfor %}
+        </div>
+      </section>
+
+      <section>
+        <!-- Images Data -->
+        <h2>{{ page.images-heading }}</h2>
+        <div class="images-container">
+          {% for item in site.data.images-placeholder %}
+          <article>
+            <figure>
+              <img src="{{ item.image }}" alt="{{ item.alt }}">
+            </figure> 
+          </article>
+          {% endfor %}     
+        </div>
+      </section>
+      <section>
+        <!-- Icons Data -->
+        <h2>{{ page.icons-heading }}</h2>
+        <h3>{{ page.icons-interface-heading }}</h3>
+        <div class="icons-container">
+          {% for item in site.data.icons-interface %}
+          <article>
+            <div class="icon-container">
+              <span class="icon {{ item.icon }}"></span>
+            </div>
+            <h3 class="p-xs">{{ item.heading }}</h3>  
+          </article>
+          {% endfor %}     
+        </div>
+        <h3>{{ page.icons-platforms-heading }}</h3>
+        <div class="icons-container">
+          {% for item in site.data.icons-platforms %}
+          <article>
+            <div class="icon-container">
+              <span class="icon {{ item.icon }}"></span>
+            </div>
+            <h3 class="p-xs">{{ item.heading }}</h3>  
+          </article>
+          {% endfor %}     
+        </div>
+      </section>  
+    </main>
+    {% include landing-nav.html %}
+    {% include basic-styles-and-components-footer.html %} 
+  </body>
+</html>  

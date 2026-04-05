@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--text);
+  font-family: var(--paragraphs);
+  font-optical-sizing: auto;
+  font-weight: var(--medium);
+  font-style: normal;
+  font-variation-settings: "SOFT" 0, "WONK" 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-display: swap;
+  font-size: var(--p-base);
+}
+
+::selection,
+-moz-selection {
+  color: var(--bright);
+  background-color: var(--neutral-30);
+}
+
+figure {
+  margin: 0;
+}
+
+figure img, picture img {
+  width: 100%;
+  height: auto;
+}
+
+em {
+  color: inherit;
+}

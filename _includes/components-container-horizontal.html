@@ -1,0 +1,27 @@
+<!-- Container -->
+<div class="container container-horizontal">
+  <figure>
+    <a href="{{ item.fake-link }}">
+      <img 
+        srcset="
+          {{ item.image-xs }} 686w,
+          {{ item.image-sm }} 696w,
+          {{ item.image-lg }} 560w"
+        sizes="
+          (min-width: 1025px) 280px,
+          (min-width: 641px) 348px,
+          343px"
+        src="{{ item.src }}"  
+        alt="{{ item.thumbnail-alt }}"
+        loading="lazy">
+      </a>  
+  </figure>
+  <div class="text-buttons">
+    <div class="container-text">
+      <h3 class="container-heading">{{ item.heading | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+      <p class="p-s">{{ item.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    </div>
+    <a href="{{ item.fake-link }}" class="button button-base">{{ item.button-text }}</a>
+  </div>
+</div>
+<!-- Container end -->

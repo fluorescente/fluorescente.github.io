@@ -1,0 +1,17 @@
+<!-- Header Background-->
+<header class="header-background">
+  <div class="boxed-width header-content">
+    <div class="header-text">
+      {% for item in site.data.header-texts %}
+      <h1 class="h-xxl">{{ item.heading }}</h1>
+      <p class="p-base">{{ item.text }}</p>
+      {% endfor %}
+    </div>  
+    <ul class="header-buttons">
+      {% for item in site.data.header-buttons %}
+      <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text }}<span class="{{ item.button-icon-right }}"></span></a></li>
+      {% endfor %}
+    </ul>  
+  </div>
+</header>
+<!-- Header Background end -->

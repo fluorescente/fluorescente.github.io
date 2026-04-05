@@ -31,6 +31,7 @@ github_username: fluorescente
 ko-fi_url: "https://ko-fi.com/fluorescente"
 # webmaster_verifications:
 #   google: 1234
+lang: es
 locale: es_CO
 
 link_to_projects: Ver proyectos
@@ -50,12 +51,8 @@ suscribe_button: Suscríbete
 theme: minima
 plugins:
   - jekyll-feed
-
-plugins:
-  - jekyll-seo-tag
-
-plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag  
 
 defaults:
   -
@@ -68,6 +65,11 @@ defaults:
       logo: assets/images/fluore_scente-logo.png
       image: true
 
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never       
+
 collections:
   services:
     output: true
@@ -77,6 +79,16 @@ collections:
     output: true
   drawings:
     output: true
+  typography-heading-styles:
+    output: true
+  typography-paragraph-styles:
+    output: true
+  typography-bold-paragraph-styles:
+    output: true
+  placeholder-posts:
+    output: true               
+  styles-and-components:
+    output: true     
 
 # Exclude from processing.
 # The following items will not be processed, by default.

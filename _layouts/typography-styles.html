@@ -1,0 +1,48 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" class="basic-styles-and-components">
+{% include basic-styles-and-components-head.html %}
+  <body>
+    {% include landing-nav.html %}
+    <header class="full-width ux-library-header">
+      <h1 class="h-xxl">{{ page.heading | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+    </header>
+    <main class="full-width basic-styles-and-components-main">
+      <section>
+        <h2>{{ page.headings-heading }}</h2>
+        <div class="headings-container">
+        {% for item in site.typography-heading-styles %}
+          <article>
+            <h3 class="article-heading">{{ item.heading }}</h3>
+            {{ item.content | markdownify | remove: '<p>' | remove: '</p>' }} 
+          </article> 
+        {% endfor %}
+        </div>
+      </section>
+      <section>  
+        <h2>{{ page.paragraphs-heading }}</h2>
+        <div class="paragraphs-container">
+          {% for item in site.typography-paragraph-styles %}
+            <article>
+              <h3 class="article-heading">{{ item.heading }}</h3>
+              {{ item.content | markdownify | remove: '<p>' | remove: '</p>' }} 
+            </article> 
+          {% endfor %}
+        </div>
+        <div class="paragraphs-container">  
+          {% for item in site.typography-bold-paragraph-styles %}
+            <article>
+              <h3 class="article-heading">{{ item.heading }}</h3>
+              {{ item.content | markdownify | remove: '<p>' | remove: '</p>' }} 
+            </article> 
+          {% endfor %}
+        </div>
+      </section>      
+    </main>
+    {% include landing-nav.html %}
+    {% include basic-styles-and-components-footer.html %}   
+  </body>
+</html>  

@@ -1,0 +1,62 @@
+.uk-slideshow-items img {
+  width: 100%;
+  height: auto;
+}
+
+.slideshow-content {
+  position: relative;
+}
+
+.prev,
+.next {
+  color: var(--bright);
+}
+
+.prev {
+  left: .5rem;
+}
+
+.next {
+  right: .5rem;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: inherit;
+  color: var(--neutral-30);
+}
+
+.prev span,
+.next span {
+  font-size: var(--h-xl);
+}
+
+.prev svg,
+.next svg {
+  display: none;
+}
+
+.uk-dotnav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -2rem;
+  margin-bottom: .5rem;
+  margin-left: -1rem;
+
+  & > * {
+    flex: none;
+    padding-left: 1rem;
+
+    & > * {
+      border: none;
+      background-color: var(--bright);
+      width: .5rem;
+      height: .5rem;
+    }
+  }
+
+  & > .uk-active > * {
+    background-color: var(--neutral-60);
+  }
+}

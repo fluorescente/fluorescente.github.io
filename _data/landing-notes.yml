@@ -1,0 +1,6 @@
+- text: '**Figma:** comparto el archivo, no la librería (uso la versión gratuita).'
+- text: '**UIKit:** lo utilizo porque aún no desarrollo en JavaScript. Es fácil de usar, pero puede generar un parpadeo de contenido sin estilos (FOUC) y afectar ligeramente el rendimiento.'
+- text: '**Íconos:** forman parte de una fuente personalizada hecha con [**Icomoon**](https://icomoon.io/){:target="_blank"}. También están disponibles como archivos .svg en la carpeta icons.'
+- text: '**Escala tipográfica:** definida con una proporción de 1.125, ver   [**Modularscale**](https://www.modularscale.com/?16&px&1.125){:target="_blank"}'
+- text: '**Git y GitHub:** mi conocimiento es limitado. Aunque comparto el enlace al repositorio, aún estoy aprendiendo a gestionar proyectos colaborativos.'
+- text: '**Proyecto previo:** el sitio [**fluorescente.design**](https://www.fluorescente.design){:target="_blank"} lo diseñé y desarrollé antes de este proyecto, y contiene errores relativos a consideraciones que no tuve en cuenta en ese momento.'

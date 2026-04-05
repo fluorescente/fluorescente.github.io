@@ -36,6 +36,9 @@ gem 'jekyll-seo-tag'
 # Jekyll Sitemap
 gem 'jekyll-sitemap'
 
+# Jekyll SASS converter
+gem 'jekyll-sass-converter'
+
 gem "csv"
 gem "base64"
 gem "bigdecimal"
