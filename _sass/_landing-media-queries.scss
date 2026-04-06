@@ -68,9 +68,6 @@
       order: 2;
     }
   }
-  .landing-nav-link{
-    width: 40% !important;
-  }
   .uses{
     border-bottom: 1px solid var(--neutral-30);
     .uses-container{
@@ -90,7 +87,6 @@
     }
   }
   #landing-modal-nav{
-    // weird space fix
     margin-left: -.85rem;
   }
   .landing-modal-nav-content{

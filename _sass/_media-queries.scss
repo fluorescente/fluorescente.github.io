@@ -14,10 +14,6 @@
     display: inherit;
   }
 
-  .ux-library-header{
-    padding-bottom: 2.5em;
-  }
-
   .header-two-columns-01,
   .header-two-columns-02 {
     grid-template-columns: repeat(2, 1fr);
@@ -141,10 +137,6 @@
     padding-right: 0;
   }
 
-  .ux-library-header{
-    padding-bottom: 3em;
-  }
-
   .containers-container,
   .cards-container {
     grid-template-columns: repeat(4, 1fr);
@@ -232,12 +224,6 @@
   .checkboxes-container,
   .radio-buttons-container {
     grid-template-columns: repeat(6, 1fr);
-  }
-
-  .post{
-    header{
-      padding-top: 2rem;
-    }
   }
 
   .images-container {

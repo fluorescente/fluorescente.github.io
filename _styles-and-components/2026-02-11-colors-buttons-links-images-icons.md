@@ -10,6 +10,7 @@ tags:
 - Figma
 - Jekyll
 layout: color-buttons-links-images-icons
+<<<<<<< HEAD
 name: Colores, botones, enlaces, imágenes e íconos
 heading: Colores, botones, enlaces, imágenes e íconos
 description: Sistema de colores neutros, botones, enlaces, imágenes responsive y set
@@ -25,4 +26,10 @@ icons-heading: Íconos
 icons-interface-heading: Interfaz
 icons-platforms-heading: Plataformas
 ---
+=======
+title: "Colores, botones, enlaces, imágenes e íconos"
+name: "Colores, botones, enlaces, imágenes e íconos"
+heading: "Colores, botones, enlaces, imágenes e íconos"
+permalink: /colors-buttons-links-images-icons
+>>>>>>> parent of 4817c01 (Landing Estilos y componentes básicos)
 
