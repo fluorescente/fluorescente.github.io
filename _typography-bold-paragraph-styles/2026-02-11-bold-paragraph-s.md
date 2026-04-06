@@ -1,5 +1,7 @@
 ---
-heading: "p s bold"
+title: Bold Paragraph S
+date: 2026-02-11 00:00:00 Z
+heading: p s bold
 ---
 
 {% for item in site.data.typography-styles %}{{ item.paragraphs-text-1 }}{% endfor %}
