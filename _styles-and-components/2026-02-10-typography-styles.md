@@ -4,7 +4,7 @@ layout: typography-styles
 title: "Estilos tipográficos"
 name: "Estilos tipográficos"
 heading: "Estilos tipográficos"
-permalink: /typography-styles
+permalink: /estilos-tipográficos
 
 # --- SEO / Metadatos ---
 description: "Guía de estilos tipográficos para Figma y Jekyll. Escala modular, jerarquías visuales y tipografía responsive."

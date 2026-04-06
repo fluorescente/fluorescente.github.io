@@ -4,7 +4,7 @@ layout: color-buttons-links-images-icons
 title: "Colores, botones, enlaces, imágenes e íconos"
 name: "Colores, botones, enlaces, imágenes e íconos"
 heading: "Colores, botones, enlaces, imágenes e íconos"
-permalink: /colors-buttons-links-images-icons
+permalink: /colores-botones-enlaces-imágenes-íconos
 
 # --- SEO / Metadatos ---
 description: "Sistema de colores neutros, botones, enlaces, imágenes responsive y set de íconos para Figma y Jekyll."
