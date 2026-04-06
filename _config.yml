@@ -1,111 +1,78 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
+---
 title: fluore_scente
-tagline: Identidad visual, ilustraciones y sitios, web para organizaciones conscientes y amigables.
+timezone: UTC
+collections:
+  drawings:
+    title: Drawings
+    output: true
+  placeholder-posts:
+    title: Placeholder Posts
+    output: true
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  services:
+    title: Services
+    output: true
+  styles-and-components:
+    title: Styles And Components
+    output: true
+  team_members:
+    title: Team Members
+    output: true
+  typography-bold-paragraph-styles:
+    title: Typography Bold Paragraph Styles
+    output: true
+  typography-heading-styles:
+    title: Typography Heading Styles
+    output: true
+  typography-paragraph-styles:
+    title: Typography Paragraph Styles
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: ''
+  values:
+    layout: post
+    logo: assets/images/fluore_scente-logo.png
+    image: true
+tagline: Identidad visual, ilustraciones y sitios, web para organizaciones conscientes
+  y amigables.
 email: hola@fluore&shy;scente.design
-description: >- # this means to ignore newlines until "baseurl:"
-  Identidad visual, ilustraciones y sitios, web para organizaciones conscientes y amigables. Ubicado en Medellín, Colombia.
+description: Identidad visual, ilustraciones y sitios, web para organizaciones conscientes
+  y amigables. Ubicado en Medellín, Colombia.
 author: fluore_scente
 image: assets/images/fluorescente-card-image.png
 logo: assets/images/fluore_scente-logo.png
-url: "https://fluorescente.design"
+url: https://fluorescente.design
 github_username: fluorescente
-ko-fi_url: "https://ko-fi.com/fluorescente"
-# webmaster_verifications:
-#   google: 1234
+ko-fi_url: https://ko-fi.com/fluorescente
 lang: es
 locale: es_CO
-
 link_to_projects: Ver proyectos
 link_to_contact: Escríbenos
 link_to_more_projects: Más proyectos
 github_url: https://github.com/fluorescente
 behance_url: https://www.behance.net/fluore_scente
 dribbble_url: https://dribbble.com/fluore_scente
-# deviant_art_url: https://www.deviantart.com/fluore-scente
 telegram_url: https://t.me/joinchat/J9QQERoNyllnuRbAYo7iwg
 link_to_behance: Más proyectos en Behance
 link_to_dribbble: Más dibujos en Dribbble
 suscribe_call_to_action: Suscríbete al blog :)
 suscribe_button: Suscríbete
-
-# Build settings
 theme: minima
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag  
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: ""
-    values:
-      #values
-      layout: "post"
-      logo: assets/images/fluore_scente-logo.png
-      image: true
-
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
 sass:
   sass_dir: _sass
   style: compressed
-  sourcemap: never       
-
-collections:
-  services:
-    output: true
-  team_members:
-    output: true
-  projects:
-    output: true
-  drawings:
-    output: true
-  typography-heading-styles:
-    output: true
-  typography-paragraph-styles:
-    output: true
-  typography-bold-paragraph-styles:
-    output: true
-  placeholder-posts:
-    output: true               
-  styles-and-components:
-    output: true     
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  sourcemap: never

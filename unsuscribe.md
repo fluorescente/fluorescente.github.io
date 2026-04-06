@@ -1,8 +1,9 @@
 ---
-layout: suscribe_unsuscribe
-permalink: /desuscribir/
 title: Has cancelado tu suscripción exitosamente
-paragraph:
+permalink: "/desuscribir/"
+layout: suscribe_unsuscribe
+paragraph: 
 button: Ir al blog
-link: /blog
+link: "/blog"
 ---
+

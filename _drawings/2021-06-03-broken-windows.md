@@ -1,6 +1,7 @@
 ---
 title: Política de la ventanas rotas
-date: 2021-06-03
+date: 2021-06-03 00:00:00 Z
 image: "/assets/images/drawings/broken-windows-dribbble.jpg"
 author: Alejandro Narváez Isaza
 ---
+
