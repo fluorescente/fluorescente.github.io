@@ -1,7 +1,7 @@
 <!-- Landing nav modal -->
 <div id="landing-modal-nav" class="uk-modal-full" uk-modal>
   <ul class="landing-modal-nav-main-links">
-    <li><a href="/basic-styles-and-components"><span class="icon icon-home"></span></a></li>
+    <li><a href="/estilos-y-componentes-básicos"><span class="icon icon-home"></span></a></li>
     <li><a href="" uk-close aria-label="Cerrar"><span class="icon icon-close"></span></a></li>
   </ul>
   <div class="landing-modal-nav-content">
@@ -12,7 +12,7 @@
     </ul>
     <ul class="header-buttons">
       {% for item in site.data.landing-header-buttons %}
-      <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}" ><span class="{{ item.button-icon-left }}"></span>{{ item.button-text }}<span class="{{ item.button-icon-right }}"></span></a></li>
+      <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}" target="_blank"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text }}<span class="{{ item.button-icon-right }}"></span></a></li>
       {% endfor %}
     </ul>
   </div>  

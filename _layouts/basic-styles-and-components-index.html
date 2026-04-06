@@ -87,8 +87,8 @@ layout: compress
             </article>
           {% endfor %}
           <ul class="header-buttons">
-            {% for item in site.data.landing-features-buttons %}
-            <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}" target="_blank"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text }}<span class="{{ item.button-icon-right }}"></span></a></li>
+            {% for item in site.data.landing-header-buttons %}
+            <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}" target="_blank"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text-extended }}<span class="{{ item.button-icon-right }}"></span></a></li>
             {% endfor %}
           </ul>
         </div>    

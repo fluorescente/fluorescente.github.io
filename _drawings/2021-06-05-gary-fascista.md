@@ -1,7 +1,6 @@
 ---
 title: Gary yourofsky, el vegano facista
-date: 2021-06-05 00:00:00 Z
+date: 2021-06-05
 image: "/assets/images/drawings/gary-yourofsky-fascista.jpg"
 author: Alejandro Narváez Isaza
 ---
-

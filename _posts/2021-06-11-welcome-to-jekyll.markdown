@@ -1,23 +1,15 @@
 ---
-title: Propósito antes que diseño
-date: 2021-07-30 00:00:00 Z
-permalink: "/post1/"
-categories:
-- jekyll
-- update
-tags:
-- blog-gallery
-- post
 layout: post
-excerpt: Generalmente destruir y explotar suele ser lo más rentable. En una economía
-  competitiva y sin regulaciones efectivas, las prácticas más rentables se convierten
-  en lo normal, y las consecuencias no importan mucho. Lucrarse de actividades que
-  causan daños graves a la sociedad, en la mayoría de los casos es totalmente legal.
+title:  Propósito antes que diseño
+date:   2021-07-30
+categories: jekyll update
+tags: ['blog-gallery','post']
+excerpt: Generalmente destruir y explotar suele ser lo más rentable. En una economía competitiva y sin regulaciones efectivas, las prácticas más rentables se convierten en lo normal, y las consecuencias no importan mucho. Lucrarse de actividades que causan daños graves a la sociedad, en la mayoría de los casos es totalmente legal.
 image: "/assets/images/posts/purpose-before-design-hero-image.png"
 square_image: "/assets/images/posts/purpose-dribbble.png"
 author: Alejandro Narváez Isaza
+permalink: /post1/
 ---
-
 Generalmente destruir y explotar suele ser lo más rentable. En una economía competitiva y sin regulaciones efectivas, las prácticas más rentables se convierten en lo normal, y las consecuencias no importan mucho. Lucrarse de actividades que causan daños graves a la sociedad, en la mayoría de los casos es totalmente legal.
 
 Evitar que nuestras habilidades y horas de trabajo estén al servicio de propósitos perjudiciales para la comunidad, o que van en contravía de nuestros intereses como ciudadanos, no es fácil, pero si se tiene la intención se puede avanzar. Nada nos impide que busquemos trabajar con equipos de personas que aporten productos o ideas que podamos recomendar personalmente. Empresas que excluyan la explotación de humanos y animales de sus modelos de negocio, ofrezcan beneficios reales a sus consumidores o audiencias, y sigan procesos sostenibles.
