@@ -18,4 +18,4 @@
   image-lg: "/assets/images/flexible.svg"
   alt: "Placeholder image with 3:2 aspect ratio"
   heading: "Flexible"
-  text: "Estilos y componentes modificables tanto en Figma como en la carpeta de desarrollo. Puedes trabajar directamente en Jekyll o usar los archivos HTML y SASS en cualquier otro entorno."  
+  text: "Estilos y componentes modificables tanto en Figma como en la carpeta de desarrollo. Puedes trabajar directamente en Jekyll o usar los archivos HTML y Sass en cualquier otro entorno."  
