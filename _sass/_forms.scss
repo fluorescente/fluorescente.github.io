@@ -8,6 +8,7 @@ form label {
   font-weight: var(--bold);
   display: block;
   margin-bottom: .5rem;
+  color: var(--dark);
 }
 
 input:not([type="checkbox"]):not([type="radio"]),
@@ -52,7 +53,7 @@ input[type="checkbox"] {
   transition: var(--fade);
 
   &:checked {
-    background-color: var(--neutral-10);
+    background-color: var(--neutral-0);
     border-color: var(--neutral-60);
   }
 

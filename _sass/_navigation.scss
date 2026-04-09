@@ -1,5 +1,5 @@
 .nav-container {
-  background-color: var(--neutral-10);
+  background-color: var(--neutral-0);
   padding: 1rem 0;
 }
 
@@ -27,7 +27,7 @@ nav {
   a {
     font-weight: var(--bold);
     border-bottom: none;
-    color: var(--bold);
+    color: var(--dark);
     line-height: 0;
 
     &:hover {
@@ -75,7 +75,7 @@ nav {
     position: relative;
     top: 1.31rem;
     margin: 0 auto;
-    background-color: var(--neutral-70);
+    background-color: var(--dark);
     transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
     transform: scaleX(0);
     -webkit-transform: scaleX(0);

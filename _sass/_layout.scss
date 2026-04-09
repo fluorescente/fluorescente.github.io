@@ -1,5 +1,5 @@
 .basic-styles-and-components{
-  background-color: var(--neutral-0);
+  background-color: var(--bright);
 }
 
 .ux-library-header{
@@ -100,6 +100,7 @@
 
 .icon-container .icon {
   font-size: 1.8rem;
+  color: var(--dark);
 }
 
 .buttons-container,

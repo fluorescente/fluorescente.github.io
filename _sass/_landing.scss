@@ -11,6 +11,10 @@
         font-size: var(--p-m);
         display: flex;
         align-items: center;
+        color: var(--dark);
+        &:hover{
+          color: var(--neutral-70);
+        }
         .icon{
           font-size: 2rem;
         }
@@ -26,6 +30,7 @@
     .main-links{
       display: flex;
       gap: 2rem;
+      color: var(--dark);
       a{
         .icon{
           font-size: 2rem;
@@ -114,7 +119,7 @@
 
 .basic-styles-and-components-footer{
   color: var(--bright);
-  background-color: var(--text);
+  background-color: var(--dark);
   padding-top: 3rem;
   padding-bottom: 4rem;
   text-align: center;
@@ -135,18 +140,21 @@
   }
   .button{
     background-color: var(--bright);
-    color: var(--text);
+    color: var(--dark);
     border: 2px solid var(--bright);
     &:hover{
       border: 2px solid var(--bright);
-      background-color: var(--text);
+      background-color: var(--dark);
       color: var(--bright);
+    }
+    &:focus{
+      outline: 2px dotted var(--bright);
     }
   }
 }
 
 #landing-modal-nav{
-  background-color: var(--neutral-10);
+  background-color: var(--neutral-0);
   padding-top: 2rem;
   padding-bottom: 2rem;
   ul{
@@ -161,9 +169,12 @@
     gap: 2rem;
     margin-bottom: 2rem;
     a{
-      color: var(--text);
+      color: var(--dark);
       text-decoration: none;
       border-bottom: 1px solid transparent;
+      &:hover{
+        background-color: transparent;
+      }
       .icon{
         font-size: 2rem;
       }
@@ -183,10 +194,11 @@
       a{
         border-bottom: 2px solid transparent;
         padding-bottom: .5rem;
-        color: var(--text);
+        color: var(--dark);
 
         &:hover{
-          border-bottom: 2px solid var(--text);
+          border-bottom: 2px solid var(--dark);
+          background-color: transparent
         }
       }
     }

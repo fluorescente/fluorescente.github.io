@@ -27,7 +27,7 @@ button,
   font-weight: var(--bold);
   border: 2px solid transparent;
   color: var(--bright);
-  background-color: var(--text);
+  background-color: var(--dark);
   padding: .75rem 1.25rem;
   margin: 0;
   cursor: pointer;
@@ -37,13 +37,13 @@ button,
 
   &:hover,
   &:focus {
-    background-color: var(--neutral-20);
-    color: var(--text);
+    background-color: var(--neutral-80);
+    color: var(--bright);
     text-decoration: none;
   }
   &:active {
-    background-color: var(--neutral-30);
-    color: var(--text);
+    background-color: var(--neutral-90);
+    color: var(--bright);
   }
   &:focus{
     outline: 2px dotted var(--text);
@@ -61,14 +61,14 @@ button,
 
 .button-ghost {
   background-color: transparent;
-  color: var(--text);
-  border: 2px solid var(--text);
+  color: var(--dark);
+  border: 2px solid var(--dark);
 
   &:hover,
   &:focus {
-    background-color: var(--neutral-80);
+    background-color: var(--neutral-90);
     color: var(--bright);
-    border: 2px solid var(--neutral-80);
+    border: 2px solid var(--neutral-90);
   }
 
   &:active {
