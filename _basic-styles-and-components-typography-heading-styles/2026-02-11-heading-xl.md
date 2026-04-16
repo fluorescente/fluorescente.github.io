@@ -1,0 +1,6 @@
+---
+heading: "h1 xl"
+---
+
+# {% for item in site.data.basic-styles-and-components-typography-styles %}{{ item.heading }}{% endfor %}
+{: .h-xl }

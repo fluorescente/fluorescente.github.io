@@ -1,0 +1,8 @@
+- image-xs: "/assets/images/basic-styles-and-components/placeholder-images/images-1-1.svg"
+  image-sm: "/assets/images/basic-styles-and-components/placeholder-images/images-5-4.svg"
+  image-lg: "/assets/images/basic-styles-and-components/placeholder-images/images-16-9.svg"
+  alt: "Placeholder image with different aspect ratios depending on screen size"
+- image-xs: "/assets/images/basic-styles-and-components/placeholder-images/images-1-1.svg"
+  image-sm: "/assets/images/basic-styles-and-components/placeholder-images/images-5-4.svg"
+  image-lg: "/assets/images/basic-styles-and-components/placeholder-images/images-16-9.svg"
+  alt: "Placeholder image with different aspect ratios depending on screen size" 

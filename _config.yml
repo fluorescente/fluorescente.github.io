@@ -31,6 +31,7 @@ github_username: fluorescente
 ko-fi_url: "https://ko-fi.com/fluorescente"
 # webmaster_verifications:
 #   google: 1234
+lang: es
 locale: es_CO
 
 link_to_projects: Ver proyectos
@@ -78,15 +79,15 @@ collections:
     output: true
   drawings:
     output: true
-  typography-heading-styles:
+  basic-styles-and-components-typography-heading-styles:
     output: true
-  typography-paragraph-styles:
+  basic-styles-and-components-typography-paragraph-styles:
     output: true
-  typography-bold-paragraph-styles:
+  basic-styles-and-components-typography-bold-paragraph-styles:
     output: true
-  placeholder-posts:
+  basic-styles-and-components-placeholder-posts:
     output: true               
-  styles-and-components:
+  basic-styles-and-components:
     output: true        
     
 

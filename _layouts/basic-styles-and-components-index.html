@@ -19,7 +19,7 @@ layout: compress
           srcset="{{ page.hero-image-sm }}">
         <img 
           src="{{ page.hero-image-xs }}"  
-          alt="{{ page.hero-image.alt }}"
+          alt="{{ page.hero-image-alt }}"
           loading="lazy">
       </picture>
       <!-- Text  -->
@@ -29,7 +29,7 @@ layout: compress
           <p class="p-base">{{ content }}</p>
         </div>  
         <ul class="header-buttons">
-          {% for item in site.data.landing-header-buttons %}
+          {% for item in site.data.basic-styles-and-components-landing-header-buttons %}
           <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}" target="_blank"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text }}<span class="{{ item.button-icon-right }}"></span></a></li>
           {% endfor %}
         </ul>
@@ -38,7 +38,7 @@ layout: compress
     <main>
       <section class="uses boxed-width">
         <div class="uses-container">
-        {% for item in site.data.landing-uses %}
+        {% for item in site.data.basic-styles-and-components-landing-uses %}
           <article class="use">
             <figure>
               <img 
@@ -50,8 +50,8 @@ layout: compress
                   (min-width: 1025px) 384px,
                   (min-width: 641px) 348px,
                   343px"
-                src="assets/images/placeholder-images/images-3-2.svg"  
-                alt="use image"
+                src="{{ item.image-lg }}"  
+                alt="{{ item.alt }}"
                 loading="lazy">
             </figure>
             <div class="use-text">
@@ -64,7 +64,7 @@ layout: compress
       </section>
       <section class="features boxed-width">
         <div class="features-container">
-          {% for item in site.data.landing-features %}
+          {% for item in site.data.basic-styles-and-components-landing-features %}
             <article class="feature">
               <figure>
                   <img 
@@ -76,7 +76,7 @@ layout: compress
                       (min-width: 1025px) 384px,
                       (min-width: 641px) 224px,
                       343px"
-                    src="assets/images/adaptativo.svg"  
+                    src="{{ item.image-lg }}"  
                     alt="use image"
                     loading="lazy">
                 </figure>
@@ -87,7 +87,7 @@ layout: compress
             </article>
           {% endfor %}
           <ul class="header-buttons">
-            {% for item in site.data.landing-header-buttons %}
+            {% for item in site.data.basic-styles-and-components-landing-header-buttons %}
             <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}" target="_blank"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text-extended }}<span class="{{ item.button-icon-right }}"></span></a></li>
             {% endfor %}
           </ul>
@@ -96,7 +96,7 @@ layout: compress
       <section class="notes boxed-width">
         <h2>Notas</h2>
         <ul>
-          {% for item in site.data.landing-notes %}
+          {% for item in site.data.basic-styles-and-components-landing-notes %}
             <li>{{ item.text | markdownify | remove: '<p>' | remove: '</p>'}}</li>
           {% endfor %}
         </ul>  

@@ -1,0 +1,28 @@
+<!-- Paginator -->
+<div class="boxed-width paginator-container">
+  <nav class="paginator">
+    <ul>
+      {% if page.url != site.basic-styles-and-components.first.permalink %}
+      <li>
+        <a href="{{ site.styles-and-components.first.permalink }}" class="paginator-first"><span class="icon icon-arrow-left hidden-xs visible-sm"></span> {{ page.paginator-first }}</a>
+      </li>
+      {% endif %}
+      {% if page.previous.url %}
+      <li class="hidden-xs visible-sm">
+      <a href="{{ page.previous.url }}" class="paginator-prev"><span class="icon icon-arrow-left"></span></a>
+      </li>
+      {% endif %}
+      {% for item in site.basic-styles-and-components limit: 7 %}
+      <li class="{% if item.permalink != page.previous.url and item.permalink != page.next.url and item.permalink != page.url %}hidden-xs visible-sm{% endif%}"><a class="{% if page.url == item.permalink %}paginator-active{% endif %}" href="{{ item.permalink }}" {% if page.url == item.permalink %}aria-current="page"{% endif %}>{{ forloop.index }}</a></li>
+      {% endfor %}
+      {% if page.next.url %}
+      <li class="hidden-xs visible-sm"><a href="{{ page.next.url }}" class="paginator-next"><span class="icon icon-arrow-right"></span></a></li>
+      {% endif %}
+      {% if page.url != site.basic-styles-and-components.last.permalink %}
+      <li><a href="{{ site.styles-and-components.last.permalink }}" class="paginator-last"> {{ page.paginator-last }} <span class="icon icon-arrow-right hidden-xs visible-sm"></span></a>
+      </li>
+      {% endif %}
+    </ul>
+  </nav>
+</div>
+<!-- Paginator end -->

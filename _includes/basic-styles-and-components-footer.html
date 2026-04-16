@@ -1,7 +1,7 @@
 <footer class="basic-styles-and-components-footer">
   <div class="footer-content boxed-width">
     <div class="footer-text">
-      {% for item in site.data.landing-footer-text %}
+      {% for item in site.data.basic-styles-and-components-landing-footer-text %}
         <p class="p-s">{{ item.footer-text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endfor %}  
     </div>
@@ -13,6 +13,6 @@
 <script defer src="{{ 'assets/js/uikit.min.js' | relative_url }}"></script>
 <script defer src="{{ 'assets/js/uikit-icons.min.js' | relative_url }}"></script>
 
-{% include components-nav-modal.html %}
+{% include basic-styles-and-components-nav-modal.html %}
 
 {% include basic-styles-and-components-landing-nav-modal.html %}
