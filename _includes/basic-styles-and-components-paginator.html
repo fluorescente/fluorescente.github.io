@@ -4,7 +4,7 @@
     <ul>
       {% if page.url != site.basic-styles-and-components.first.permalink %}
       <li>
-        <a href="{{ site.styles-and-components.first.permalink }}" class="paginator-first"><span class="icon icon-arrow-left hidden-xs visible-sm"></span> {{ page.paginator-first }}</a>
+        <a href="{{ site.basic-styles-and-components.first.permalink }}" class="paginator-first"><span class="icon icon-arrow-left hidden-xs visible-sm"></span> {{ page.paginator-first }}</a>
       </li>
       {% endif %}
       {% if page.previous.url %}
@@ -19,7 +19,7 @@
       <li class="hidden-xs visible-sm"><a href="{{ page.next.url }}" class="paginator-next"><span class="icon icon-arrow-right"></span></a></li>
       {% endif %}
       {% if page.url != site.basic-styles-and-components.last.permalink %}
-      <li><a href="{{ site.styles-and-components.last.permalink }}" class="paginator-last"> {{ page.paginator-last }} <span class="icon icon-arrow-right hidden-xs visible-sm"></span></a>
+      <li><a href="{{ site.basic-styles-and-components.last.permalink }}" class="paginator-last"> {{ page.paginator-last }} <span class="icon icon-arrow-right hidden-xs visible-sm"></span></a>
       </li>
       {% endif %}
     </ul>
