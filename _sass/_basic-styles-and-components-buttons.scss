@@ -3,12 +3,12 @@ a {
   text-decoration: none;
   border-bottom: 1px solid var(--neutral-70);
   padding-bottom: .015rem;
-  transition: var(--fade);
 
   &:hover {
     color: var(--text);
     background-color: var(--neutral-10);
     text-decoration: none;
+    transition: var(--fade);
   }
   &:active {
     color: var(--neutral-90);
@@ -31,7 +31,7 @@ button,
   padding: .75rem 1.25rem;
   margin: 0;
   cursor: pointer;
-  transition: var(--fade);
+
   display: inline-flex;
   align-items: center;
 
@@ -40,6 +40,7 @@ button,
     background-color: var(--neutral-80);
     color: var(--bright);
     text-decoration: none;
+    transition: var(--fade);
   }
   &:active {
     background-color: var(--neutral-90);
