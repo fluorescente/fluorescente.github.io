@@ -1,0 +1,51 @@
+<!-- Nav -->
+<div class="nav-container">
+  <nav class="boxed-width">
+    <ul class="nav-logo">
+      {% for item in site.data.basic-logo %}
+      <li><a href="{{ item.url }}" target="{{ item.target }}"><span class="icon icon-{{ item.logo }}"></span></a></li>
+      {% endfor %}
+    </ul>
+    <ul class="links-social-buttons-search">
+      <li class="hidden-xs visible-sm visible-lg">
+        <ul class="nav-links">
+        <!-- Links Data -->
+        {% for item in site.data.basic-main-nav-links %}
+        <li>
+          <a class="{% if page.url == item.url %}nav-link-active{% endif %}" href="{{ item.url }}" target="{{ item.target }}">{{ item.link-text }}</a>
+        </li>
+        {% endfor %}
+        </ul>
+      </li>
+      <li>
+        <ul class="nav-platforms">
+          {% for item in site.data.basic-platform-links %}
+          <li><a href="{{ item.url }}" target="{{ item.target }}" aria-label="{{ item.aria-label }}"><span class="icon icon-{{ item.platform }}"></span></a></li>
+          {% endfor %}
+        </ul>  
+      </li>
+      <li class="hidden-xs hidden-sm visible-lg">
+        <ul class="nav-buttons">
+          {% for item in site.data.basic-main-nav-buttons %}
+          <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text }}<span class="{{ item.button-icon-right }}"></span></a></li>
+          {% endfor %}
+        </ul> 
+      </li>
+      <li>
+        <ul class="search-toggle-navigation">
+          {% for item in site.basic-data.search-button %}
+          <li class="search">
+            <a href="#" class="icon {{ item.icon }}" aria-label="{{ item.aria-label }}"></a>
+          </li>
+          {% endfor %}
+          {% for item in site.data.basic-navigation-button %}
+          <li class="toggle-navigation visible-xs visible-m hidden-lg">
+            <a href="#modal-nav" uk-toggle class="icon {{ item.icon }}" aria-label="{{ item.aria-label }}"></a>
+          </li>
+          {% endfor %}  
+        </ul>
+      </li>    
+    </ul>  
+  </nav>
+</div>
+<!-- Nav end -->

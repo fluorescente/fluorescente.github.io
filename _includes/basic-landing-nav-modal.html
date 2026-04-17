@@ -1,0 +1,20 @@
+<!-- Landing nav modal -->
+<div id="landing-modal-nav" class="uk-modal-full" uk-modal>
+  <ul class="landing-modal-nav-main-links">
+    <li><a href="/estilos-y-componentes" aria-label="Inicio"><span class="icon icon-home"></span></a></li>
+    <li><a href="" uk-close aria-label="Cerrar"><span class="icon icon-close"></span></a></li>
+  </ul>
+  <div class="landing-modal-nav-content">
+    <ul class="landing-modal-nav-links">
+      {% for item in site.basic %}
+        <li><a href="{{ item.permalink }}" class="{% if page.url == item.url %}nav-link-active{% endif %}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+    <ul class="header-buttons">
+      {% for item in site.data.basic-landing-header-buttons %}
+      <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}" target="_blank"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text }}<span class="{{ item.button-icon-right }}"></span></a></li>
+      {% endfor %}
+    </ul>
+  </div>  
+</div>
+<!-- Landing nav modal end -->

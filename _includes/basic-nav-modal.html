@@ -1,0 +1,35 @@
+<!-- Nav modal -->
+<div id="modal-nav" class="uk-modal-full" uk-modal>
+  <ul class="modal-nav-content">
+    <li class="modal-nav-close">
+      <a href="" uk-close aria-label="Cerrar"><span class="icon icon-close"></span></a>
+    </li>
+    {% for item in site.data.basic-logo %}
+    <li class="modal-nav-logo">
+      <a href="{{ item.url }}" target="{{ item.target }}"><span class="icon icon-{{ item.logo }}"></span></a>
+    </li>
+    {% endfor %}
+    <li>
+      <ul class="modal-nav-links">
+        {% for item in site.data.basic-main-nav-links %}
+        <li><a class="{% if page.url == item.url %}nav-link-active{% endif %}" href="{{ item.url }}" target="{{ item.target }}">{{ item.link-text }}</a></li>
+        {% endfor %}
+      </ul>  
+    </li>
+    <li>
+      <ul class="modal-nav-platforms">
+        {% for item in site.data.basic-platform-links %}
+        <li><a href="{{ item.url }}" target="{{ item.target }}"><span class="icon icon-{{ item.platform }}"></span></a></li>
+        {% endfor %}
+      </ul>  
+    </li>
+    <li> 
+      <ul class="modal-nav-buttons">
+        {% for item in site.data.basic-main-nav-buttons %}
+        <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text }}<span class="{{ item.button-icon-right }}"></span></a></li>
+        {% endfor %}
+      </ul> 
+    </li>  
+  </ul> 
+</div>
+<!-- Nav modal end -->

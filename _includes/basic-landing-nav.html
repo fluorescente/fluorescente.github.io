@@ -1,0 +1,20 @@
+<nav class="landing-nav full-width">
+  <ul class="landing-nav-links">
+    {% if page.previous.url %}
+      <li class="landing-nav-link landing-nav-prev"><a href="{{ page.previous.url }}" aria-label="Página anterior"><span class="icon icon-arrow-left"></span> <span class="hidden-xs hidden-sm visible-lg">{{ page.previous.name }}</span></a></li>
+    {% else %}
+      <li class="landing-nav-link landing-nav-prev"><a href="{{ site.basic.last.url }}" aria-label="Página anterior"><span class="icon icon-arrow-left"></span> <span class="hidden-xs hidden-sm visible-lg">{{ site.basic.last.name }}</span></a></li>
+    {% endif %}
+      <li>
+        <ul class="main-links">
+          <li><a href="/estilos-y-componentes"><span class="icon icon-home" aria-label="Inicio"></span></a></li>
+          <li><a href="#landing-modal-nav" uk-toggle aria-label="Botón de navegación"><span class="icon icon-hamburger-two"></span></a></li>
+        </ul>
+      </li>  
+    {% if page.next.url %}
+      <li class="landing-nav-link landing-nav-next"><a href="{{ page.next.url }}" aria-label="Página siguiente"><span class="hidden-xs hidden-sm visible-lg">{{ page.next.name }}</span> <span class="icon icon-arrow-right"></span></a></li>
+    {% else %}
+      <li class="landing-nav-link landing-nav-next"><a href="{{ site.basic.first.url }}" aria-label="Página siguiente"><span class="hidden-xs hidden-sm visible-lg">{{ site.basic.first.name }}</span> <span class="icon icon-arrow-right"></span></a></li>
+    {% endif %}
+  </ul>
+</nav>

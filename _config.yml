@@ -79,15 +79,15 @@ collections:
     output: true
   drawings:
     output: true
-  basic-styles-and-components-typography-heading-styles:
+  basic-typography-heading-styles:
     output: true
-  basic-styles-and-components-typography-paragraph-styles:
+  basic-typography-paragraph-styles:
     output: true
-  basic-styles-and-components-typography-bold-paragraph-styles:
+  basic-typography-bold-paragraph-styles:
     output: true
-  basic-styles-and-components-placeholder-posts:
+  basic-placeholder-posts:
     output: true               
-  basic-styles-and-components:
+  basic:
     output: true        
     
 

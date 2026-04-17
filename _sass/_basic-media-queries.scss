@@ -1,0 +1,249 @@
+// Sm screens
+@media screen and (min-width: 641px) {
+  .full-width,
+  .boxed-width {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .visible-sm {
+    display: inherit;
+  }
+
+  .ux-library-header{
+    padding-bottom: 2.5em;
+  }
+
+  .header-two-columns-01,
+  .header-two-columns-02 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .header-two-columns-01 {
+    padding-left: 0 !important;
+    .slideshow-content{
+      margin-bottom: -.5rem !important;
+    }
+  }
+
+  .containers-container,
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .container-horizontal,
+  .card-horizontal {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    align-items: top;
+  }
+
+  .container-horizontal figure,
+  .card-horizontal figure {
+    margin-bottom: 0;
+  }
+
+  .card-horizontal .card-text {
+    padding: 0 1.5rem 0 0;
+  }
+
+  .card-horizontal {
+    align-items: center;
+  }
+
+  .paginator .visible-sm {
+    display: block;
+  }
+
+  .basic-main .paragraphs-container {
+    margin-bottom: 4rem;
+  }
+
+  .headings-container {
+    margin-bottom: 4rem;
+  }
+
+  .headings-container,
+  .paragraphs-container {
+    columns: 2;
+    gap: 1.5rem;
+  }
+
+  .colors-container,
+  .buttons-container,
+  .links-container,
+  .arrow-links-container,
+  .images-container,
+  .icons-container,
+  .checkboxes-container,
+  .radio-buttons-container {
+    gap: 2rem 1.5rem;
+  }
+
+  .colors-container,
+  .icons-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .buttons-container,
+  .links-container,
+  .arrow-links-container,
+  .images-container,
+  .checkboxes-container,
+  .radio-buttons-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// L screens
+@media screen and (min-width: 1025px) {
+  :root {
+    --h6: 1.125rem;
+    --h5: 1.263rem;
+    --h4: 1.419rem;
+    --h3: 1.8rem;
+    --h2: 2.025rem;
+    --h1: 2.281rem;
+    --h-l: 2.563rem;
+    --h-xl: 2.875rem;
+    --h-xxl: 3.25rem;
+  }
+
+  .hidden-lg {
+    display: none;
+  }
+
+  .visible-lg {
+    display: inherit;
+  }
+
+  table{
+    display: table;
+  }
+
+  .full-width {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .boxed-width{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .ux-library-header{
+    padding-bottom: 3em;
+  }
+
+  .containers-container,
+  .cards-container {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    row-gap: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .containers-container .container-horizontal:nth-child(even),
+  .cards-container .card-horizontal:nth-child(even) {
+    grid-column: 3 / 5;
+  }
+
+  .container-horizontal {
+    gap: 2rem;
+  }
+
+  .container-horizontal figure,
+  .card-horizontal figure {
+    margin-bottom: 0;
+  }
+
+  .header-background {
+    height: 80vh;
+    padding: 0;
+  }
+
+  .header-two-columns-01,
+  .header-two-columns-02 {
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .header-two-columns-01 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .header-two-columns-02 {
+    grid-template-columns: repeat(12, 1fr);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    .header-content {
+      grid-column: 1 / 8;
+    }
+
+    .slideshow {
+      grid-column: 8 / 13;
+    }
+  }
+
+  .headings-container,
+  .paragraphs-container {
+    gap: 2rem;
+  }
+
+  .paragraphs-container {
+    columns: 3;
+  }
+
+  .form-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .buttons-container,
+  .links-container,
+  .arrow-links-container,
+  .images-container,
+  .icons-container,
+  .checkboxes-container,
+  .radio-buttons-container {
+    gap: 2rem;
+  }
+
+  .colors-container,
+  .icons-container {
+    grid-template-columns: repeat(12, 1fr);
+    align-items: start;
+  }
+
+  .buttons-container,
+  .links-container,
+  .arrow-links-container,
+  .checkboxes-container,
+  .radio-buttons-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .post{
+    header{
+      padding-top: 2rem;
+    }
+  }
+
+  .images-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

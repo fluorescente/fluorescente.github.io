@@ -1,0 +1,108 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" class="basic landing">
+{% include basic-head.html %}
+  <body>
+    {% include basic-landing-nav.html %}
+    <!-- Header Two Columns 02 -->
+    <header class="header-two-columns-02 landing-header boxed-width">
+      <!-- Hero image -->
+      <picture class="hero-image">
+        <source 
+          media="(min-width: 1025px)" 
+          srcset="{{ page.hero-image-lg }}">
+        <source 
+          media="(min-width: 641px) and (max-width: 1024px)" 
+          srcset="{{ page.hero-image-sm }}">
+        <img 
+          src="{{ page.hero-image-xs }}"  
+          alt="{{ page.hero-image-alt }}"
+          loading="lazy">
+      </picture>
+      <!-- Text  -->
+      <div class="header-content">
+        <div class="header-text">
+          <h1 class="h-xxl">{{ page.heading }}</h1>
+          <p class="p-base">{{ content }}</p>
+        </div>  
+        <ul class="header-buttons">
+          {% for item in site.data.basic-landing-header-buttons %}
+          <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}" target="_blank"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text }}<span class="{{ item.button-icon-right }}"></span></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="uses boxed-width">
+        <div class="uses-container">
+        {% for item in site.data.basic-landing-uses %}
+          <article class="use">
+            <figure>
+              <img 
+                srcset="
+                  {{ item.image-xs }} 686w,
+                  {{ item.image-sm }} 696w,
+                  {{ item.image-lg }} 768w"
+                sizes="
+                  (min-width: 1025px) 384px,
+                  (min-width: 641px) 348px,
+                  343px"
+                src="{{ item.image-lg }}"  
+                alt="{{ item.alt }}"
+                loading="lazy">
+            </figure>
+            <div class="use-text">
+              <h2>{{ item.heading }}</h2>
+              <p>{{ item.text }}</p>
+            </div>    
+          </article>
+        {% endfor %}
+        </div>
+      </section>
+      <section class="features boxed-width">
+        <div class="features-container">
+          {% for item in site.data.basic-landing-features %}
+            <article class="feature">
+              <figure>
+                  <img 
+                    srcset="
+                      {{ item.image-xs }} 686w,
+                      {{ item.image-sm }} 448w,
+                      {{ item.image-lg }} 768w"
+                    sizes="
+                      (min-width: 1025px) 384px,
+                      (min-width: 641px) 224px,
+                      343px"
+                    src="{{ item.image-lg }}"  
+                    alt="use image"
+                    loading="lazy">
+                </figure>
+                <div class="features-text">
+                  <h3>{{ item.heading }}</h3>
+                  <p>{{ item.text }}</p>
+                </div>
+            </article>
+          {% endfor %}
+          <ul class="header-buttons">
+            {% for item in site.data.basic-landing-header-buttons %}
+            <li><a href="{{ item.url }}" class="button {{ item.button-size }} {{ item.button-type }} {{ item.button-icon-position }}" target="_blank"><span class="{{ item.button-icon-left }}"></span>{{ item.button-text-extended }}<span class="{{ item.button-icon-right }}"></span></a></li>
+            {% endfor %}
+          </ul>
+        </div>    
+      </section>
+      <section class="notes boxed-width">
+        <h2>Notas</h2>
+        <ul>
+          {% for item in site.data.basic-landing-notes %}
+            <li>{{ item.text | markdownify | remove: '<p>' | remove: '</p>'}}</li>
+          {% endfor %}
+        </ul>  
+      </section>
+    </main>
+    {% include basic-landing-nav.html %}  
+    {% include basic-footer.html %} 
+  </body>
+</html>    

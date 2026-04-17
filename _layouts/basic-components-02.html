@@ -1,0 +1,102 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" class="basic">
+{% include basic-head.html %}
+  <body>
+    {% include basic-landing-nav.html %}
+    <header class="full-width ux-library-header">
+      <h1 class="h-xxl">{{ page.heading | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+    </header>
+    <main class="basic-main">
+      <section>
+        <div class="full-width">
+          <h2>{{ page.containers-heading }}</h2>
+        </div>
+        <!-- Containers -->
+        <div class="boxed-width">
+          <div class="containers-container">
+            <!-- Containers Horizontal -->
+            {% for item in site.basic-placeholder-posts %}
+              {% if item.tags contains 'horizontal' %}
+                {% include basic-container-horizontal.html %}
+              {% endif %}
+            {% endfor %}
+            <!-- Containers Vertical -->
+            {% for item in site.basic-placeholder-posts %}
+              {% if item.tags contains 'vertical' %}
+                {% include basic-container.html %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="full-width">
+          <h2>{{ page.cards-heading }}</h2>
+        </div>
+        <!-- Cards -->
+        <div class="boxed-width">
+          <div class="cards-container">
+            <!-- Cards Horizontal -->
+            {% for item in site.basic-placeholder-posts %}
+              {% if item.tags contains 'horizontal' %}
+                {% include basic-card-horizontal.html %}
+              {% endif %}
+            {% endfor %}
+            <!-- Cards Vertical -->
+            {% for item in site.basic-placeholder-posts %}
+              {% if item.tags contains 'vertical' %}
+                {% include basic-card.html %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="full-width">
+          <h2>{{ page.slideshow-heading }}</h2>
+        </div>
+        <div class="slideshow-container">
+          {% include basic-slideshow-1-1-5-4-16-9.html %}
+        </div>
+      </section>
+      <section>
+        <div class="full-width">
+          <h2 id="{{ page.form-heading-id }}">{{ page.form-heading }}</h2>
+        </div>
+        <div class="boxed-width">
+          {% include basic-form.html %}
+        </div>  
+      </section> 
+      <section class="full-width">
+        <!-- Radio buttons and Checkboxes -->
+        <h2>{{ page.radio-buttons-and-checkboxes-heading }}</h2>
+        <div class="radio-buttons-container">
+          {% for item in site.data.basic-radio-buttons %}
+          <article>
+            <div class="radio-button-container">
+              <input class="{{ item.radio-button-size }}" type="radio" id="{{ item.id }}" name="choice" value="{{ item.heading }}">
+              <label class="{{ item.text-size }} checkbox-label" for="{{ item.id }}">{{ item.label }}</label>
+            </div>
+            <h3 class="p-xs">{{ item.heading }}</h3>   
+          </article>   
+          {% endfor %}
+         </div> 
+        <div class="checkboxes-container">  
+          {% for item in site.data.basic-checkboxes %}
+          <article>
+            <div class="checkbox-container">
+              <input class="{{ item.checkbox-size }}" type="checkbox" id="{{ item.id }}" name="choice" value="{{ item.heading }}">
+              <label class="{{ item.text-size }} checkbox-label" for="{{ item.id }}">{{ item.label }}</label>
+            </div>
+            <h3 class="p-xs">{{ item.heading }}</h3>    
+          </article>   
+          {% endfor %}
+        </div>
+      </section>
+    </main>
+    {% include basic-landing-nav.html %}
+    {% include basic-footer.html %}   
+  </body> 
+</html>  
