@@ -266,6 +266,7 @@ $eight-spaces: 8rem;
       margin-top: $three-spaces;
       & input, textarea{
         margin-bottom: $two-spaces;
+        width: 94%;
       }
       & .button, & p{
         display: inline-block;

@@ -739,13 +739,15 @@ p, .base{
 // Contact modal
 
 .contact-modal{
+  height: 100vh;
+  background-color: $bright;
   & .contact-modal-wrapper{
     height: 100%;
   }
   & .contact-modal-body{
-    background-color: $gray-0;
     color: $dark;
     display: block;
+    padding: 0;
   }
   & h3{
     // color: $bright;
@@ -799,7 +801,7 @@ label{
 }
 
 input, textarea{
- width: 100%;
+ width: 88%;
  border-color: rgba(0, 0, 0, 0);
  border-bottom: $border-input;
  margin: 0 0 $space-and-half 0;
