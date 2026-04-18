@@ -15,7 +15,7 @@
 
 ::selection, -moz-selection{
   color: var(--text);
-  background-color: var(--purple-20);
+  background-color: var(--mint-20);
 }
 
 h1, h2, h3{
@@ -79,16 +79,17 @@ h1, h2, h3{
   a{
     span{
       margin-left: .5rem;
+      font-size: .95rem;
     }
   }   
 }
 
 .header-background{
   height: inherit;
-  padding-top: 13rem;
-  padding-bottom: 11rem;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
   background-color: var(--neutral-0);
-  background-image: url("../images/content-maps/header-background-lg.svg");
+  background-image: url("../images/content-maps/header-background-xs.svg");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -117,6 +118,7 @@ h1, h2, h3{
 }
 
 .header-buttons{
+  flex-wrap: wrap;
   .button{
     color: var(--text);
   }
@@ -140,7 +142,36 @@ h1, h2, h3{
   }
 }
 
+main{
+  padding: 4rem 0; 
+}
+
+.slideshow{
+  margin-bottom: 2rem;
+  & img{
+    border-radius: .75rem;
+  }
+}
+
+.prev, .next{
+  color: var(--bright);
+  &:hover{
+    color: var(--neutral-30);
+  }
+}
+
+.uk-dotnav > * > * {
+  background-color: var(--bright);
+}
+
+.uk-dotnav > .uk-active > * {
+  background-color: var(--neutral-30);
+}
+
 .info{
+  h2{
+    margin-bottom: 1rem;
+  }
   p{
     margin-bottom: var(--p-s);
   }
@@ -173,7 +204,7 @@ h1, h2, h3{
   }
   .button{
     background-color: var(--mint-20);
-    color: var(--dark);
+    color: var(--text);
     &:hover{
       border: 2px solid var(--mint-20);
       background-color: var(--text);

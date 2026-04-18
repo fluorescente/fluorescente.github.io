@@ -65,16 +65,17 @@ slideshow-images:
     image-sm: "/assets/images/content-maps/mapas-de-contenido-componentes.svg"
     image-lg: "/assets/images/content-maps/mapas-de-contenido-componentes.svg"
     src: "/assets/images/content-maps/mapas-de-contenido-componentes.svg"
-    alt: "image alt 1"
+    alt: "Cambio de instancia en iterfaz de Figma"
   - image-xs: "/assets/images/content-maps/mapas-de-contenido-colores.svg"
     image-sm: "/assets/images/content-maps/mapas-de-contenido-colores.svg"
     image-lg: "/assets/images/content-maps/mapas-de-contenido-colores.svg"
     src: "/assets/images/content-maps/mapas-de-contenido-componentes.svg"
-    alt: "image alt 2"
-
-demo-link: "https://www.figma.com/proto/INqxQFdVkpQab4XpI7EVPF/Mapas-de-contenido?node-id=2347-1637&p=f&viewport=832%2C512%2C1&t=wRKAZJbqgj8e3VRu-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2347%3A1637&page-id=110%3A1162"
-figma-link: "https://fluorescente.design/assets/figma/Mapas-de-contenido.fig"
-ko-fi-link: "https://ko-fi.com/fluorescente"
+    alt: "Cambio de variable de color en interfaz de Figma"
+  - image-xs: "/assets/images/content-maps/mapas-de-contenido-notas-adicionales.svg"
+    image-sm: "/assets/images/content-maps/mapas-de-contenido-notas-adicionales.svg"
+    image-lg: "/assets/images/content-maps/mapas-de-contenido-notas-adicionales.svg"
+    src: "/assets/images/content-maps/mapas-de-contenido-notas-adicionales.svg"
+    alt: "Nota adicional activada en interfaz de presentación de Figma"
 
 ---
 
