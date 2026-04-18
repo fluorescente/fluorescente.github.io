@@ -14,7 +14,7 @@ author: "fluorescente.design"
 date: 2026-02-09
 tags: ["Figma", "mapas de contenido", "componentes"]
 keywords: "Figma, mapas de contenido, diseño"
-image: "assets/images/content-maps/"
+image: "assets/images/content-maps/mapas-de-contenido-card.png"
 
 # --- Hero / Imagen principal ---
 hero-image-xs: "/assets/images/content-maps/header-background-lg.svg"
@@ -24,7 +24,7 @@ hero-image-src: "/assets/images/content-maps/header-background-lg.svg"
 hero-image-alt: "Composición con íconos que representan patrones de diseño"
 
 # --- Footer ---
-footer-text: '**Diseño y desarrollo:** [**fluorescente.design**](https://www.fluorescente.design){:target="_blank"} Si este recurso te parece útil, puedes dejar un aporte en Ko-fi. Gracias <span class="icon icon-heart-fill"></span>'
+footer-text: '**Diseño y desarrollo:** [**fluorescente.design**](https://www.fluorescente.design){:target="_blank"} / Si este recurso te parece útil, puedes dejar un aporte en Ko-fi. Gracias <span class="icon icon-heart-fill"></span>'
 
 # -- Links ---
 main-nav-links:
