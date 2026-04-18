@@ -1,0 +1,12 @@
+<footer class="content-map-footer">
+  <div class="footer-content boxed-width">
+    <div class="footer-text">
+      <p class="p-s">{{ page.footer-text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    </div>
+    <a href="{{ site.ko-fi_url }}" target="_blank" class="button button-m button-icon-left"><span class="icon icon-ko-fi"></span>Aporta en Ko-fi</a>
+  </div>
+</footer>  
+
+<!-- UiKit JavaScript -->
+<script defer src="{{ 'assets/js/uikit.min.js' | relative_url }}"></script>
+<script defer src="{{ 'assets/js/uikit-icons.min.js' | relative_url }}"></script>

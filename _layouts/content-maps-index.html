@@ -3,9 +3,82 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="{{ site.lang }}" class="basic landing">
-{% include basic-head.html %}
+<html lang="{{ site.lang }}">
+{% include content-map-head.html %}
   <body>
-
+    <!-- Nav -->
+    <div class="nav-container">
+      <nav class="boxed-width">
+        <ul class="nav-links">
+          {% for item in site.content-maps-landing %}
+            {% for main-nav-link in item.main-nav-links %}
+            <li>
+              <a class="{% if page.url == main-nav-link.url %}nav-link-active{% endif %} {{ main-nav-link.color }}" href="{{ main-nav-link.url }}" target="{{ main-nav-link.target }}">{{ main-nav-link.link-text }} <span class="icon icon-{{ main-nav-link.icon }}"></span></a>
+            </li>
+            {% endfor %}
+          {% endfor %}  
+        </ul>
+      </nav>
+    </div>
+    <!-- Nav end -->
+    <!-- Header Background-->
+    <header class="header-background">
+      <div class="boxed-width header-content">
+        <div class="header-text">
+          <div class="heading-container">
+            <h1 class="h-xxl heading">{{ page.heading }}</h1>
+          </div>
+          <div class="paragraph-container">
+            <p class="paragraph">{{ page.text }}</p>
+          </div>
+        </div>  
+        <ul class="header-buttons">
+          {% for item in site.content-maps-landing %}
+            {% for header-button in item.header-buttons %}
+            <li><a href="{{ header-button.url }}" class="button {{ header-button.button-size }} {{ header-button.button-type }} {{ header-button.button-icon-position }} {{ header-button.color }}" target="_blank"><span class="{{ header-button.button-icon-left }}"></span>{{ header-button.button-text }}<span class="{{ header-button.button-icon-right }}"></span></a></li>
+           {% endfor %}
+          {% endfor %} 
+        </ul>  
+      </div>
+    </header>
+    <!-- Header Background end -->
+    <main>
+      <div class="boxed-width"> 
+        <!-- Slideshow -->
+        <div class="slideshow" uk-slideshow="ratio: 3:2; animation:push; autoplay:true; autoplay-interval: 4000">
+          <div class="slideshow-content" tabindex="-1">
+            <div class="uk-slideshow-items">
+              {% for item in site.content-maps-landing %}
+                {% for slideshow-image in item.slideshow-images %}
+                <img 
+                  srcset="
+                    {{ slideshow-image.image-xs }} 684w,
+                    {{ slideshow-image.image-sm }} 1440w,
+                    {{ slideshow-image.image-lg }} 1184w"
+                  sizes="
+                    (min-width: 1025px) 592px,
+                    (min-width: 641px) 720px,
+                    342px"
+                  src="{{ slideshow-image.src }}"  
+                  alt="{{ slideshow-image.alt }}"
+                  loading="lazy" uk-cover>
+                {% endfor %}
+              {% endfor %}
+            </div>
+            <a class="uk-position-center-left prev" href uk-slidenav-previous uk-slideshow-item="previous"><span class="icon icon-prev"></span></a>
+            <a class="uk-position-center-right next" href uk-slidenav-next uk-slideshow-item="next"><span class="icon icon-next"></span></a>
+            <ul class="uk-slideshow-nav uk-dotnav"></ul>
+          </div>  
+        </div>
+        <!-- Slideshow end -->
+        <div class="info">
+          <h2>{{ page.main-heading }}</h2>
+          <div class="">
+            {{ content }}
+          </div>  
+        </div>  
+      </div>         
+    </main>
+    {% include content-maps-footer.html %}  
   </body>
 </html>    

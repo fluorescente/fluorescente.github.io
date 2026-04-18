@@ -88,7 +88,9 @@ collections:
   basic-placeholder-posts:
     output: true               
   basic:
-    output: true        
+    output: true
+  content-maps-landing:
+    output: true            
     
 
 # Exclude from processing.
