@@ -1,9 +1,6 @@
 ---
 layout: home
-title: fluore_scente estudio de diseño 
-header_title: Identidad visual, ilustraciones y sitios web para organizaciones conscientes y amigables.
-services_title: Qué hacemos
-team_title: Nosotros
+title: fluore_scente ex estudio de diseño 
 permalink: /
 image: assets/images/fluorescente-card-image.png
 ---

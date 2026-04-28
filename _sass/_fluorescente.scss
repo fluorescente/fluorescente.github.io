@@ -1,0 +1,41 @@
+:root{
+  // Colors
+  --fluorescente: #23EEB4;
+}
+
+.fluorescente{
+  body{
+    background-color: var(--text);
+    display: flex;
+    align-items: center;
+    header{
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+      h1, h2{
+        color: var(--neutral-0);
+      }
+      a{
+        color: var(--fluorescente);
+        border-bottom: 2px solid var(--fluorescente);
+        &:hover{
+          background-color: initial;
+          color: var(--neutral-40);
+          border-bottom: 2px solid var(--neutral-40);
+        }
+      }
+    }
+  }
+}
+
+// Sm screens
+@media screen and (min-width: 641px) {
+  .fluorescente{
+    body{
+      height: 100vh;
+      header{
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+}
