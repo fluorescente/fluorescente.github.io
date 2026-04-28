@@ -27,6 +27,56 @@
   }
 }
 
+.fluorescente-404{
+  body{
+    background-color: var(--text);
+  }
+}
+
+.not-found-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+.not-found{
+  header{
+    text-align: center;
+    height: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .illustration{
+      font-size: 8rem;
+      position: relative;
+      top: -1.25rem;
+      color: var(--fluorescente);
+    }
+  }
+
+  main{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--neutral-0);
+    h1{
+      font-size: var(--h-xxl);
+      margin-bottom: 1rem;
+      color: var(--neutral-0);
+    }
+    .main-text{
+      margin-bottom: 2rem;
+    }
+    .button{
+      color: var(--fluorescente);
+      border: 2px solid var(--fluorescente);
+      &:hover{
+        background-color: var(--fluorescente);
+        color: var(--text);
+      }
+    }
+  }
+}
+
 // Sm screens
 @media screen and (min-width: 641px) {
   .fluorescente{
@@ -38,4 +88,15 @@
       }
     }
   }
+
+  .not-found-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    main{
+      max-width: 800px;
+    }
+  }
+
 }
