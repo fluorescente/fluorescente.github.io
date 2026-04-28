@@ -58,14 +58,6 @@ defaults:
       image: true
 
 collections:
-  services:
-    output: true
-  team_members:
-    output: true
-  projects:
-    output: true
-  drawings:
-    output: true
   basic-typography-heading-styles:
     output: true
   basic-typography-paragraph-styles:
