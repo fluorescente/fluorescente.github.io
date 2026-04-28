@@ -3,6 +3,12 @@
   --fluorescente: #23EEB4;
 }
 
+::selection,
+-moz-selection {
+  color: var(--text);
+  background-color: var(--fluorescente);
+}
+
 .fluorescente{
   body{
     background-color: var(--text);
