@@ -112,8 +112,12 @@ nav {
   font-size: var(--h3);
 }
 
-.uk-close svg {
-  display: none;
+.uk-close{
+  padding: 0;
+  background-color: transparent;
+  svg {
+    display: none;
+  }
 }
 
 #modal-nav {

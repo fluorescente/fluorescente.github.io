@@ -205,6 +205,10 @@
   }
 }
 
+[class*="uk-modal-close-"]{
+  position: relative;
+}
+
 .landing-modal-nav-content{
   padding: 0 1rem;
 }
